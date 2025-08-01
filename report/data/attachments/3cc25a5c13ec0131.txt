@@ -1,2 +1,0 @@
-[32mINFO    [0m common.log_handler:test_app_summary.py:26 ========获取首页应用总数数据，测试开始==========
-[1m[31mERROR   [0m common.log_handler:test_app_summary.py:38 token 获取失败

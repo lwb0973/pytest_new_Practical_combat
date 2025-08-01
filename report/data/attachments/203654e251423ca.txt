@@ -1,2 +1,0 @@
-[32mINFO    [0m common.log_handler:test_file_assets.py:24 ========获取首页风险概览敏感文件总数数据，测试开始==========
-[1m[31mERROR   [0m common.log_handler:test_file_assets.py:31 token 获取失败

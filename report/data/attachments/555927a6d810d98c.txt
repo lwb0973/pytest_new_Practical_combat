@@ -1,2 +1,0 @@
-[32mINFO    [0m common.log_handler:test_vul_total.py:24 ========获取首页风险概览弱点api总数数据，测试开始==========
-[31m[1mERROR   [0m common.log_handler:test_vul_total.py:32 token 获取失败

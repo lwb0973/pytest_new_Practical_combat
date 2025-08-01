@@ -1,1 +1,13 @@
-{"reportName":"首页功能测试报告","testRuns":[],"statistic":{"failed":0,"broken":0,"skipped":0,"passed":23,"unknown":0,"total":23},"time":{"start":1753963463165,"stop":1753963466432,"duration":3267,"minDuration":0,"maxDuration":62,"sumDuration":1098}}
+{
+  "reportName" : "Allure Report",
+  "testRuns" : [ ],
+  "statistic" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 0,
+    "unknown" : 0,
+    "total" : 0
+  },
+  "time" : { }
+}

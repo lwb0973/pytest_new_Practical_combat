@@ -3,51 +3,34 @@ import shutil
 import subprocess
 import time
 import settings
+import multiprocessing
+import pytest
+
+ALLURE_COMMAND = settings.ALLURE_COMMAND
+
+def run_tests():
+    # multiprocessing自动获取CPU核心数
+    cpu_count = multiprocessing.cpu_count()
+    pytest.main([
+        "-v",
+        # 自动根据 CPU 数量设置并发进程数,xdist分布式执行
+        "-n", str(cpu_count),
+        # 重复执行用例
+        # "--count=1",
+        # 失败用例重跑
+        "--reruns=3",
+        # 重跑间隔时间
+        "--reruns-delay=1",
+        # 生成 Allure 原始结果在 result/ 目录
+        "--alluredir=result",
+        # 跳过指定用例
+        "-k", "not test_05",
+        # 跳过指定py文件
+        # "--ignore=testcase/test_demo1.py"
+    ])
+    subprocess.run([ALLURE_COMMAND, "generate", "result", "-o", "report", "--clean"])
+    subprocess.run([ALLURE_COMMAND, "open", "report"])
 
 
-def clean_old_results():
-    print("🧹 清理旧的测试结果...")
-    if os.path.exists(settings.RESULT_FILE):
-        shutil.rmtree(settings.RESULT_FILE)
-    os.makedirs(settings.RESULT_FILE, exist_ok=True)
-
-def run_pytest():
-    print("🚀 正在运行测试用例...")
-    result = pytest.main(['-s', '-v', f'--alluredir={settings.RESULT_FILE}', settings.TEST_PATH])
-    if result != 0:
-        print("❗ 有测试用例失败，请检查！")
-    return result
-
-
-def generate_report():
-    print("📊 正在生成 Allure 报告...")
-    try:
-        subprocess.run([settings.ALLURE_COMMAND, 'generate', settings.RESULT_FILE, '-o', settings.REPORT_DIR, '--clean'], check=True)
-
-    except FileNotFoundError:
-
-        print("❌ 未找到 allure 命令，请检查是否配置到环境变量！")
-        exit(1)
-    print("✅ 报告生成成功！")
-
-def open_report():
-    print("🌐 正在打开测试报告...")
-    try:
-        subprocess.Popen([settings.ALLURE_COMMAND, 'open', settings.REPORT_DIR], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-        # 可选：直接在浏览器打开固定端口，例如 http://localhost:1234
-        # webbrowser.open("http://localhost:1234")
-    except Exception as e:
-        print(f"❌ 打开报告失败：{e}")
-
-if __name__ == '__main__':
-    try:
-        import pytest
-    except ImportError:
-        print("❌ 没有安装 pytest，请先运行 pip install pytest")
-        exit(1)
-
-    clean_old_results()
-    run_pytest()
-    time.sleep(1)
-    generate_report()
-    open_report()
+if __name__ == "__main__":
+    run_tests()
