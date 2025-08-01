@@ -1,12 +1,10 @@
 [ {
-  "reportUrl" : "",
-  "reportName" : "首页功能测试报告",
   "data" : {
     "failed" : 0,
     "broken" : 0,
     "skipped" : 0,
-    "passed" : 0,
+    "passed" : 24,
     "unknown" : 0,
-    "total" : 0
+    "total" : 24
   }
 } ]

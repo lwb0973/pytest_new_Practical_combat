@@ -1,10 +1,1 @@
-[ {
-  "values" : [ "2025-08-01 11:15:53" ],
-  "name" : "datetime"
-}, {
-  "values" : [ "Local Git | Branch: master | User: PC@5CD2323XZM" ],
-  "name" : "environment"
-}, {
-  "values" : [ "首页项目" ],
-  "name" : "project"
-} ]
+[ ]

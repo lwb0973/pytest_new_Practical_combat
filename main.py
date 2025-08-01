@@ -6,6 +6,7 @@ import settings
 import multiprocessing
 import pytest
 
+
 ALLURE_COMMAND = settings.ALLURE_COMMAND
 
 def run_tests():
@@ -14,7 +15,7 @@ def run_tests():
     pytest.main([
         "-v",
         # 自动根据 CPU 数量设置并发进程数,xdist分布式执行
-        "-n", str(cpu_count),
+        #  "-n", str(cpu_count),
         # 重复执行用例
         # "--count=1",
         # 失败用例重跑

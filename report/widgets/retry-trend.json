@@ -1,8 +1,6 @@
 [ {
-  "reportUrl" : "",
-  "reportName" : "首页功能测试报告",
   "data" : {
-    "run" : 0,
-    "retry" : 0
+    "run" : 24,
+    "retry" : 115
   }
 } ]
