@@ -1,0 +1,2 @@
+[32mINFO    [0m common.log_handler:test_risk_mid.py:24 ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+[31m[1mERROR   [0m common.log_handler:test_risk_mid.py:30 token 获取失败

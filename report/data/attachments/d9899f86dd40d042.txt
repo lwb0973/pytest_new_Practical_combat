@@ -1,0 +1,2 @@
+[32mINFO    [0m common.log_handler:test_data_count.py:23 ========获取首页数据总量数据，测试开始==========
+[32mINFO    [0m common.log_handler:test_data_count.py:47 ========获取首页数据总量数据，测试结束==========

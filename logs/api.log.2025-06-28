@@ -1,0 +1,902 @@
+2025-06-28 16:55:22,253 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-06-28 16:55:22,386 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
+2025-06-28 16:55:22,392 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-06-28 16:55:22,508 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
+2025-06-28 16:55:22,515 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-06-28 16:55:46,319 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-06-28 16:55:46,436 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
+2025-06-28 16:55:46,443 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-06-28 16:55:46,550 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
+2025-06-28 16:55:46,558 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-06-28 16:55:46,680 - common.log_handler - ERROR - 请求数据发生异常首页数据总量与资产数据总量不一致
+assert 407563 == 10300
+ +  where 10300 = <test_case.test_asset_discovery.test_data_count.TestCase object at 0x000002B2D41C34C0>.data_count
+2025-06-28 16:55:46,971 - common.log_handler - INFO - ========获取首页数据总量数据，测试结束==========
+2025-06-28 16:55:46,978 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-06-28 16:55:47,047 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
+2025-06-28 16:55:47,054 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-06-28 16:55:47,118 - common.log_handler - INFO - 获取到风险列表高危待处置数量：0，已处置数量：0
+2025-06-28 16:55:47,159 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置高危风险为 115，风险列表待处置高危风险为 0
+assert 115 == 0
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_high.py", line 48, in test_risk_high_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置高危风险为 115，风险列表待处置高危风险为 0
+assert 115 == 0
+2025-06-28 16:55:47,175 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
+2025-06-28 16:55:47,183 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-06-28 16:55:47,255 - common.log_handler - INFO - 获取到风险列表低危风险待处置数量：0，已处置数量：0
+2025-06-28 16:55:47,293 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置低危风险为 97，风险列表待处置低危风险为 0
+assert 97 == 0
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_low.py", line 50, in test_risk_low_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置低危风险为 97，风险列表待处置低危风险为 0
+assert 97 == 0
+2025-06-28 16:55:47,305 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
+2025-06-28 16:55:47,312 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-06-28 16:55:47,373 - common.log_handler - INFO - 获取到风险列表中危待处置数量：0，已处置数量：0
+2025-06-28 16:55:47,414 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置中危风险为 99，风险列表中危风险为 0
+assert 99 == 0
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_mid.py", line 50, in test_risk_mid_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置中危风险为 99，风险列表中危风险为 0
+assert 99 == 0
+2025-06-28 16:55:47,426 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
+2025-06-28 16:55:47,435 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-06-28 16:55:47,541 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
+2025-06-28 16:55:47,548 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-06-28 16:55:52,173 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
+2025-06-28 16:56:00,785 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-06-28 16:56:00,911 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
+2025-06-28 16:56:00,918 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-06-28 16:56:01,033 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
+2025-06-28 16:56:01,039 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-06-28 16:56:01,182 - common.log_handler - ERROR - 请求数据发生异常首页数据总量与资产数据总量不一致
+assert 407563 == 10300
+ +  where 10300 = <test_case.test_asset_discovery.test_data_count.TestCase object at 0x0000020AE597F580>.data_count
+2025-06-28 16:56:01,469 - common.log_handler - INFO - ========获取首页数据总量数据，测试结束==========
+2025-06-28 16:56:01,476 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-06-28 16:56:01,539 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
+2025-06-28 16:56:01,546 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-06-28 16:56:01,605 - common.log_handler - INFO - 获取到风险列表高危待处置数量：0，已处置数量：0
+2025-06-28 16:56:01,636 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置高危风险为 115，风险列表待处置高危风险为 0
+assert 115 == 0
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_high.py", line 48, in test_risk_high_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置高危风险为 115，风险列表待处置高危风险为 0
+assert 115 == 0
+2025-06-28 16:56:01,654 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
+2025-06-28 16:56:01,663 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-06-28 16:56:01,730 - common.log_handler - INFO - 获取到风险列表低危风险待处置数量：0，已处置数量：0
+2025-06-28 16:56:01,768 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置低危风险为 97，风险列表待处置低危风险为 0
+assert 97 == 0
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_low.py", line 50, in test_risk_low_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置低危风险为 97，风险列表待处置低危风险为 0
+assert 97 == 0
+2025-06-28 16:56:01,782 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
+2025-06-28 16:56:01,788 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-06-28 16:56:01,852 - common.log_handler - INFO - 获取到风险列表中危待处置数量：0，已处置数量：0
+2025-06-28 16:56:01,882 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置中危风险为 99，风险列表中危风险为 0
+assert 99 == 0
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_mid.py", line 50, in test_risk_mid_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置中危风险为 99，风险列表中危风险为 0
+assert 99 == 0
+2025-06-28 16:56:01,896 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
+2025-06-28 16:56:01,904 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-06-28 16:56:02,003 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
+2025-06-28 16:56:02,013 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-06-28 16:56:02,139 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
+2025-06-28 16:56:02,146 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-06-28 16:56:02,271 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试结束==========
+2025-06-28 16:56:02,279 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
+2025-06-28 16:57:23,186 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-06-28 16:57:23,308 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
+2025-06-28 16:57:23,312 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-06-28 16:57:23,412 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
+2025-06-28 16:57:23,414 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-06-28 16:57:23,556 - common.log_handler - ERROR - 请求数据发生异常首页数据总量与资产数据总量不一致
+assert 407563 == 10300
+ +  where 10300 = <test_case.test_asset_discovery.test_data_count.TestCase object at 0x000002125E3237C0>.data_count
+2025-06-28 16:57:23,747 - common.log_handler - INFO - ========获取首页数据总量数据，测试结束==========
+2025-06-28 16:57:23,751 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-06-28 16:57:23,810 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
+2025-06-28 16:57:23,813 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-06-28 16:57:23,875 - common.log_handler - INFO - 获取到风险列表高危待处置数量：0，已处置数量：0
+2025-06-28 16:57:23,902 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置高危风险为 115，风险列表待处置高危风险为 0
+assert 115 == 0
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_high.py", line 48, in test_risk_high_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置高危风险为 115，风险列表待处置高危风险为 0
+assert 115 == 0
+2025-06-28 16:57:23,909 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
+2025-06-28 16:57:23,911 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-06-28 16:57:23,970 - common.log_handler - INFO - 获取到风险列表低危风险待处置数量：0，已处置数量：0
+2025-06-28 16:57:24,000 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置低危风险为 97，风险列表待处置低危风险为 0
+assert 97 == 0
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_low.py", line 50, in test_risk_low_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置低危风险为 97，风险列表待处置低危风险为 0
+assert 97 == 0
+2025-06-28 16:57:24,006 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
+2025-06-28 16:57:24,008 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-06-28 16:57:24,067 - common.log_handler - INFO - 获取到风险列表中危待处置数量：0，已处置数量：0
+2025-06-28 16:57:24,094 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置中危风险为 99，风险列表中危风险为 0
+assert 99 == 0
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_mid.py", line 50, in test_risk_mid_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置中危风险为 99，风险列表中危风险为 0
+assert 99 == 0
+2025-06-28 16:57:24,100 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
+2025-06-28 16:57:24,104 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-06-28 16:57:24,213 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
+2025-06-28 16:57:24,216 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-06-28 16:57:24,324 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
+2025-06-28 16:57:24,327 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-06-28 16:57:24,446 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试结束==========
+2025-06-28 16:57:24,449 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
+2025-06-28 16:57:24,587 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试结束==========
+2025-06-28 16:57:24,590 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-06-28 16:57:24,654 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试结束==========
+2025-06-28 16:57:24,660 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-06-28 16:57:24,765 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试结束==========
+2025-06-28 16:57:24,768 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-06-28 16:57:24,831 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试结束==========
+2025-06-28 16:57:24,835 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-06-28 16:57:24,919 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试结束==========
+2025-06-28 16:57:24,923 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-06-28 16:57:25,013 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试结束==========
+2025-06-28 16:57:25,018 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-06-28 16:57:25,107 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试结束==========
+2025-06-28 16:57:25,111 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-06-28 16:57:25,207 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试结束==========
+2025-06-28 16:57:25,211 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-06-28 16:57:25,300 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试结束==========
+2025-06-28 16:57:45,954 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-06-28 16:57:46,058 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
+2025-06-28 16:57:46,064 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-06-28 16:57:46,173 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
+2025-06-28 16:57:46,177 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-06-28 16:57:46,294 - common.log_handler - ERROR - 请求数据发生异常首页数据总量与资产数据总量不一致
+assert 407563 == 10300
+ +  where 10300 = <test_case.test_asset_discovery.test_data_count.TestCase object at 0x0000023F0F7B4640>.data_count
+2025-06-28 16:57:46,437 - common.log_handler - INFO - ========获取首页数据总量数据，测试结束==========
+2025-06-28 16:57:46,443 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-06-28 16:57:46,504 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
+2025-06-28 16:57:46,508 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-06-28 16:57:46,567 - common.log_handler - INFO - 获取到风险列表高危待处置数量：0，已处置数量：0
+2025-06-28 16:57:46,595 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置高危风险为 115，风险列表待处置高危风险为 0
+assert 115 == 0
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_high.py", line 48, in test_risk_high_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置高危风险为 115，风险列表待处置高危风险为 0
+assert 115 == 0
+2025-06-28 16:57:46,601 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
+2025-06-28 16:57:46,606 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-06-28 16:57:46,669 - common.log_handler - INFO - 获取到风险列表低危风险待处置数量：0，已处置数量：0
+2025-06-28 16:57:46,698 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置低危风险为 97，风险列表待处置低危风险为 0
+assert 97 == 0
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_low.py", line 50, in test_risk_low_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置低危风险为 97，风险列表待处置低危风险为 0
+assert 97 == 0
+2025-06-28 16:57:46,706 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
+2025-06-28 16:57:46,710 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-06-28 16:57:46,775 - common.log_handler - INFO - 获取到风险列表中危待处置数量：0，已处置数量：0
+2025-06-28 16:57:46,802 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置中危风险为 99，风险列表中危风险为 0
+assert 99 == 0
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_mid.py", line 50, in test_risk_mid_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置中危风险为 99，风险列表中危风险为 0
+assert 99 == 0
+2025-06-28 16:57:46,809 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
+2025-06-28 16:57:46,813 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-06-28 16:57:46,913 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
+2025-06-28 16:57:46,918 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-06-28 16:57:47,008 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
+2025-06-28 16:57:47,013 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-06-28 16:57:47,113 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试结束==========
+2025-06-28 16:57:47,119 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
+2025-06-28 16:57:47,263 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试结束==========
+2025-06-28 16:57:47,268 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-06-28 16:57:47,336 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试结束==========
+2025-06-28 16:57:47,339 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-06-28 16:57:47,451 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试结束==========
+2025-06-28 16:57:47,456 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-06-28 16:57:47,517 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试结束==========
+2025-06-28 16:57:47,521 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-06-28 16:57:47,578 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试结束==========
+2025-06-28 16:57:47,583 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-06-28 16:57:47,672 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试结束==========
+2025-06-28 16:57:47,677 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-06-28 16:57:47,774 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试结束==========
+2025-06-28 16:57:47,778 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-06-28 16:57:47,893 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试结束==========
+2025-06-28 16:57:47,898 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-06-28 16:57:47,989 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试结束==========
+2025-06-28 16:59:51,341 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-06-28 16:59:51,341 - common.log_handler - ERROR - token 获取失败
+2025-06-28 16:59:51,378 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-06-28 16:59:51,378 - common.log_handler - ERROR - token 获取失败
+2025-06-28 16:59:51,401 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-06-28 16:59:51,401 - common.log_handler - ERROR - token 获取失败
+2025-06-28 16:59:51,413 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-06-28 16:59:51,413 - common.log_handler - ERROR - token 获取失败
+2025-06-28 16:59:51,437 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-06-28 16:59:51,437 - common.log_handler - ERROR - token 获取失败
+2025-06-28 16:59:51,450 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-06-28 16:59:51,450 - common.log_handler - ERROR - token 获取失败
+2025-06-28 16:59:51,464 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-06-28 16:59:51,464 - common.log_handler - ERROR - token 获取失败
+2025-06-28 16:59:51,476 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-06-28 16:59:51,476 - common.log_handler - ERROR - token 获取失败
+2025-06-28 16:59:51,497 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-06-28 16:59:51,497 - common.log_handler - ERROR - token 获取失败
+2025-06-28 16:59:51,508 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-06-28 16:59:51,509 - common.log_handler - ERROR - token 获取失败
+2025-06-28 16:59:51,528 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
+2025-06-28 16:59:51,528 - common.log_handler - ERROR - token 获取失败
+2025-06-28 16:59:51,540 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-06-28 16:59:51,542 - common.log_handler - ERROR - token 获取失败
+2025-06-28 16:59:51,562 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-06-28 16:59:51,562 - common.log_handler - ERROR - token 获取失败
+2025-06-28 16:59:51,588 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-06-28 16:59:51,588 - common.log_handler - ERROR - token 获取失败
+2025-06-28 16:59:51,613 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-06-28 16:59:51,613 - common.log_handler - ERROR - token 获取失败
+2025-06-28 16:59:51,636 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-06-28 16:59:51,636 - common.log_handler - ERROR - token 获取失败
+2025-06-28 16:59:51,660 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-06-28 16:59:51,660 - common.log_handler - ERROR - token 获取失败
+2025-06-28 16:59:51,685 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-06-28 16:59:51,685 - common.log_handler - ERROR - token 获取失败
+2025-06-28 16:59:51,709 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-06-28 16:59:51,709 - common.log_handler - ERROR - token 获取失败
+2025-06-28 17:00:08,684 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-06-28 17:00:08,792 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
+2025-06-28 17:00:08,799 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-06-28 17:00:08,901 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
+2025-06-28 17:00:08,906 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-06-28 17:00:09,021 - common.log_handler - ERROR - 请求数据发生异常首页数据总量与资产数据总量不一致
+assert 406533 == 10300
+ +  where 10300 = <test_case.test_asset_discovery.test_data_count.TestCase object at 0x0000020932764C10>.data_count
+2025-06-28 17:00:09,176 - common.log_handler - INFO - ========获取首页数据总量数据，测试结束==========
+2025-06-28 17:00:09,179 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-06-28 17:00:09,243 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
+2025-06-28 17:00:09,247 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-06-28 17:00:09,312 - common.log_handler - INFO - 获取到风险列表高危待处置数量：0，已处置数量：0
+2025-06-28 17:00:09,341 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置高危风险为 115，风险列表待处置高危风险为 0
+assert 115 == 0
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_high.py", line 48, in test_risk_high_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置高危风险为 115，风险列表待处置高危风险为 0
+assert 115 == 0
+2025-06-28 17:00:09,347 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
+2025-06-28 17:00:09,351 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-06-28 17:00:09,413 - common.log_handler - INFO - 获取到风险列表低危风险待处置数量：0，已处置数量：0
+2025-06-28 17:00:09,440 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置低危风险为 97，风险列表待处置低危风险为 0
+assert 97 == 0
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_low.py", line 50, in test_risk_low_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置低危风险为 97，风险列表待处置低危风险为 0
+assert 97 == 0
+2025-06-28 17:00:09,447 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
+2025-06-28 17:00:09,451 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-06-28 17:00:09,517 - common.log_handler - INFO - 获取到风险列表中危待处置数量：0，已处置数量：0
+2025-06-28 17:00:09,543 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置中危风险为 99，风险列表中危风险为 0
+assert 99 == 0
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_mid.py", line 50, in test_risk_mid_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置中危风险为 99，风险列表中危风险为 0
+assert 99 == 0
+2025-06-28 17:00:09,549 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
+2025-06-28 17:00:09,554 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-06-28 17:00:09,644 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
+2025-06-28 17:00:09,648 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-06-28 17:00:09,737 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
+2025-06-28 17:00:09,741 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-06-28 17:00:09,876 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试结束==========
+2025-06-28 17:00:09,880 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
+2025-06-28 17:00:10,003 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试结束==========
+2025-06-28 17:00:10,006 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-06-28 17:00:10,077 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试结束==========
+2025-06-28 17:00:10,081 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-06-28 17:00:10,246 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试结束==========
+2025-06-28 17:00:10,249 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-06-28 17:00:10,322 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试结束==========
+2025-06-28 17:00:10,325 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-06-28 17:00:10,407 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试结束==========
+2025-06-28 17:00:10,411 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-06-28 17:00:10,505 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试结束==========
+2025-06-28 17:00:10,510 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-06-28 17:00:10,617 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试结束==========
+2025-06-28 17:00:10,621 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-06-28 17:00:10,750 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试结束==========
+2025-06-28 17:00:10,753 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-06-28 17:00:10,840 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试结束==========
+2025-06-28 17:03:06,302 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-06-28 17:03:06,405 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
+2025-06-28 17:03:06,412 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-06-28 17:03:06,503 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
+2025-06-28 17:03:06,511 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-06-28 17:04:31,293 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-06-28 17:04:31,413 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
+2025-06-28 17:04:31,421 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-06-28 17:04:31,529 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
+2025-06-28 17:04:31,536 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-06-28 17:37:54,002 - common.log_handler - INFO - ========获取首页数据总量数据，测试结束==========
+2025-06-28 17:38:01,429 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-06-28 17:38:01,448 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_asset_discovery\test_api_summary.py", line 31, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+2025-06-28 17:38:01,597 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-06-28 17:38:01,617 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_asset_discovery\test_app_summary.py", line 37, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+2025-06-28 17:38:01,629 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-06-28 17:38:01,647 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_asset_discovery\test_data_count.py", line 31, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+2025-06-28 17:38:01,660 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-06-28 17:38:01,680 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_asset_discovery\test_file_count.py", line 31, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+2025-06-28 17:38:01,694 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-06-28 17:38:01,713 - common.log_handler - ERROR - 待处置 请求或数据提取失败: 待处置 接口请求失败，状态码：400
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\get_total_from_url.py", line 13, in get_total_from_url
+    assert response.status_code == 200, f"{label} 接口请求失败，状态码：{response.status_code}"
+AssertionError: 待处置 接口请求失败，状态码：400
+2025-06-28 17:38:01,758 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-06-28 17:38:01,775 - common.log_handler - ERROR - 待处置 请求或数据提取失败: 待处置 接口请求失败，状态码：400
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\get_total_from_url.py", line 13, in get_total_from_url
+    assert response.status_code == 200, f"{label} 接口请求失败，状态码：{response.status_code}"
+AssertionError: 待处置 接口请求失败，状态码：400
+2025-06-28 17:38:01,791 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-06-28 17:38:01,810 - common.log_handler - ERROR - 待处置 请求或数据提取失败: 待处置 接口请求失败，状态码：400
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\get_total_from_url.py", line 13, in get_total_from_url
+    assert response.status_code == 200, f"{label} 接口请求失败，状态码：{response.status_code}"
+AssertionError: 待处置 接口请求失败，状态码：400
+2025-06-28 17:38:01,828 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-06-28 17:38:01,860 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_distribution\test_risk_high.py", line 29, in setup_class
+    cls.high_row_count = risk_api_list(sc_url=settings.sc_url,headers=cls.headers,payload=payload)
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_distribution\risk_all.py", line 15, in risk_api_list
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：400
+2025-06-28 17:38:01,874 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-06-28 17:38:01,893 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_distribution\test_risk_low.py", line 29, in setup_class
+    cls.low_row_count = risk_api_list(sc_url=settings.sc_url, headers=cls.headers, payload=payload)
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_distribution\risk_all.py", line 15, in risk_api_list
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：400
+2025-06-28 17:38:01,907 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-06-28 17:38:01,926 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_distribution\test_risk_mid.py", line 29, in setup_class
+    cls.mid_row_count = risk_api_list(sc_url=settings.sc_url, headers=cls.headers, payload=payload)
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_distribution\risk_all.py", line 15, in risk_api_list
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：400
+2025-06-28 17:38:01,941 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
+2025-06-28 17:38:01,959 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_overview\test_data_assets.py", line 31, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+2025-06-28 17:38:01,974 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-06-28 17:38:01,996 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_overview\test_file_assets.py", line 31, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+2025-06-28 17:38:02,009 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-06-28 17:38:02,027 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_overview\test_risk_total.py", line 33, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+2025-06-28 17:38:02,043 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-06-28 17:38:02,063 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_overview\test_risk_user.py", line 30, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+2025-06-28 17:38:02,081 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-06-28 17:38:02,102 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_overview\test_risk_users.py", line 31, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+2025-06-28 17:38:02,116 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-06-28 17:38:02,135 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_overview\test_vul_total.py", line 32, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+2025-06-28 17:38:02,149 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-06-28 17:38:02,167 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_vul_distribution\test_vul_high.py", line 32, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+2025-06-28 17:38:02,179 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-06-28 17:38:02,197 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_vul_distribution\test_vul_low.py", line 32, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+2025-06-28 17:38:02,211 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-06-28 17:38:02,229 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_vul_distribution\test_vul_mid.py", line 32, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+2025-06-28 17:38:12,736 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-06-28 17:38:12,755 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_asset_discovery\test_api_summary.py", line 31, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+2025-06-28 17:38:12,921 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-06-28 17:38:12,937 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_asset_discovery\test_app_summary.py", line 37, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+2025-06-28 17:38:12,949 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-06-28 17:38:12,967 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_asset_discovery\test_data_count.py", line 31, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+2025-06-28 17:38:12,980 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-06-28 17:38:12,998 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_asset_discovery\test_file_count.py", line 31, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+2025-06-28 17:38:13,012 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-06-28 17:38:13,029 - common.log_handler - ERROR - 待处置 请求或数据提取失败: 待处置 接口请求失败，状态码：400
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\get_total_from_url.py", line 13, in get_total_from_url
+    assert response.status_code == 200, f"{label} 接口请求失败，状态码：{response.status_code}"
+AssertionError: 待处置 接口请求失败，状态码：400
+2025-06-28 17:38:13,047 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-06-28 17:38:13,065 - common.log_handler - ERROR - 待处置 请求或数据提取失败: 待处置 接口请求失败，状态码：400
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\get_total_from_url.py", line 13, in get_total_from_url
+    assert response.status_code == 200, f"{label} 接口请求失败，状态码：{response.status_code}"
+AssertionError: 待处置 接口请求失败，状态码：400
+2025-06-28 17:38:13,081 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-06-28 17:38:13,100 - common.log_handler - ERROR - 待处置 请求或数据提取失败: 待处置 接口请求失败，状态码：400
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\get_total_from_url.py", line 13, in get_total_from_url
+    assert response.status_code == 200, f"{label} 接口请求失败，状态码：{response.status_code}"
+AssertionError: 待处置 接口请求失败，状态码：400
+2025-06-28 17:38:13,120 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-06-28 17:38:13,139 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_distribution\test_risk_high.py", line 29, in setup_class
+    cls.high_row_count = risk_api_list(sc_url=settings.sc_url,headers=cls.headers,payload=payload)
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_distribution\risk_all.py", line 15, in risk_api_list
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：400
+2025-06-28 17:38:13,153 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-06-28 17:38:13,172 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_distribution\test_risk_low.py", line 29, in setup_class
+    cls.low_row_count = risk_api_list(sc_url=settings.sc_url, headers=cls.headers, payload=payload)
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_distribution\risk_all.py", line 15, in risk_api_list
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：400
+2025-06-28 17:38:13,185 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-06-28 17:38:13,203 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_distribution\test_risk_mid.py", line 29, in setup_class
+    cls.mid_row_count = risk_api_list(sc_url=settings.sc_url, headers=cls.headers, payload=payload)
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_distribution\risk_all.py", line 15, in risk_api_list
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：400
+2025-06-28 17:38:13,217 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
+2025-06-28 17:38:13,235 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_overview\test_data_assets.py", line 31, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+2025-06-28 17:38:13,248 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-06-28 17:38:13,264 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_overview\test_file_assets.py", line 31, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+2025-06-28 17:38:13,278 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-06-28 17:38:13,295 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_overview\test_risk_total.py", line 33, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+2025-06-28 17:38:13,308 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-06-28 17:38:13,325 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_overview\test_risk_user.py", line 30, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+2025-06-28 17:38:13,338 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-06-28 17:38:13,355 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_overview\test_risk_users.py", line 31, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+2025-06-28 17:38:13,369 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-06-28 17:38:13,387 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_overview\test_vul_total.py", line 32, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+2025-06-28 17:38:13,407 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-06-28 17:38:13,428 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_vul_distribution\test_vul_high.py", line 32, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+2025-06-28 17:38:13,441 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-06-28 17:38:13,457 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_vul_distribution\test_vul_low.py", line 32, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+2025-06-28 17:38:13,471 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-06-28 17:38:13,488 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_vul_distribution\test_vul_mid.py", line 32, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+2025-06-28 17:38:33,080 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-06-28 17:38:33,099 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_asset_discovery\test_api_summary.py", line 31, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+2025-06-28 17:38:33,403 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-06-28 17:38:33,421 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_asset_discovery\test_app_summary.py", line 37, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+2025-06-28 17:38:33,448 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-06-28 17:40:02,832 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-06-28 17:40:02,919 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
+2025-06-28 17:40:02,922 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-06-28 17:40:03,005 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
+2025-06-28 17:40:03,008 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-06-28 17:40:03,122 - common.log_handler - INFO - ========获取首页数据总量数据，测试结束==========
+2025-06-28 17:40:03,125 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-06-28 17:40:03,174 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
+2025-06-28 17:40:03,176 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-06-28 17:40:03,370 - common.log_handler - INFO - 获取到风险列表高危待处置数量：0，已处置数量：0
+2025-06-28 17:40:03,394 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置高危风险为 30749，风险列表待处置高危风险为 0
+assert 30749 == 0
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_high.py", line 48, in test_risk_high_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置高危风险为 30749，风险列表待处置高危风险为 0
+assert 30749 == 0
+2025-06-28 17:40:03,593 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
+2025-06-28 17:40:03,596 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-06-28 17:40:03,773 - common.log_handler - INFO - 获取到风险列表低危风险待处置数量：0，已处置数量：0
+2025-06-28 17:40:03,800 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置低危风险为 10，风险列表待处置低危风险为 0
+assert 10 == 0
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_low.py", line 50, in test_risk_low_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置低危风险为 10，风险列表待处置低危风险为 0
+assert 10 == 0
+2025-06-28 17:40:03,810 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
+2025-06-28 17:40:03,814 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-06-28 17:40:03,991 - common.log_handler - INFO - 获取到风险列表中危待处置数量：0，已处置数量：0
+2025-06-28 17:40:04,015 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置中危风险为 12027，风险列表中危风险为 0
+assert 12027 == 0
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_mid.py", line 50, in test_risk_mid_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置中危风险为 12027，风险列表中危风险为 0
+assert 12027 == 0
+2025-06-28 17:40:04,022 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
+2025-06-28 17:40:04,030 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-06-28 17:40:04,126 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
+2025-06-28 17:40:04,128 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-06-28 17:40:04,192 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
+2025-06-28 17:40:04,196 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-06-28 17:40:04,277 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试结束==========
+2025-06-28 17:40:04,280 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
+2025-06-28 17:40:04,381 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试结束==========
+2025-06-28 17:40:04,384 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-06-28 17:40:04,443 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试结束==========
+2025-06-28 17:40:04,446 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-06-28 17:40:04,554 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试结束==========
+2025-06-28 17:40:04,559 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-06-28 17:40:04,609 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试结束==========
+2025-06-28 17:40:04,613 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-06-28 17:40:04,660 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试结束==========
+2025-06-28 17:40:04,663 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-06-28 17:40:04,775 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试结束==========
+2025-06-28 17:40:04,778 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-06-28 17:40:04,894 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试结束==========
+2025-06-28 17:40:04,897 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-06-28 17:40:04,967 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试结束==========
+2025-06-28 17:40:04,971 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-06-28 17:40:05,062 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试结束==========
+2025-06-28 17:40:14,054 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-06-28 17:40:14,151 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
+2025-06-28 17:40:14,154 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-06-28 17:40:14,240 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
+2025-06-28 17:40:14,245 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-06-28 17:40:14,361 - common.log_handler - INFO - ========获取首页数据总量数据，测试结束==========
+2025-06-28 17:40:14,365 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-06-28 17:40:14,425 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
+2025-06-28 17:40:14,431 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-06-28 17:40:14,615 - common.log_handler - INFO - 获取到风险列表高危待处置数量：0，已处置数量：0
+2025-06-28 17:40:14,640 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置高危风险为 30749，风险列表待处置高危风险为 0
+assert 30749 == 0
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_high.py", line 48, in test_risk_high_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置高危风险为 30749，风险列表待处置高危风险为 0
+assert 30749 == 0
+2025-06-28 17:40:14,812 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
+2025-06-28 17:40:14,815 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-06-28 17:40:14,982 - common.log_handler - INFO - 获取到风险列表低危风险待处置数量：0，已处置数量：0
+2025-06-28 17:40:15,005 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置低危风险为 10，风险列表待处置低危风险为 0
+assert 10 == 0
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_low.py", line 50, in test_risk_low_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置低危风险为 10，风险列表待处置低危风险为 0
+assert 10 == 0
+2025-06-28 17:40:15,012 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
+2025-06-28 17:40:15,015 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-06-28 17:40:15,182 - common.log_handler - INFO - 获取到风险列表中危待处置数量：0，已处置数量：0
+2025-06-28 17:40:15,208 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置中危风险为 12027，风险列表中危风险为 0
+assert 12027 == 0
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_mid.py", line 50, in test_risk_mid_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置中危风险为 12027，风险列表中危风险为 0
+assert 12027 == 0
+2025-06-28 17:40:15,214 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
+2025-06-28 17:40:15,218 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-06-28 17:40:15,321 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
+2025-06-28 17:40:15,326 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-06-28 17:40:15,394 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
+2025-06-28 17:40:15,398 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-06-28 17:40:15,491 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试结束==========
+2025-06-28 17:40:15,495 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
+2025-06-28 17:40:15,602 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试结束==========
+2025-06-28 17:40:15,606 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-06-28 17:40:15,663 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试结束==========
+2025-06-28 17:40:15,667 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-06-28 17:40:15,792 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试结束==========
+2025-06-28 17:40:15,796 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-06-28 17:40:15,845 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试结束==========
+2025-06-28 17:40:15,849 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-06-28 17:40:15,904 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试结束==========
+2025-06-28 17:40:15,909 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-06-28 17:40:16,016 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试结束==========
+2025-06-28 17:40:16,020 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-06-28 17:40:16,135 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试结束==========
+2025-06-28 17:40:16,140 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-06-28 17:40:16,207 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试结束==========
+2025-06-28 17:40:16,212 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-06-28 17:40:16,281 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试结束==========
+2025-06-28 17:40:42,330 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-06-28 17:40:42,413 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
+2025-06-28 17:40:42,418 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-06-28 17:40:42,490 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
+2025-06-28 17:40:42,493 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-06-28 17:40:42,610 - common.log_handler - INFO - ========获取首页数据总量数据，测试结束==========
+2025-06-28 17:40:42,615 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-06-28 17:40:42,678 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
+2025-06-28 17:40:42,682 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-06-28 17:40:42,873 - common.log_handler - INFO - 获取到风险列表高危待处置数量：0，已处置数量：0
+2025-06-28 17:40:42,896 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置高危风险为 30749，风险列表待处置高危风险为 0
+assert 30749 == 0
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_high.py", line 48, in test_risk_high_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置高危风险为 30749，风险列表待处置高危风险为 0
+assert 30749 == 0
+2025-06-28 17:40:43,037 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
+2025-06-28 17:40:43,040 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-06-28 17:40:43,215 - common.log_handler - INFO - 获取到风险列表低危风险待处置数量：0，已处置数量：0
+2025-06-28 17:40:43,237 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置低危风险为 10，风险列表待处置低危风险为 0
+assert 10 == 0
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_low.py", line 50, in test_risk_low_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置低危风险为 10，风险列表待处置低危风险为 0
+assert 10 == 0
+2025-06-28 17:40:43,243 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
+2025-06-28 17:40:43,247 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-06-28 17:40:43,418 - common.log_handler - INFO - 获取到风险列表中危待处置数量：0，已处置数量：0
+2025-06-28 17:40:43,441 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置中危风险为 12027，风险列表中危风险为 0
+assert 12027 == 0
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_mid.py", line 50, in test_risk_mid_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置中危风险为 12027，风险列表中危风险为 0
+assert 12027 == 0
+2025-06-28 17:40:43,447 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
+2025-06-28 17:40:43,453 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-06-28 17:40:43,554 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
+2025-06-28 17:40:43,558 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-06-28 17:40:43,638 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
+2025-06-28 17:40:43,641 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-06-28 17:40:43,735 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试结束==========
+2025-06-28 17:40:43,740 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
+2025-06-28 17:40:43,853 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试结束==========
+2025-06-28 17:40:43,858 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-06-28 17:40:43,921 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试结束==========
+2025-06-28 17:40:43,924 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-06-28 17:40:44,038 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试结束==========
+2025-06-28 17:40:44,043 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-06-28 17:40:44,097 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试结束==========
+2025-06-28 17:40:44,101 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-06-28 17:40:44,146 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试结束==========
+2025-06-28 17:40:44,150 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-06-28 17:40:44,276 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试结束==========
+2025-06-28 17:40:44,280 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-06-28 17:40:44,380 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试结束==========
+2025-06-28 17:40:44,384 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-06-28 17:40:44,469 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试结束==========
+2025-06-28 17:40:44,474 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-06-28 17:40:44,558 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试结束==========
+2025-06-28 17:45:28,157 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-06-28 17:45:28,250 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
+2025-06-28 17:45:28,256 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-06-28 17:45:28,334 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
+2025-06-28 17:45:28,341 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-06-28 17:45:28,453 - common.log_handler - INFO - ========获取首页数据总量数据，测试结束==========
+2025-06-28 17:45:28,460 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-06-28 17:45:28,520 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
+2025-06-28 17:45:28,527 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========

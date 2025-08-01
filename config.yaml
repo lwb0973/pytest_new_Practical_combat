@@ -1,0 +1,12 @@
+sqldb:
+  - host: '192.192.100.100'
+    port: 3306
+    user: 'root'
+    password: '123.com/456'
+    database: 'apione'
+
+ssh:
+  - hostname: '192.192.100.100'
+    port: 22
+    username: 'root'
+    password: '123.com'

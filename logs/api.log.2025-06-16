@@ -1,0 +1,1017 @@
+2025-06-16 10:52:30,281 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-06-16 10:52:38,794 - common.log_handler - ERROR - token 获取失败
+2025-06-16 10:53:57,231 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-06-16 11:11:28,270 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-06-16 11:11:28,350 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
+2025-06-16 11:11:28,355 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-06-16 11:11:28,429 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
+2025-06-16 11:11:28,434 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-06-16 11:11:28,472 - common.log_handler - ERROR - data_count 字段提取失败
+2025-06-16 11:11:28,662 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-06-16 11:11:28,716 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
+2025-06-16 11:11:28,719 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:11:28,773 - common.log_handler - INFO - 获取到风险列表高危待处置数量：0，已处置数量：0
+2025-06-16 11:11:28,797 - common.log_handler - ERROR - test_risk_high_pending 异常: 未找到 risk_level 为 4 的数据
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_high.py", line 42, in test_risk_high_pending
+    home_base_url = risk_home_all_pending(sc_url=settings.sc_url,headers=self.headers,risk_level='4',risk_grade="高危风险")
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\risk_all_pending.py", line 23, in risk_home_all_pending
+    assert high_risk_data and isinstance(high_risk_data, list), f'未找到 risk_level 为 {risk_level} 的数据'
+AssertionError: 未找到 risk_level 为 4 的数据
+2025-06-16 11:11:28,808 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
+2025-06-16 11:11:28,811 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:11:28,860 - common.log_handler - INFO - 获取到风险列表低危风险待处置数量：0，已处置数量：0
+2025-06-16 11:11:28,886 - common.log_handler - ERROR - test_risk_high_pending 异常: 未找到 risk_level 为 2 的数据
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_low.py", line 45, in test_risk_low_pending
+    home_base_url = risk_home_all_pending(sc_url=settings.sc_url, headers=self.headers, risk_level='2',risk_grade='低危风险')
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\risk_all_pending.py", line 23, in risk_home_all_pending
+    assert high_risk_data and isinstance(high_risk_data, list), f'未找到 risk_level 为 {risk_level} 的数据'
+AssertionError: 未找到 risk_level 为 2 的数据
+2025-06-16 11:11:28,893 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
+2025-06-16 11:11:28,897 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:11:28,947 - common.log_handler - INFO - 获取到风险列表中危待处置数量：0，已处置数量：0
+2025-06-16 11:11:28,971 - common.log_handler - ERROR - test_risk_high_pending 异常: 未找到 risk_level 为 3 的数据
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_mid.py", line 44, in test_risk_mid_pending
+    home_base_url = risk_home_all_pending(sc_url=settings.sc_url, headers=self.headers, risk_level='3',risk_grade='中危风险')
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\risk_all_pending.py", line 23, in risk_home_all_pending
+    assert high_risk_data and isinstance(high_risk_data, list), f'未找到 risk_level 为 {risk_level} 的数据'
+AssertionError: 未找到 risk_level 为 3 的数据
+2025-06-16 11:11:28,978 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
+2025-06-16 11:11:28,982 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-06-16 11:11:29,058 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
+2025-06-16 11:11:29,062 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-06-16 11:11:29,141 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
+2025-06-16 11:11:29,145 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-06-16 11:11:29,233 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试结束==========
+2025-06-16 11:11:29,236 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
+2025-06-16 11:11:29,269 - common.log_handler - ERROR - row_count 字段提取失败
+2025-06-16 11:11:29,280 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-06-16 11:11:29,342 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试结束==========
+2025-06-16 11:11:29,346 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-06-16 11:11:29,417 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试结束==========
+2025-06-16 11:11:29,421 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-06-16 11:11:29,472 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试结束==========
+2025-06-16 11:11:29,477 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-06-16 11:11:29,544 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试结束==========
+2025-06-16 11:11:29,548 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-06-16 11:11:29,773 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试结束==========
+2025-06-16 11:11:29,778 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-06-16 11:11:29,858 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试结束==========
+2025-06-16 11:11:29,861 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-06-16 11:11:29,941 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试结束==========
+2025-06-16 11:11:29,945 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-06-16 11:11:30,020 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试结束==========
+2025-06-16 11:12:41,952 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-06-16 11:12:41,952 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:12:41,966 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-06-16 11:12:41,966 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:12:41,977 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-06-16 11:12:41,977 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:12:41,989 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-06-16 11:12:41,990 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:12:42,003 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:12:42,003 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:12:42,015 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:12:42,015 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:12:42,031 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:12:42,031 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:12:42,043 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-06-16 11:12:42,043 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:12:42,055 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-06-16 11:12:42,055 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:12:42,066 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-06-16 11:12:42,067 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:12:42,078 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
+2025-06-16 11:12:42,078 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:12:42,091 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-06-16 11:12:42,092 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:12:42,103 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-06-16 11:12:42,103 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:12:42,115 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-06-16 11:12:42,115 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:12:42,127 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-06-16 11:12:42,128 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:12:42,139 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-06-16 11:12:42,139 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:12:42,151 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-06-16 11:12:42,151 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:12:42,163 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-06-16 11:12:42,163 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:12:42,174 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-06-16 11:12:42,174 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:12:49,799 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-06-16 11:12:49,799 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:12:49,813 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-06-16 11:12:49,813 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:12:49,826 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-06-16 11:12:49,827 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:12:49,839 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-06-16 11:12:49,840 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:12:49,854 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:12:49,855 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:12:49,866 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:12:49,866 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:12:49,881 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:12:49,881 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:12:49,895 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-06-16 11:12:49,895 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:12:49,907 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-06-16 11:12:49,928 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:12:49,945 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-06-16 11:12:49,945 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:12:49,961 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
+2025-06-16 11:12:49,961 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:12:49,975 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-06-16 11:12:49,975 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:12:49,986 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-06-16 11:12:49,986 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:12:49,996 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-06-16 11:12:49,996 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:12:50,008 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-06-16 11:12:50,008 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:12:50,019 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-06-16 11:12:50,019 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:12:50,030 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-06-16 11:12:50,030 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:12:50,040 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-06-16 11:12:50,040 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:12:50,053 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-06-16 11:12:50,053 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:13:16,747 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-06-16 11:13:33,368 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
+2025-06-16 11:13:52,302 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-06-16 11:13:52,303 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:13:52,318 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-06-16 11:13:52,318 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:13:52,331 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-06-16 11:13:52,331 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:13:52,345 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-06-16 11:13:52,346 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:13:52,361 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:13:52,361 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:13:52,377 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:13:52,378 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:13:52,393 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:13:52,393 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:13:52,405 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-06-16 11:13:52,405 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:13:52,415 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-06-16 11:13:52,415 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:13:52,426 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-06-16 11:13:52,426 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:13:52,437 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
+2025-06-16 11:13:52,437 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:13:52,447 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-06-16 11:13:52,447 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:13:52,458 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-06-16 11:13:52,458 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:13:52,469 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-06-16 11:13:52,469 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:13:52,483 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-06-16 11:13:52,483 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:13:52,494 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-06-16 11:13:52,495 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:13:52,507 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-06-16 11:13:52,507 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:13:52,519 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-06-16 11:13:52,520 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:13:52,531 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-06-16 11:13:52,531 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:26:34,695 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-06-16 11:26:34,773 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
+2025-06-16 11:26:34,779 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-06-16 11:26:34,856 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
+2025-06-16 11:26:34,862 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-06-16 11:26:34,896 - common.log_handler - ERROR - data_count 字段提取失败
+2025-06-16 11:26:35,172 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-06-16 11:26:35,228 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
+2025-06-16 11:26:35,235 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:26:35,296 - common.log_handler - INFO - 获取到风险列表高危待处置数量：0，已处置数量：0
+2025-06-16 11:26:35,322 - common.log_handler - ERROR - test_risk_high_pending 异常: 未找到 risk_level 为 4 的数据
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_high.py", line 42, in test_risk_high_pending
+    home_base_url = risk_home_all_pending(sc_url=settings.sc_url,headers=self.headers,risk_level='4',risk_grade="高危风险")
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\risk_all_pending.py", line 23, in risk_home_all_pending
+    assert high_risk_data and isinstance(high_risk_data, list), f'未找到 risk_level 为 {risk_level} 的数据'
+AssertionError: 未找到 risk_level 为 4 的数据
+2025-06-16 11:26:35,351 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
+2025-06-16 11:26:35,357 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:26:35,414 - common.log_handler - INFO - 获取到风险列表低危风险待处置数量：0，已处置数量：0
+2025-06-16 11:26:35,440 - common.log_handler - ERROR - test_risk_high_pending 异常: 未找到 risk_level 为 2 的数据
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_low.py", line 45, in test_risk_low_pending
+    home_base_url = risk_home_all_pending(sc_url=settings.sc_url, headers=self.headers, risk_level='2',risk_grade='低危风险')
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\risk_all_pending.py", line 23, in risk_home_all_pending
+    assert high_risk_data and isinstance(high_risk_data, list), f'未找到 risk_level 为 {risk_level} 的数据'
+AssertionError: 未找到 risk_level 为 2 的数据
+2025-06-16 11:26:35,455 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
+2025-06-16 11:26:35,463 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:26:35,516 - common.log_handler - INFO - 获取到风险列表中危待处置数量：0，已处置数量：0
+2025-06-16 11:26:35,543 - common.log_handler - ERROR - test_risk_high_pending 异常: 未找到 risk_level 为 3 的数据
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_mid.py", line 44, in test_risk_mid_pending
+    home_base_url = risk_home_all_pending(sc_url=settings.sc_url, headers=self.headers, risk_level='3',risk_grade='中危风险')
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\risk_all_pending.py", line 23, in risk_home_all_pending
+    assert high_risk_data and isinstance(high_risk_data, list), f'未找到 risk_level 为 {risk_level} 的数据'
+AssertionError: 未找到 risk_level 为 3 的数据
+2025-06-16 11:26:35,559 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
+2025-06-16 11:26:35,568 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-06-16 11:26:35,650 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
+2025-06-16 11:26:35,657 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-06-16 11:27:02,195 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
+2025-06-16 11:27:02,868 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-06-16 11:27:21,160 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试结束==========
+2025-06-16 11:27:43,624 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-06-16 11:27:43,624 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:27:43,637 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-06-16 11:27:43,637 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:27:43,647 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-06-16 11:27:43,647 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:27:43,659 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-06-16 11:27:43,660 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:27:43,670 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:27:43,670 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:27:43,682 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:27:43,682 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:27:43,694 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:27:43,695 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:27:43,706 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-06-16 11:27:43,706 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:27:43,716 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-06-16 11:27:43,716 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:27:43,728 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-06-16 11:27:43,728 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:27:43,739 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
+2025-06-16 11:27:43,740 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:27:43,752 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-06-16 11:27:43,752 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:27:43,762 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-06-16 11:27:43,762 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:27:43,772 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-06-16 11:27:43,772 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:27:43,784 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-06-16 11:27:43,784 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:27:43,797 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-06-16 11:27:43,797 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:27:43,810 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-06-16 11:27:43,810 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:27:43,821 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-06-16 11:27:43,821 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:27:43,833 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-06-16 11:27:43,833 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:29:09,787 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-06-16 11:29:09,872 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
+2025-06-16 11:29:09,879 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-06-16 11:29:09,950 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
+2025-06-16 11:29:09,956 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-06-16 11:29:09,987 - common.log_handler - ERROR - data_count 字段提取失败
+2025-06-16 11:29:10,264 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-06-16 11:29:10,328 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
+2025-06-16 11:29:10,334 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:29:10,391 - common.log_handler - INFO - 获取到风险列表高危待处置数量：0，已处置数量：0
+2025-06-16 11:29:10,418 - common.log_handler - ERROR - test_risk_high_pending 异常: 未找到 risk_level 为 4 的数据
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_high.py", line 42, in test_risk_high_pending
+    home_base_url = risk_home_all_pending(sc_url=settings.sc_url,headers=self.headers,risk_level='4',risk_grade="高危风险")
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\risk_all_pending.py", line 23, in risk_home_all_pending
+    assert high_risk_data and isinstance(high_risk_data, list), f'未找到 risk_level 为 {risk_level} 的数据'
+AssertionError: 未找到 risk_level 为 4 的数据
+2025-06-16 11:29:10,447 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
+2025-06-16 11:29:10,454 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:29:10,514 - common.log_handler - INFO - 获取到风险列表低危风险待处置数量：0，已处置数量：0
+2025-06-16 11:29:10,541 - common.log_handler - ERROR - test_risk_high_pending 异常: 未找到 risk_level 为 2 的数据
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_low.py", line 45, in test_risk_low_pending
+    home_base_url = risk_home_all_pending(sc_url=settings.sc_url, headers=self.headers, risk_level='2',risk_grade='低危风险')
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\risk_all_pending.py", line 23, in risk_home_all_pending
+    assert high_risk_data and isinstance(high_risk_data, list), f'未找到 risk_level 为 {risk_level} 的数据'
+AssertionError: 未找到 risk_level 为 2 的数据
+2025-06-16 11:29:10,558 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
+2025-06-16 11:29:10,564 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:29:10,621 - common.log_handler - INFO - 获取到风险列表中危待处置数量：0，已处置数量：0
+2025-06-16 11:29:10,646 - common.log_handler - ERROR - test_risk_high_pending 异常: 未找到 risk_level 为 3 的数据
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_mid.py", line 44, in test_risk_mid_pending
+    home_base_url = risk_home_all_pending(sc_url=settings.sc_url, headers=self.headers, risk_level='3',risk_grade='中危风险')
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\risk_all_pending.py", line 23, in risk_home_all_pending
+    assert high_risk_data and isinstance(high_risk_data, list), f'未找到 risk_level 为 {risk_level} 的数据'
+AssertionError: 未找到 risk_level 为 3 的数据
+2025-06-16 11:29:10,662 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
+2025-06-16 11:29:10,670 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-06-16 11:29:10,749 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
+2025-06-16 11:29:10,756 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-06-16 11:29:24,045 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
+2025-06-16 11:29:36,319 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-06-16 11:29:36,319 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:29:36,330 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-06-16 11:29:36,331 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:29:36,342 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-06-16 11:29:36,342 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:29:36,352 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-06-16 11:29:36,352 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:29:36,365 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:29:36,365 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:29:36,377 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:29:36,377 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:29:36,389 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:29:36,389 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:29:36,401 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-06-16 11:29:36,401 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:29:36,411 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-06-16 11:29:36,411 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:29:36,425 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-06-16 11:29:36,425 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:29:36,437 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
+2025-06-16 11:29:36,437 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:29:36,448 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-06-16 11:29:36,448 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:29:36,459 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-06-16 11:29:36,459 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:29:36,470 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-06-16 11:29:36,470 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:29:36,480 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-06-16 11:29:36,481 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:29:36,491 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-06-16 11:29:36,491 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:29:36,504 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-06-16 11:29:36,504 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:29:36,515 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-06-16 11:29:36,515 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:29:36,527 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-06-16 11:29:36,527 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:30:45,182 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-06-16 11:32:21,074 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-06-16 11:32:21,151 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
+2025-06-16 11:32:21,156 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-06-16 11:32:21,224 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
+2025-06-16 11:32:21,227 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-06-16 11:32:21,270 - common.log_handler - ERROR - data_count 字段提取失败
+2025-06-16 11:32:21,451 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-06-16 11:32:21,504 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
+2025-06-16 11:32:21,510 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:32:21,560 - common.log_handler - INFO - 获取到风险列表高危待处置数量：0，已处置数量：0
+2025-06-16 11:32:21,585 - common.log_handler - ERROR - test_risk_high_pending 异常: 未找到 risk_level 为 4 的数据
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_high.py", line 42, in test_risk_high_pending
+    home_base_url = risk_home_all_pending(sc_url=settings.sc_url,headers=self.headers,risk_level='4',risk_grade="高危风险")
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\risk_all_pending.py", line 23, in risk_home_all_pending
+    assert high_risk_data and isinstance(high_risk_data, list), f'未找到 risk_level 为 {risk_level} 的数据'
+AssertionError: 未找到 risk_level 为 4 的数据
+2025-06-16 11:32:21,594 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
+2025-06-16 11:32:21,597 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:32:21,646 - common.log_handler - INFO - 获取到风险列表低危风险待处置数量：0，已处置数量：0
+2025-06-16 11:32:21,671 - common.log_handler - ERROR - test_risk_high_pending 异常: 未找到 risk_level 为 2 的数据
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_low.py", line 45, in test_risk_low_pending
+    home_base_url = risk_home_all_pending(sc_url=settings.sc_url, headers=self.headers, risk_level='2',risk_grade='低危风险')
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\risk_all_pending.py", line 23, in risk_home_all_pending
+    assert high_risk_data and isinstance(high_risk_data, list), f'未找到 risk_level 为 {risk_level} 的数据'
+AssertionError: 未找到 risk_level 为 2 的数据
+2025-06-16 11:32:21,679 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
+2025-06-16 11:32:21,683 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:32:21,734 - common.log_handler - INFO - 获取到风险列表中危待处置数量：0，已处置数量：0
+2025-06-16 11:32:21,757 - common.log_handler - ERROR - test_risk_high_pending 异常: 未找到 risk_level 为 3 的数据
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_mid.py", line 44, in test_risk_mid_pending
+    home_base_url = risk_home_all_pending(sc_url=settings.sc_url, headers=self.headers, risk_level='3',risk_grade='中危风险')
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\risk_all_pending.py", line 23, in risk_home_all_pending
+    assert high_risk_data and isinstance(high_risk_data, list), f'未找到 risk_level 为 {risk_level} 的数据'
+AssertionError: 未找到 risk_level 为 3 的数据
+2025-06-16 11:32:21,764 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
+2025-06-16 11:32:21,768 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-06-16 11:32:21,840 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
+2025-06-16 11:32:21,843 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-06-16 11:32:21,920 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
+2025-06-16 11:32:21,924 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-06-16 11:32:22,005 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试结束==========
+2025-06-16 11:32:22,008 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
+2025-06-16 11:32:22,042 - common.log_handler - ERROR - row_count 字段提取失败
+2025-06-16 11:32:22,052 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-06-16 11:32:22,109 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试结束==========
+2025-06-16 11:32:22,111 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-06-16 11:32:22,185 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试结束==========
+2025-06-16 11:32:22,189 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-06-16 11:32:22,307 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试结束==========
+2025-06-16 11:32:22,311 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-06-16 11:32:22,369 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试结束==========
+2025-06-16 11:32:22,373 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-06-16 11:32:22,464 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试结束==========
+2025-06-16 11:32:22,468 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-06-16 11:32:22,544 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试结束==========
+2025-06-16 11:32:22,547 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-06-16 11:32:22,624 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试结束==========
+2025-06-16 11:32:22,628 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-06-16 11:32:22,708 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试结束==========
+2025-06-16 11:33:53,885 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-06-16 11:33:53,968 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
+2025-06-16 11:33:53,975 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-06-16 11:33:54,045 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
+2025-06-16 11:33:54,051 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-06-16 11:35:38,659 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-06-16 11:35:38,759 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
+2025-06-16 11:35:38,768 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-06-16 11:35:38,839 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
+2025-06-16 11:35:38,846 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-06-16 11:35:42,093 - common.log_handler - ERROR - data_count 字段提取失败
+2025-06-16 11:36:29,333 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-06-16 11:36:29,430 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
+2025-06-16 11:36:29,435 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-06-16 11:36:29,522 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
+2025-06-16 11:36:29,525 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-06-16 11:36:29,575 - common.log_handler - ERROR - data_count 字段提取失败
+2025-06-16 11:36:29,773 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-06-16 11:36:29,829 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
+2025-06-16 11:36:29,838 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:36:29,896 - common.log_handler - INFO - 获取到风险列表高危待处置数量：0，已处置数量：0
+2025-06-16 11:36:29,925 - common.log_handler - ERROR - test_risk_high_pending 异常: 未找到 risk_level 为 4 的数据
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_high.py", line 42, in test_risk_high_pending
+    home_base_url = risk_home_all_pending(sc_url=settings.sc_url,headers=self.headers,risk_level='4',risk_grade="高危风险")
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\risk_all_pending.py", line 23, in risk_home_all_pending
+    assert high_risk_data and isinstance(high_risk_data, list), f'未找到 risk_level 为 {risk_level} 的数据'
+AssertionError: 未找到 risk_level 为 4 的数据
+2025-06-16 11:36:29,934 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
+2025-06-16 11:36:29,937 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:36:29,992 - common.log_handler - INFO - 获取到风险列表低危风险待处置数量：0，已处置数量：0
+2025-06-16 11:36:30,019 - common.log_handler - ERROR - test_risk_high_pending 异常: 未找到 risk_level 为 2 的数据
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_low.py", line 45, in test_risk_low_pending
+    home_base_url = risk_home_all_pending(sc_url=settings.sc_url, headers=self.headers, risk_level='2',risk_grade='低危风险')
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\risk_all_pending.py", line 23, in risk_home_all_pending
+    assert high_risk_data and isinstance(high_risk_data, list), f'未找到 risk_level 为 {risk_level} 的数据'
+AssertionError: 未找到 risk_level 为 2 的数据
+2025-06-16 11:36:30,029 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
+2025-06-16 11:36:30,032 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:36:30,099 - common.log_handler - INFO - 获取到风险列表中危待处置数量：0，已处置数量：0
+2025-06-16 11:36:30,130 - common.log_handler - ERROR - test_risk_high_pending 异常: 未找到 risk_level 为 3 的数据
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_mid.py", line 44, in test_risk_mid_pending
+    home_base_url = risk_home_all_pending(sc_url=settings.sc_url, headers=self.headers, risk_level='3',risk_grade='中危风险')
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\risk_all_pending.py", line 23, in risk_home_all_pending
+    assert high_risk_data and isinstance(high_risk_data, list), f'未找到 risk_level 为 {risk_level} 的数据'
+AssertionError: 未找到 risk_level 为 3 的数据
+2025-06-16 11:36:30,136 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
+2025-06-16 11:36:30,142 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-06-16 11:36:30,215 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
+2025-06-16 11:36:30,218 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-06-16 11:36:30,297 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
+2025-06-16 11:36:30,299 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-06-16 11:36:30,382 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试结束==========
+2025-06-16 11:36:30,387 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
+2025-06-16 11:36:30,423 - common.log_handler - ERROR - row_count 字段提取失败
+2025-06-16 11:36:30,434 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-06-16 11:36:30,493 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试结束==========
+2025-06-16 11:36:30,497 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-06-16 11:36:30,594 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试结束==========
+2025-06-16 11:36:30,597 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-06-16 11:36:30,651 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试结束==========
+2025-06-16 11:36:30,654 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-06-16 11:36:30,712 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试结束==========
+2025-06-16 11:36:30,716 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-06-16 11:36:30,803 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试结束==========
+2025-06-16 11:36:30,808 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-06-16 11:36:30,890 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试结束==========
+2025-06-16 11:36:30,893 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-06-16 11:36:30,981 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试结束==========
+2025-06-16 11:36:30,985 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-06-16 11:36:31,059 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试结束==========
+2025-06-16 11:37:03,726 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-06-16 11:37:03,726 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:37:03,738 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-06-16 11:37:03,738 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:37:03,749 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-06-16 11:37:03,749 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:37:03,760 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-06-16 11:37:03,760 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:37:03,770 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:37:03,770 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:37:03,781 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:37:03,781 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:37:03,793 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:37:03,794 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:37:03,804 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-06-16 11:37:03,804 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:37:03,814 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-06-16 11:37:03,814 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:37:03,826 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-06-16 11:37:03,826 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:37:03,839 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
+2025-06-16 11:37:03,839 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:37:03,849 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-06-16 11:37:03,849 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:37:03,861 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-06-16 11:37:03,861 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:37:03,873 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-06-16 11:37:03,873 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:37:03,883 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-06-16 11:37:03,883 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:37:03,893 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-06-16 11:37:03,894 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:37:03,908 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-06-16 11:37:03,908 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:37:03,920 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-06-16 11:37:03,920 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:37:03,931 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-06-16 11:37:03,932 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:37:44,688 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-06-16 11:37:44,688 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:37:44,699 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-06-16 11:37:44,699 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:37:44,712 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-06-16 11:37:44,712 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:37:44,724 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-06-16 11:37:44,724 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:37:44,737 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:37:44,738 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:37:44,749 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:37:44,749 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:37:44,762 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:37:44,762 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:37:44,774 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-06-16 11:37:44,774 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:37:44,787 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-06-16 11:37:44,787 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:37:44,800 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-06-16 11:37:44,800 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:37:44,812 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
+2025-06-16 11:37:44,812 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:37:44,824 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-06-16 11:37:44,824 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:37:44,839 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-06-16 11:37:44,839 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:37:44,851 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-06-16 11:37:44,851 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:37:44,863 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-06-16 11:37:44,863 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:37:44,878 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-06-16 11:37:44,878 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:37:44,891 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-06-16 11:37:44,891 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:37:44,903 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-06-16 11:37:44,903 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:37:44,915 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-06-16 11:37:44,915 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:38:30,229 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-06-16 11:38:30,229 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:38:30,241 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-06-16 11:38:30,241 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:38:30,253 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-06-16 11:38:30,253 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:38:30,264 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-06-16 11:38:30,264 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:38:30,277 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:38:30,277 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:38:30,289 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:38:30,289 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:38:30,304 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:38:30,304 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:38:30,317 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-06-16 11:38:30,318 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:38:30,330 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-06-16 11:38:30,330 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:38:30,341 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-06-16 11:38:30,342 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:38:30,353 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
+2025-06-16 11:38:30,353 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:38:30,366 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-06-16 11:38:30,366 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:38:30,376 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-06-16 11:38:30,376 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:38:30,390 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-06-16 11:38:30,390 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:38:30,400 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-06-16 11:38:30,400 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:38:30,411 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-06-16 11:38:30,411 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:38:30,424 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-06-16 11:38:30,424 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:38:30,437 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-06-16 11:38:30,437 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:38:30,448 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-06-16 11:38:30,448 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:39:53,525 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-06-16 11:39:53,526 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:39:53,536 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-06-16 11:39:53,536 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:39:53,546 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-06-16 11:39:53,547 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:39:53,558 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-06-16 11:39:53,559 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:39:53,570 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:39:53,571 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:39:53,581 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:39:53,581 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:39:53,593 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:39:53,593 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:39:53,604 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-06-16 11:39:53,605 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:39:53,618 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-06-16 11:39:53,618 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:39:53,632 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-06-16 11:39:53,632 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:39:53,645 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
+2025-06-16 11:39:53,645 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:39:53,657 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-06-16 11:39:53,657 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:39:53,668 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-06-16 11:39:53,668 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:39:53,679 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-06-16 11:39:53,679 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:39:53,692 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-06-16 11:39:53,692 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:39:53,702 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-06-16 11:39:53,703 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:39:53,714 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-06-16 11:39:53,714 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:39:53,726 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-06-16 11:39:53,726 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:39:53,738 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-06-16 11:39:53,738 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:46:44,906 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-06-16 11:46:44,986 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
+2025-06-16 11:46:44,988 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-06-16 11:46:45,066 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
+2025-06-16 11:46:45,067 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-06-16 11:46:45,097 - common.log_handler - ERROR - data_count 字段提取失败
+2025-06-16 11:46:45,257 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-06-16 11:46:45,315 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
+2025-06-16 11:46:45,317 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:46:45,367 - common.log_handler - INFO - 获取到风险列表高危待处置数量：0，已处置数量：0
+2025-06-16 11:46:45,392 - common.log_handler - ERROR - test_risk_high_pending 异常: 未找到 risk_level 为 4 的数据
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_high.py", line 42, in test_risk_high_pending
+    home_base_url = risk_home_all_pending(sc_url=settings.sc_url,headers=self.headers,risk_level='4',risk_grade="高危风险")
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\risk_all_pending.py", line 23, in risk_home_all_pending
+    assert high_risk_data and isinstance(high_risk_data, list), f'未找到 risk_level 为 {risk_level} 的数据'
+AssertionError: 未找到 risk_level 为 4 的数据
+2025-06-16 11:46:45,402 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
+2025-06-16 11:46:45,403 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:46:45,451 - common.log_handler - INFO - 获取到风险列表低危风险待处置数量：0，已处置数量：0
+2025-06-16 11:46:45,477 - common.log_handler - ERROR - test_risk_high_pending 异常: 未找到 risk_level 为 2 的数据
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_low.py", line 45, in test_risk_low_pending
+    home_base_url = risk_home_all_pending(sc_url=settings.sc_url, headers=self.headers, risk_level='2',risk_grade='低危风险')
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\risk_all_pending.py", line 23, in risk_home_all_pending
+    assert high_risk_data and isinstance(high_risk_data, list), f'未找到 risk_level 为 {risk_level} 的数据'
+AssertionError: 未找到 risk_level 为 2 的数据
+2025-06-16 11:46:45,483 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
+2025-06-16 11:46:45,484 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:46:45,543 - common.log_handler - INFO - 获取到风险列表中危待处置数量：0，已处置数量：0
+2025-06-16 11:46:45,571 - common.log_handler - ERROR - test_risk_high_pending 异常: 未找到 risk_level 为 3 的数据
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_mid.py", line 44, in test_risk_mid_pending
+    home_base_url = risk_home_all_pending(sc_url=settings.sc_url, headers=self.headers, risk_level='3',risk_grade='中危风险')
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\risk_all_pending.py", line 23, in risk_home_all_pending
+    assert high_risk_data and isinstance(high_risk_data, list), f'未找到 risk_level 为 {risk_level} 的数据'
+AssertionError: 未找到 risk_level 为 3 的数据
+2025-06-16 11:46:45,577 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
+2025-06-16 11:46:45,579 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-06-16 11:46:45,657 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
+2025-06-16 11:46:45,659 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-06-16 11:46:45,741 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
+2025-06-16 11:46:45,742 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-06-16 11:46:45,842 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试结束==========
+2025-06-16 11:46:45,844 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
+2025-06-16 11:46:45,872 - common.log_handler - ERROR - row_count 字段提取失败
+2025-06-16 11:46:45,881 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-06-16 11:46:45,934 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试结束==========
+2025-06-16 11:46:45,936 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-06-16 11:46:46,023 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试结束==========
+2025-06-16 11:46:46,024 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-06-16 11:46:46,074 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试结束==========
+2025-06-16 11:46:46,075 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-06-16 11:46:46,131 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试结束==========
+2025-06-16 11:46:46,132 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-06-16 11:46:46,210 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试结束==========
+2025-06-16 11:46:46,211 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-06-16 11:46:46,295 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试结束==========
+2025-06-16 11:46:46,297 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-06-16 11:46:46,378 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试结束==========
+2025-06-16 11:46:46,378 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-06-16 11:46:46,454 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试结束==========
+2025-06-16 11:48:04,012 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-06-16 11:48:04,081 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
+2025-06-16 11:48:04,082 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-06-16 11:48:04,147 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
+2025-06-16 11:48:04,148 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-06-16 11:48:04,178 - common.log_handler - ERROR - data_count 字段提取失败
+2025-06-16 11:48:04,312 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-06-16 11:48:04,366 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
+2025-06-16 11:48:04,369 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:48:04,419 - common.log_handler - INFO - 获取到风险列表高危待处置数量：0，已处置数量：0
+2025-06-16 11:48:04,443 - common.log_handler - ERROR - test_risk_high_pending 异常: 未找到 risk_level 为 4 的数据
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_high.py", line 42, in test_risk_high_pending
+    home_base_url = risk_home_all_pending(sc_url=settings.sc_url,headers=self.headers,risk_level='4',risk_grade="高危风险")
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\risk_all_pending.py", line 23, in risk_home_all_pending
+    assert high_risk_data and isinstance(high_risk_data, list), f'未找到 risk_level 为 {risk_level} 的数据'
+AssertionError: 未找到 risk_level 为 4 的数据
+2025-06-16 11:48:04,453 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
+2025-06-16 11:48:04,454 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:48:04,503 - common.log_handler - INFO - 获取到风险列表低危风险待处置数量：0，已处置数量：0
+2025-06-16 11:48:04,527 - common.log_handler - ERROR - test_risk_high_pending 异常: 未找到 risk_level 为 2 的数据
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_low.py", line 45, in test_risk_low_pending
+    home_base_url = risk_home_all_pending(sc_url=settings.sc_url, headers=self.headers, risk_level='2',risk_grade='低危风险')
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\risk_all_pending.py", line 23, in risk_home_all_pending
+    assert high_risk_data and isinstance(high_risk_data, list), f'未找到 risk_level 为 {risk_level} 的数据'
+AssertionError: 未找到 risk_level 为 2 的数据
+2025-06-16 11:48:04,533 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
+2025-06-16 11:48:04,534 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:48:04,585 - common.log_handler - INFO - 获取到风险列表中危待处置数量：0，已处置数量：0
+2025-06-16 11:48:04,613 - common.log_handler - ERROR - test_risk_high_pending 异常: 未找到 risk_level 为 3 的数据
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_mid.py", line 44, in test_risk_mid_pending
+    home_base_url = risk_home_all_pending(sc_url=settings.sc_url, headers=self.headers, risk_level='3',risk_grade='中危风险')
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\risk_all_pending.py", line 23, in risk_home_all_pending
+    assert high_risk_data and isinstance(high_risk_data, list), f'未找到 risk_level 为 {risk_level} 的数据'
+AssertionError: 未找到 risk_level 为 3 的数据
+2025-06-16 11:48:04,620 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
+2025-06-16 11:48:04,622 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-06-16 11:48:04,701 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
+2025-06-16 11:48:04,703 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-06-16 11:48:04,783 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
+2025-06-16 11:48:04,784 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-06-16 11:48:04,856 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试结束==========
+2025-06-16 11:48:04,857 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
+2025-06-16 11:48:04,885 - common.log_handler - ERROR - row_count 字段提取失败
+2025-06-16 11:48:04,893 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-06-16 11:48:04,945 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试结束==========
+2025-06-16 11:48:04,947 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-06-16 11:48:05,025 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试结束==========
+2025-06-16 11:48:05,027 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-06-16 11:48:05,075 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试结束==========
+2025-06-16 11:48:05,076 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-06-16 11:48:05,132 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试结束==========
+2025-06-16 11:48:05,133 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-06-16 11:48:05,205 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试结束==========
+2025-06-16 11:48:05,208 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-06-16 11:48:05,280 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试结束==========
+2025-06-16 11:48:05,281 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-06-16 11:48:05,357 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试结束==========
+2025-06-16 11:48:05,358 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-06-16 11:48:05,446 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试结束==========
+2025-06-16 11:48:17,905 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-06-16 11:48:17,979 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
+2025-06-16 11:48:17,980 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-06-16 11:48:18,049 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
+2025-06-16 11:48:18,050 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-06-16 11:48:18,078 - common.log_handler - ERROR - data_count 字段提取失败
+2025-06-16 11:48:18,209 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-06-16 11:48:18,265 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
+2025-06-16 11:48:18,267 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:48:18,326 - common.log_handler - INFO - 获取到风险列表高危待处置数量：0，已处置数量：0
+2025-06-16 11:48:18,357 - common.log_handler - ERROR - test_risk_high_pending 异常: 未找到 risk_level 为 4 的数据
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_high.py", line 42, in test_risk_high_pending
+    home_base_url = risk_home_all_pending(sc_url=settings.sc_url,headers=self.headers,risk_level='4',risk_grade="高危风险")
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\risk_all_pending.py", line 23, in risk_home_all_pending
+    assert high_risk_data and isinstance(high_risk_data, list), f'未找到 risk_level 为 {risk_level} 的数据'
+AssertionError: 未找到 risk_level 为 4 的数据
+2025-06-16 11:48:18,369 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
+2025-06-16 11:48:18,370 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:48:18,418 - common.log_handler - INFO - 获取到风险列表低危风险待处置数量：0，已处置数量：0
+2025-06-16 11:48:18,446 - common.log_handler - ERROR - test_risk_high_pending 异常: 未找到 risk_level 为 2 的数据
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_low.py", line 45, in test_risk_low_pending
+    home_base_url = risk_home_all_pending(sc_url=settings.sc_url, headers=self.headers, risk_level='2',risk_grade='低危风险')
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\risk_all_pending.py", line 23, in risk_home_all_pending
+    assert high_risk_data and isinstance(high_risk_data, list), f'未找到 risk_level 为 {risk_level} 的数据'
+AssertionError: 未找到 risk_level 为 2 的数据
+2025-06-16 11:48:18,453 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
+2025-06-16 11:48:18,454 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:48:18,506 - common.log_handler - INFO - 获取到风险列表中危待处置数量：0，已处置数量：0
+2025-06-16 11:48:18,531 - common.log_handler - ERROR - test_risk_high_pending 异常: 未找到 risk_level 为 3 的数据
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_mid.py", line 44, in test_risk_mid_pending
+    home_base_url = risk_home_all_pending(sc_url=settings.sc_url, headers=self.headers, risk_level='3',risk_grade='中危风险')
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\risk_all_pending.py", line 23, in risk_home_all_pending
+    assert high_risk_data and isinstance(high_risk_data, list), f'未找到 risk_level 为 {risk_level} 的数据'
+AssertionError: 未找到 risk_level 为 3 的数据
+2025-06-16 11:48:18,536 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
+2025-06-16 11:48:18,538 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-06-16 11:48:18,627 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
+2025-06-16 11:48:18,629 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-06-16 11:48:18,720 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
+2025-06-16 11:48:18,721 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-06-16 11:48:18,802 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试结束==========
+2025-06-16 11:48:18,803 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
+2025-06-16 11:48:18,835 - common.log_handler - ERROR - row_count 字段提取失败
+2025-06-16 11:48:18,843 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-06-16 11:48:18,917 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试结束==========
+2025-06-16 11:48:18,918 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-06-16 11:48:19,011 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试结束==========
+2025-06-16 11:48:19,013 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-06-16 11:48:19,118 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试结束==========
+2025-06-16 11:48:19,121 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-06-16 11:48:19,186 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试结束==========
+2025-06-16 11:48:19,187 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-06-16 11:48:19,297 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试结束==========
+2025-06-16 11:48:19,298 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-06-16 11:48:19,376 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试结束==========
+2025-06-16 11:48:19,377 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-06-16 11:48:19,458 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试结束==========
+2025-06-16 11:48:19,460 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-06-16 11:48:19,548 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试结束==========
+2025-06-16 11:48:37,124 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-06-16 11:48:37,210 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
+2025-06-16 11:48:37,212 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-06-16 11:48:37,280 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
+2025-06-16 11:48:37,284 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-06-16 11:48:37,315 - common.log_handler - ERROR - data_count 字段提取失败
+2025-06-16 11:48:37,460 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-06-16 11:48:37,514 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
+2025-06-16 11:48:37,519 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:48:37,570 - common.log_handler - INFO - 获取到风险列表高危待处置数量：0，已处置数量：0
+2025-06-16 11:48:37,597 - common.log_handler - ERROR - test_risk_high_pending 异常: 未找到 risk_level 为 4 的数据
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_high.py", line 42, in test_risk_high_pending
+    home_base_url = risk_home_all_pending(sc_url=settings.sc_url,headers=self.headers,risk_level='4',risk_grade="高危风险")
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\risk_all_pending.py", line 23, in risk_home_all_pending
+    assert high_risk_data and isinstance(high_risk_data, list), f'未找到 risk_level 为 {risk_level} 的数据'
+AssertionError: 未找到 risk_level 为 4 的数据
+2025-06-16 11:48:37,607 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
+2025-06-16 11:48:37,610 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:48:37,663 - common.log_handler - INFO - 获取到风险列表低危风险待处置数量：0，已处置数量：0
+2025-06-16 11:48:37,688 - common.log_handler - ERROR - test_risk_high_pending 异常: 未找到 risk_level 为 2 的数据
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_low.py", line 45, in test_risk_low_pending
+    home_base_url = risk_home_all_pending(sc_url=settings.sc_url, headers=self.headers, risk_level='2',risk_grade='低危风险')
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\risk_all_pending.py", line 23, in risk_home_all_pending
+    assert high_risk_data and isinstance(high_risk_data, list), f'未找到 risk_level 为 {risk_level} 的数据'
+AssertionError: 未找到 risk_level 为 2 的数据
+2025-06-16 11:48:37,696 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
+2025-06-16 11:48:37,701 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:48:37,750 - common.log_handler - INFO - 获取到风险列表中危待处置数量：0，已处置数量：0
+2025-06-16 11:48:37,773 - common.log_handler - ERROR - test_risk_high_pending 异常: 未找到 risk_level 为 3 的数据
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_mid.py", line 44, in test_risk_mid_pending
+    home_base_url = risk_home_all_pending(sc_url=settings.sc_url, headers=self.headers, risk_level='3',risk_grade='中危风险')
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\risk_all_pending.py", line 23, in risk_home_all_pending
+    assert high_risk_data and isinstance(high_risk_data, list), f'未找到 risk_level 为 {risk_level} 的数据'
+AssertionError: 未找到 risk_level 为 3 的数据
+2025-06-16 11:48:37,781 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
+2025-06-16 11:48:37,786 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-06-16 11:48:37,870 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
+2025-06-16 11:48:37,873 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-06-16 11:48:37,950 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
+2025-06-16 11:48:37,956 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-06-16 11:48:38,048 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试结束==========
+2025-06-16 11:48:38,052 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
+2025-06-16 11:48:38,085 - common.log_handler - ERROR - row_count 字段提取失败
+2025-06-16 11:48:38,100 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-06-16 11:48:38,155 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试结束==========
+2025-06-16 11:48:38,158 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-06-16 11:48:38,242 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试结束==========
+2025-06-16 11:48:38,246 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-06-16 11:48:38,307 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试结束==========
+2025-06-16 11:48:38,309 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-06-16 11:48:38,366 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试结束==========
+2025-06-16 11:48:38,369 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-06-16 11:48:38,441 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试结束==========
+2025-06-16 11:48:38,444 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-06-16 11:48:38,519 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试结束==========
+2025-06-16 11:48:38,521 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-06-16 11:48:38,609 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试结束==========
+2025-06-16 11:48:38,613 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-06-16 11:48:38,695 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试结束==========
+2025-06-16 11:49:39,944 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-06-16 11:49:39,944 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:49:39,958 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-06-16 11:49:39,958 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:49:39,969 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-06-16 11:49:39,969 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:49:39,981 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-06-16 11:49:39,981 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:49:39,993 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:49:39,993 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:49:40,004 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:49:40,004 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:49:40,018 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:49:40,018 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:49:40,029 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-06-16 11:49:40,029 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:49:40,040 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-06-16 11:49:40,040 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:49:40,052 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-06-16 11:49:40,052 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:49:40,064 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
+2025-06-16 11:49:40,064 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:49:40,075 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-06-16 11:49:40,075 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:49:40,086 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-06-16 11:49:40,087 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:49:40,099 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-06-16 11:49:40,099 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:49:40,110 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-06-16 11:49:40,110 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:49:40,123 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-06-16 11:49:40,123 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:49:40,136 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-06-16 11:49:40,136 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:49:40,147 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-06-16 11:49:40,147 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:49:40,159 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-06-16 11:49:40,159 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:50:59,357 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-06-16 11:50:59,357 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:50:59,368 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-06-16 11:50:59,368 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:50:59,382 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-06-16 11:50:59,382 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:50:59,393 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-06-16 11:50:59,393 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:50:59,407 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:50:59,407 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:50:59,418 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:50:59,418 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:50:59,434 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:50:59,435 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:50:59,445 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-06-16 11:50:59,445 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:50:59,457 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-06-16 11:50:59,457 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:50:59,469 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-06-16 11:50:59,469 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:50:59,479 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
+2025-06-16 11:50:59,479 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:50:59,491 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-06-16 11:50:59,491 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:50:59,503 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-06-16 11:50:59,503 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:50:59,514 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-06-16 11:50:59,514 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:50:59,525 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-06-16 11:50:59,525 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:50:59,537 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-06-16 11:50:59,537 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:50:59,550 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-06-16 11:50:59,550 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:50:59,562 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-06-16 11:50:59,562 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:50:59,574 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-06-16 11:50:59,574 - common.log_handler - ERROR - token 获取失败
+2025-06-16 11:54:43,762 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-06-16 11:54:43,847 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
+2025-06-16 11:54:43,851 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-06-16 11:54:43,923 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
+2025-06-16 11:54:43,925 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-06-16 11:54:43,953 - common.log_handler - ERROR - data_count 字段提取失败
+2025-06-16 11:54:44,096 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-06-16 11:54:44,153 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
+2025-06-16 11:54:44,157 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:54:44,205 - common.log_handler - INFO - 获取到风险列表高危待处置数量：0，已处置数量：0
+2025-06-16 11:54:44,230 - common.log_handler - ERROR - test_risk_high_pending 异常: 未找到 risk_level 为 4 的数据
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_high.py", line 42, in test_risk_high_pending
+    home_base_url = risk_home_all_pending(sc_url=settings.sc_url,headers=self.headers,risk_level='4',risk_grade="高危风险")
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\risk_all_pending.py", line 23, in risk_home_all_pending
+    assert high_risk_data and isinstance(high_risk_data, list), f'未找到 risk_level 为 {risk_level} 的数据'
+AssertionError: 未找到 risk_level 为 4 的数据
+2025-06-16 11:54:44,239 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
+2025-06-16 11:54:44,243 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:54:44,302 - common.log_handler - INFO - 获取到风险列表低危风险待处置数量：0，已处置数量：0
+2025-06-16 11:54:44,326 - common.log_handler - ERROR - test_risk_high_pending 异常: 未找到 risk_level 为 2 的数据
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_low.py", line 45, in test_risk_low_pending
+    home_base_url = risk_home_all_pending(sc_url=settings.sc_url, headers=self.headers, risk_level='2',risk_grade='低危风险')
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\risk_all_pending.py", line 23, in risk_home_all_pending
+    assert high_risk_data and isinstance(high_risk_data, list), f'未找到 risk_level 为 {risk_level} 的数据'
+AssertionError: 未找到 risk_level 为 2 的数据
+2025-06-16 11:54:44,334 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
+2025-06-16 11:54:44,338 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-06-16 11:54:44,390 - common.log_handler - INFO - 获取到风险列表中危待处置数量：0，已处置数量：0
+2025-06-16 11:54:44,414 - common.log_handler - ERROR - test_risk_high_pending 异常: 未找到 risk_level 为 3 的数据
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\test_risk_mid.py", line 44, in test_risk_mid_pending
+    home_base_url = risk_home_all_pending(sc_url=settings.sc_url, headers=self.headers, risk_level='3',risk_grade='中危风险')
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_event\risk_all_pending.py", line 23, in risk_home_all_pending
+    assert high_risk_data and isinstance(high_risk_data, list), f'未找到 risk_level 为 {risk_level} 的数据'
+AssertionError: 未找到 risk_level 为 3 的数据
+2025-06-16 11:54:44,422 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
+2025-06-16 11:54:44,427 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-06-16 11:54:44,502 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
+2025-06-16 11:54:44,506 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-06-16 11:54:44,582 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
+2025-06-16 11:54:44,585 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-06-16 11:54:44,662 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试结束==========
+2025-06-16 11:54:44,667 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
+2025-06-16 11:54:44,697 - common.log_handler - ERROR - row_count 字段提取失败
+2025-06-16 11:54:44,711 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-06-16 11:54:44,779 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试结束==========
+2025-06-16 11:54:44,782 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-06-16 11:54:44,860 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试结束==========
+2025-06-16 11:54:44,865 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-06-16 11:54:44,946 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试结束==========
+2025-06-16 11:54:44,948 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-06-16 11:54:45,005 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试结束==========
+2025-06-16 11:54:45,009 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-06-16 11:54:45,089 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试结束==========
+2025-06-16 11:54:45,094 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-06-16 11:54:45,163 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试结束==========
+2025-06-16 11:54:45,167 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-06-16 11:54:45,242 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试结束==========
+2025-06-16 11:54:45,246 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-06-16 11:54:45,324 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试结束==========

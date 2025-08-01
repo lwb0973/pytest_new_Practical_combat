@@ -1,0 +1,3 @@
+[32mINFO    [0m common.log_handler:test_risk_high.py:24 ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+[32mINFO    [0m common.log_handler:test_risk_high.py:33 获取到风险列表高危待处置数量：5，已处置数量：0
+[32mINFO    [0m common.log_handler:test_risk_high.py:40 ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
