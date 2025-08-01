@@ -1,2 +1,0 @@
-[32mINFO    [0m common.log_handler:test_api_summary.py:23 ========获取首页api总数数据，测试开始==========
-[32mINFO    [0m common.log_handler:test_api_summary.py:47 ========获取首页api总数数据，测试结束==========

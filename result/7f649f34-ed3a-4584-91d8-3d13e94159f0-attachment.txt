@@ -1,2 +1,0 @@
-[32mINFO    [0m common.log_handler:test_vul_total.py:24 ========获取首页风险概览弱点api总数数据，测试开始==========
-[32mINFO    [0m common.log_handler:test_vul_total.py:48 ========获取首页风险概览弱点api总数数据，测试结束==========

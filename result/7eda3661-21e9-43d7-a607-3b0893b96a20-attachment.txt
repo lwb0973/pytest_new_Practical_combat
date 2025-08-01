@@ -1,2 +1,0 @@
-[32mINFO    [0m common.log_handler:test_file_count.py:25 ========获取首页文件总数数据，测试开始==========
-[32mINFO    [0m common.log_handler:test_file_count.py:49 ========获取首页文件总数数据，测试结束==========
