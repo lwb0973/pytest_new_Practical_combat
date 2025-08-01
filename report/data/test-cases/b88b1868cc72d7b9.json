@@ -1,0 +1,219 @@
+{
+  "uid" : "b88b1868cc72d7b9",
+  "name" : "test_risk_high",
+  "fullName" : "test_case.test_risk_distribution.test_risk_high.TestCase#test_risk_high",
+  "historyId" : "ab42113c625384d104f5352a32eda325",
+  "time" : {
+    "start" : 1754031297932,
+    "stop" : 1754031297932,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "Failed: setup_class: 未获取到 token",
+  "statusTrace" : "cls = <class 'test_case.test_risk_distribution.test_risk_high.TestCase'>\n\n    @classmethod\n    def setup_class(cls):\n        logger.info('========获取首页风险api分布饼图高风险api总数数据，测试开始==========')\n        try:\n            with allure.step('【资产】-【api列表】接口'):\n                payload ={\"page_num\":1,\"page_size\":10,\"sort\":-1,\"time_layout\":\"2006-01-02 15:04:05\",\"risk_level_ids\":[4]}\n                token = getattr(var, \"token\", None)\n                if not token:\n                    logger.error(\"token 获取失败\")\n>                   pytest.fail(\"setup_class: 未获取到 token\")\nE                   Failed: setup_class: 未获取到 token\n\ntest_case\\test_risk_distribution\\test_risk_high.py:33: Failed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestCase",
+    "time" : {
+      "start" : 1754031297933,
+      "stop" : 1754031297942,
+      "duration" : 9
+    },
+    "status" : "failed",
+    "statusMessage" : "Failed: setup_class: 未获取到 token\n",
+    "statusTrace" : "  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\pluggy\\_callers.py\", line 38, in run_old_style_hookwrapper\n    res = yield\n          ^^^^^\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\pluggy\\_callers.py\", line 139, in _multicall\n    teardown.throw(exception)\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\pluggy\\_callers.py\", line 53, in run_old_style_hookwrapper\n    return result.get_result()\n           ^^^^^^^^^^^^^^^^^^^\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\pluggy\\_result.py\", line 103, in get_result\n    raise exc.with_traceback(tb)\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\pluggy\\_callers.py\", line 38, in run_old_style_hookwrapper\n    res = yield\n          ^^^^^\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\pluggy\\_callers.py\", line 139, in _multicall\n    teardown.throw(exception)\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\_pytest\\setuponly.py\", line 36, in pytest_fixture_setup\n    return (yield)\n            ^^^^^\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\pluggy\\_callers.py\", line 121, in _multicall\n    res = hook_impl.function(*args)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\_pytest\\fixtures.py\", line 1195, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\_pytest\\fixtures.py\", line 922, in call_fixture_func\n    fixture_result = next(generator)\n                     ^^^^^^^^^^^^^^^\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\_pytest\\python.py\", line 792, in xunit_setup_class_fixture\n    _call_with_optional_argument(func, cls)\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\_pytest\\python.py\", line 720, in _call_with_optional_argument\n    func(arg)\n  File \"D:\\pythonProject3\\autotest_api\\test_case\\test_risk_distribution\\test_risk_high.py\", line 33, in setup_class\n    pytest.fail(\"setup_class: 未获取到 token\")\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\_pytest\\outcomes.py\", line 177, in fail\n    raise Failed(msg=reason, pytrace=pytrace)\n",
+    "steps" : [ {
+      "name" : "【资产】-【api列表】接口",
+      "time" : {
+        "start" : 1754031297933,
+        "stop" : 1754031297934,
+        "duration" : 1
+      },
+      "status" : "failed",
+      "statusMessage" : "Failed: setup_class: 未获取到 token\n",
+      "statusTrace" : "  File \"D:\\pythonProject3\\autotest_api\\test_case\\test_risk_distribution\\test_risk_high.py\", line 33, in setup_class\n    pytest.fail(\"setup_class: 未获取到 token\")\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\_pytest\\outcomes.py\", line 177, in fail\n    raise Failed(msg=reason, pytrace=pytrace)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1
+  }, {
+    "name" : "_xunit_setup_class_fixture_TestCase",
+    "time" : {
+      "start" : 1754031298958,
+      "stop" : 1754031298959,
+      "duration" : 1
+    },
+    "status" : "failed",
+    "statusMessage" : "Failed: setup_class: 未获取到 token\n",
+    "statusTrace" : "  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\pluggy\\_callers.py\", line 38, in run_old_style_hookwrapper\n    res = yield\n          ^^^^^\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\pluggy\\_callers.py\", line 139, in _multicall\n    teardown.throw(exception)\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\pluggy\\_callers.py\", line 53, in run_old_style_hookwrapper\n    return result.get_result()\n           ^^^^^^^^^^^^^^^^^^^\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\pluggy\\_result.py\", line 103, in get_result\n    raise exc.with_traceback(tb)\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\pluggy\\_callers.py\", line 38, in run_old_style_hookwrapper\n    res = yield\n          ^^^^^\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\pluggy\\_callers.py\", line 139, in _multicall\n    teardown.throw(exception)\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\_pytest\\setuponly.py\", line 36, in pytest_fixture_setup\n    return (yield)\n            ^^^^^\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\pluggy\\_callers.py\", line 121, in _multicall\n    res = hook_impl.function(*args)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\_pytest\\fixtures.py\", line 1195, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\_pytest\\fixtures.py\", line 922, in call_fixture_func\n    fixture_result = next(generator)\n                     ^^^^^^^^^^^^^^^\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\_pytest\\python.py\", line 792, in xunit_setup_class_fixture\n    _call_with_optional_argument(func, cls)\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\_pytest\\python.py\", line 720, in _call_with_optional_argument\n    func(arg)\n  File \"D:\\pythonProject3\\autotest_api\\test_case\\test_risk_distribution\\test_risk_high.py\", line 33, in setup_class\n    pytest.fail(\"setup_class: 未获取到 token\")\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\_pytest\\outcomes.py\", line 177, in fail\n    raise Failed(msg=reason, pytrace=pytrace)\n",
+    "steps" : [ {
+      "name" : "【资产】-【api列表】接口",
+      "time" : {
+        "start" : 1754031298958,
+        "stop" : 1754031298959,
+        "duration" : 1
+      },
+      "status" : "failed",
+      "statusMessage" : "Failed: setup_class: 未获取到 token\n",
+      "statusTrace" : "  File \"D:\\pythonProject3\\autotest_api\\test_case\\test_risk_distribution\\test_risk_high.py\", line 33, in setup_class\n    pytest.fail(\"setup_class: 未获取到 token\")\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\_pytest\\outcomes.py\", line 177, in fail\n    raise Failed(msg=reason, pytrace=pytrace)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1
+  }, {
+    "name" : "_xunit_setup_class_fixture_TestCase",
+    "time" : {
+      "start" : 1754031299969,
+      "stop" : 1754031299969,
+      "duration" : 0
+    },
+    "status" : "failed",
+    "statusMessage" : "Failed: setup_class: 未获取到 token\n",
+    "statusTrace" : "  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\pluggy\\_callers.py\", line 38, in run_old_style_hookwrapper\n    res = yield\n          ^^^^^\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\pluggy\\_callers.py\", line 139, in _multicall\n    teardown.throw(exception)\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\pluggy\\_callers.py\", line 53, in run_old_style_hookwrapper\n    return result.get_result()\n           ^^^^^^^^^^^^^^^^^^^\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\pluggy\\_result.py\", line 103, in get_result\n    raise exc.with_traceback(tb)\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\pluggy\\_callers.py\", line 38, in run_old_style_hookwrapper\n    res = yield\n          ^^^^^\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\pluggy\\_callers.py\", line 139, in _multicall\n    teardown.throw(exception)\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\_pytest\\setuponly.py\", line 36, in pytest_fixture_setup\n    return (yield)\n            ^^^^^\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\pluggy\\_callers.py\", line 121, in _multicall\n    res = hook_impl.function(*args)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\_pytest\\fixtures.py\", line 1195, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\_pytest\\fixtures.py\", line 922, in call_fixture_func\n    fixture_result = next(generator)\n                     ^^^^^^^^^^^^^^^\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\_pytest\\python.py\", line 792, in xunit_setup_class_fixture\n    _call_with_optional_argument(func, cls)\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\_pytest\\python.py\", line 720, in _call_with_optional_argument\n    func(arg)\n  File \"D:\\pythonProject3\\autotest_api\\test_case\\test_risk_distribution\\test_risk_high.py\", line 33, in setup_class\n    pytest.fail(\"setup_class: 未获取到 token\")\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\_pytest\\outcomes.py\", line 177, in fail\n    raise Failed(msg=reason, pytrace=pytrace)\n",
+    "steps" : [ {
+      "name" : "【资产】-【api列表】接口",
+      "time" : {
+        "start" : 1754031299969,
+        "stop" : 1754031299969,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "statusMessage" : "Failed: setup_class: 未获取到 token\n",
+      "statusTrace" : "  File \"D:\\pythonProject3\\autotest_api\\test_case\\test_risk_distribution\\test_risk_high.py\", line 33, in setup_class\n    pytest.fail(\"setup_class: 未获取到 token\")\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\_pytest\\outcomes.py\", line 177, in fail\n    raise Failed(msg=reason, pytrace=pytrace)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1
+  }, {
+    "name" : "_xunit_setup_class_fixture_TestCase",
+    "time" : {
+      "start" : 1754031300981,
+      "stop" : 1754031300983,
+      "duration" : 2
+    },
+    "status" : "failed",
+    "statusMessage" : "Failed: setup_class: 未获取到 token\n",
+    "statusTrace" : "  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\pluggy\\_callers.py\", line 38, in run_old_style_hookwrapper\n    res = yield\n          ^^^^^\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\pluggy\\_callers.py\", line 139, in _multicall\n    teardown.throw(exception)\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\pluggy\\_callers.py\", line 53, in run_old_style_hookwrapper\n    return result.get_result()\n           ^^^^^^^^^^^^^^^^^^^\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\pluggy\\_result.py\", line 103, in get_result\n    raise exc.with_traceback(tb)\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\pluggy\\_callers.py\", line 38, in run_old_style_hookwrapper\n    res = yield\n          ^^^^^\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\pluggy\\_callers.py\", line 139, in _multicall\n    teardown.throw(exception)\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\_pytest\\setuponly.py\", line 36, in pytest_fixture_setup\n    return (yield)\n            ^^^^^\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\pluggy\\_callers.py\", line 121, in _multicall\n    res = hook_impl.function(*args)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\_pytest\\fixtures.py\", line 1195, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\_pytest\\fixtures.py\", line 922, in call_fixture_func\n    fixture_result = next(generator)\n                     ^^^^^^^^^^^^^^^\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\_pytest\\python.py\", line 792, in xunit_setup_class_fixture\n    _call_with_optional_argument(func, cls)\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\_pytest\\python.py\", line 720, in _call_with_optional_argument\n    func(arg)\n  File \"D:\\pythonProject3\\autotest_api\\test_case\\test_risk_distribution\\test_risk_high.py\", line 33, in setup_class\n    pytest.fail(\"setup_class: 未获取到 token\")\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\_pytest\\outcomes.py\", line 177, in fail\n    raise Failed(msg=reason, pytrace=pytrace)\n",
+    "steps" : [ {
+      "name" : "【资产】-【api列表】接口",
+      "time" : {
+        "start" : 1754031300981,
+        "stop" : 1754031300982,
+        "duration" : 1
+      },
+      "status" : "failed",
+      "statusMessage" : "Failed: setup_class: 未获取到 token\n",
+      "statusTrace" : "  File \"D:\\pythonProject3\\autotest_api\\test_case\\test_risk_distribution\\test_risk_high.py\", line 33, in setup_class\n    pytest.fail(\"setup_class: 未获取到 token\")\n  File \"D:\\my_venv\\myenv\\Lib\\site-packages\\_pytest\\outcomes.py\", line 177, in fail\n    raise Failed(msg=reason, pytrace=pytrace)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Failed: setup_class: 未获取到 token",
+    "statusTrace" : "cls = <class 'test_case.test_risk_distribution.test_risk_high.TestCase'>\n\n    @classmethod\n    def setup_class(cls):\n        logger.info('========获取首页风险api分布饼图高风险api总数数据，测试开始==========')\n        try:\n            with allure.step('【资产】-【api列表】接口'):\n                payload ={\"page_num\":1,\"page_size\":10,\"sort\":-1,\"time_layout\":\"2006-01-02 15:04:05\",\"risk_level_ids\":[4]}\n                token = getattr(var, \"token\", None)\n                if not token:\n                    logger.error(\"token 获取失败\")\n>                   pytest.fail(\"setup_class: 未获取到 token\")\nE                   Failed: setup_class: 未获取到 token\n\ntest_case\\test_risk_distribution\\test_risk_high.py:33: Failed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "320ffd68d31fce12",
+      "name" : "log",
+      "source" : "320ffd68d31fce12.txt",
+      "type" : "text/plain",
+      "size" : 229
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "【高风险api总数】"
+  }, {
+    "name" : "feature",
+    "value" : "【首页】-【风险api分布饼图】-【高风险api总数】"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.test_risk_distribution"
+  }, {
+    "name" : "suite",
+    "value" : "test_risk_high"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "5CD2323XZM"
+  }, {
+    "name" : "thread",
+    "value" : "20396-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_risk_distribution.test_risk_high"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b88b1868cc72d7b9.json",
+  "parameterValues" : [ ]
+}

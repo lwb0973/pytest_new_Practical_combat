@@ -1,0 +1,154 @@
+{
+  "uid" : "1e93cc0b501ea556",
+  "name" : "test_file_count",
+  "fullName" : "test_case.test_asset_discovery.test_file_count.TestCase#test_file_count",
+  "historyId" : "175a63eb22b812abc96326ffba7e9879",
+  "time" : {
+    "start" : 1754030927100,
+    "stop" : 1754030927122,
+    "duration" : 22
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestCase",
+    "time" : {
+      "start" : 1754030927076,
+      "stop" : 1754030927100,
+      "duration" : 24
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "【资产】-【文件列表】接口",
+      "time" : {
+        "start" : 1754030927076,
+        "stop" : 1754030927099,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "【首页】-【文件总数】接口",
+      "time" : {
+        "start" : 1754030927100,
+        "stop" : 1754030927121,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "首页文件总数和资产文件总数对比一致",
+      "time" : {
+        "start" : 1754030927121,
+        "stop" : 1754030927121,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "8fddc0b7299e8f88",
+      "name" : "log",
+      "source" : "8fddc0b7299e8f88.txt",
+      "type" : "text/plain",
+      "size" : 227
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestCase::0",
+    "time" : {
+      "start" : 1754030927122,
+      "stop" : 1754030927123,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "【首页】-【文件总数】模块"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "【首页】-【资产发现】-【文件总数】"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.test_asset_discovery"
+  }, {
+    "name" : "suite",
+    "value" : "test_file_count"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "5CD2323XZM"
+  }, {
+    "name" : "thread",
+    "value" : "18156-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_asset_discovery.test_file_count"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1e93cc0b501ea556.json",
+  "parameterValues" : [ ]
+}

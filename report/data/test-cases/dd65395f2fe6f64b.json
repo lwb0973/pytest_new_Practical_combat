@@ -1,0 +1,229 @@
+{
+  "uid" : "dd65395f2fe6f64b",
+  "name" : "test_risk_high_pending",
+  "fullName" : "test_case.test_pending_risk_event.test_risk_high.TestCase#test_risk_high_pending",
+  "historyId" : "d9714cbd852eb6ce1fcb215cc5149aa3",
+  "time" : {
+    "start" : 1754031348153,
+    "stop" : 1754031348177,
+    "duration" : 24
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestCase",
+    "time" : {
+      "start" : 1754031348021,
+      "stop" : 1754031348153,
+      "duration" : 132
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "【风险】-【风险事件列表】接口",
+      "time" : {
+        "start" : 1754031348021,
+        "stop" : 1754031348153,
+        "duration" : 132
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "【待处置高危风险总数】接口",
+      "time" : {
+        "start" : 1754031348153,
+        "stop" : 1754031348177,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "校验待处置数一致",
+      "time" : {
+        "start" : 1754031348177,
+        "stop" : 1754031348177,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "校验已处置数一致",
+      "time" : {
+        "start" : 1754031348177,
+        "stop" : 1754031348177,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "20000e5085fcd3eb",
+      "name" : "log",
+      "source" : "20000e5085fcd3eb.txt",
+      "type" : "text/plain",
+      "size" : 411
+    }, {
+      "uid" : "23efc42c7389e5bb",
+      "name" : "stdout",
+      "source" : "23efc42c7389e5bb.txt",
+      "type" : "text/plain",
+      "size" : 4877
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestCase::0",
+    "time" : {
+      "start" : 1754031348177,
+      "stop" : 1754031348177,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "【待处置高危风险总数】"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "【首页】-【待处置事件】-【高危风险待处置/已处置饼图】"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.test_pending_risk_event"
+  }, {
+    "name" : "suite",
+    "value" : "test_risk_high"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "5CD2323XZM"
+  }, {
+    "name" : "thread",
+    "value" : "8008-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_pending_risk_event.test_risk_high"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "56dd7af56e62410b",
+      "status" : "failed",
+      "statusDetails" : "Failed: setup_class: 未获取到 token",
+      "time" : {
+        "start" : 1754031301033,
+        "stop" : 1754031301033,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d18a368d5679a404",
+      "status" : "failed",
+      "statusDetails" : "Failed: setup_class: 未获取到 token",
+      "time" : {
+        "start" : 1754031300012,
+        "stop" : 1754031300012,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "6ca37a6b61a5ca1",
+      "status" : "failed",
+      "statusDetails" : "Failed: setup_class: 未获取到 token",
+      "time" : {
+        "start" : 1754031298991,
+        "stop" : 1754031298991,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "eca7819135a5a22d",
+      "status" : "failed",
+      "statusDetails" : "Failed: setup_class: 未获取到 token",
+      "time" : {
+        "start" : 1754031297962,
+        "stop" : 1754031297962,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2f1c9b1f8e4db2cd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1754030927178,
+        "stop" : 1754030927200,
+        "duration" : 22
+      }
+    }, {
+      "uid" : "52d52918aad469cc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1754030833683,
+        "stop" : 1754030833704,
+        "duration" : 21
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dd65395f2fe6f64b.json",
+  "parameterValues" : [ ]
+}

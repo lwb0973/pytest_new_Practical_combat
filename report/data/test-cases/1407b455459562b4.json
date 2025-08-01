@@ -1,0 +1,154 @@
+{
+  "uid" : "1407b455459562b4",
+  "name" : "test_risk_user",
+  "fullName" : "test_case.test_risk_overview.test_risk_user.TestCase#test_risk_user",
+  "historyId" : "086b48a052e9bb6e9e9211213143b7c2",
+  "time" : {
+    "start" : 1754030834530,
+    "stop" : 1754030834551,
+    "duration" : 21
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestCase",
+    "time" : {
+      "start" : 1754030834509,
+      "stop" : 1754030834530,
+      "duration" : 21
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "【用户】-【账号列表】接口",
+      "time" : {
+        "start" : 1754030834510,
+        "stop" : 1754030834529,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "【风险账号总数】接口",
+      "time" : {
+        "start" : 1754030834530,
+        "stop" : 1754030834550,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "首页风险账号总数和用户-账号列表总数对比一致",
+      "time" : {
+        "start" : 1754030834550,
+        "stop" : 1754030834550,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "89ba3ed7a8230b40",
+      "name" : "log",
+      "source" : "89ba3ed7a8230b40.txt",
+      "type" : "text/plain",
+      "size" : 261
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestCase::0",
+    "time" : {
+      "start" : 1754030834551,
+      "stop" : 1754030834551,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "【首页】-【风险概览】-【风险账号总数】"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "【风险账号总数】"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.test_risk_overview"
+  }, {
+    "name" : "suite",
+    "value" : "test_risk_user"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "5CD2323XZM"
+  }, {
+    "name" : "thread",
+    "value" : "12460-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_risk_overview.test_risk_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1407b455459562b4.json",
+  "parameterValues" : [ ]
+}

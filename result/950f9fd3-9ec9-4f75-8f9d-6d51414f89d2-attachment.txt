@@ -1,0 +1,2 @@
+INFO     common.log_handler:test_app_summary.py:26 ========获取首页应用总数数据，测试开始==========
+INFO     common.log_handler:test_app_summary.py:55 ========获取首页应用总数数据，测试结束==========

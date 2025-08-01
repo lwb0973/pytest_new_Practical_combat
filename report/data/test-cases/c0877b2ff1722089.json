@@ -1,0 +1,175 @@
+{
+  "uid" : "c0877b2ff1722089",
+  "name" : "test_vul_high_pending",
+  "fullName" : "test_case.test_pending_vul_event.test_vul_high.TestCase#test_vul_high_pending",
+  "historyId" : "1e0ae0fadacf5410cc2f2554f9d4d8d9",
+  "time" : {
+    "start" : 1754030833902,
+    "stop" : 1754030833919,
+    "duration" : 17
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestCase",
+    "time" : {
+      "start" : 1754030833849,
+      "stop" : 1754030833901,
+      "duration" : 52
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "【弱点】-【弱点事件列表】接口",
+      "time" : {
+        "start" : 1754030833849,
+        "stop" : 1754030833901,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "【待处置高危弱点总数】接口",
+      "time" : {
+        "start" : 1754030833902,
+        "stop" : 1754030833919,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "校验待处置数一致",
+      "time" : {
+        "start" : 1754030833919,
+        "stop" : 1754030833919,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "校验已处置数一致",
+      "time" : {
+        "start" : 1754030833919,
+        "stop" : 1754030833919,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "e9128d57a4ea26f1",
+      "name" : "log",
+      "source" : "e9128d57a4ea26f1.txt",
+      "type" : "text/plain",
+      "size" : 409
+    }, {
+      "uid" : "f8857dc4f9ad2e54",
+      "name" : "stdout",
+      "source" : "f8857dc4f9ad2e54.txt",
+      "type" : "text/plain",
+      "size" : 225
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestCase::0",
+    "time" : {
+      "start" : 1754030833920,
+      "stop" : 1754030833920,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "【待处置高危弱点总数】"
+  }, {
+    "name" : "feature",
+    "value" : "【首页】-【待处置事件】-【高危弱点待处置/已处置饼图】"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.test_pending_vul_event"
+  }, {
+    "name" : "suite",
+    "value" : "test_vul_high"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "5CD2323XZM"
+  }, {
+    "name" : "thread",
+    "value" : "12460-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_pending_vul_event.test_vul_high"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c0877b2ff1722089.json",
+  "parameterValues" : [ ]
+}

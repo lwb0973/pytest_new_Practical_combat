@@ -1,0 +1,229 @@
+{
+  "uid" : "2962543f37f3d92e",
+  "name" : "test_vul_low_pending",
+  "fullName" : "test_case.test_pending_vul_event.test_vul_low.TestCase#test_vul_low_pending",
+  "historyId" : "ffaa3a78a06ddc0f1b87dce9ed3de3df",
+  "time" : {
+    "start" : 1754031348611,
+    "stop" : 1754031348632,
+    "duration" : 21
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestCase",
+    "time" : {
+      "start" : 1754031348552,
+      "stop" : 1754031348611,
+      "duration" : 59
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "【弱点】-【弱点事件列表】接口",
+      "time" : {
+        "start" : 1754031348554,
+        "stop" : 1754031348611,
+        "duration" : 57
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "【待处置低危弱点总数】接口",
+      "time" : {
+        "start" : 1754031348611,
+        "stop" : 1754031348632,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "校验待处置数一致",
+      "time" : {
+        "start" : 1754031348632,
+        "stop" : 1754031348632,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "校验已处置数一致",
+      "time" : {
+        "start" : 1754031348632,
+        "stop" : 1754031348632,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "7eff2f243572094",
+      "name" : "log",
+      "source" : "7eff2f243572094.txt",
+      "type" : "text/plain",
+      "size" : 411
+    }, {
+      "uid" : "12608826082647ea",
+      "name" : "stdout",
+      "source" : "12608826082647ea.txt",
+      "type" : "text/plain",
+      "size" : 224
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestCase::0",
+    "time" : {
+      "start" : 1754031348632,
+      "stop" : 1754031348632,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "【首页】-【待处置事件】-【低危弱点待处置/已处置饼图】"
+  }, {
+    "name" : "story",
+    "value" : "【待处置低危弱点总数】"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.test_pending_vul_event"
+  }, {
+    "name" : "suite",
+    "value" : "test_vul_low"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "5CD2323XZM"
+  }, {
+    "name" : "thread",
+    "value" : "8008-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_pending_vul_event.test_vul_low"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bb560e2e094aa645",
+      "status" : "failed",
+      "statusDetails" : "Failed: setup_class: 未获取到 token",
+      "time" : {
+        "start" : 1754031301033,
+        "stop" : 1754031301033,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e1f1d6cb07b1d985",
+      "status" : "failed",
+      "statusDetails" : "Failed: setup_class: 未获取到 token",
+      "time" : {
+        "start" : 1754031300014,
+        "stop" : 1754031300014,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "65314d6772124751",
+      "status" : "failed",
+      "statusDetails" : "Failed: setup_class: 未获取到 token",
+      "time" : {
+        "start" : 1754031298997,
+        "stop" : 1754031298997,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "37c8b26cf58e4dc7",
+      "status" : "failed",
+      "statusDetails" : "Failed: setup_class: 未获取到 token",
+      "time" : {
+        "start" : 1754031297965,
+        "stop" : 1754031297965,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "199be6fa970d72e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1754030927498,
+        "stop" : 1754030927517,
+        "duration" : 19
+      }
+    }, {
+      "uid" : "dc231c3db1b8e31c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1754030833982,
+        "stop" : 1754030834005,
+        "duration" : 23
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2962543f37f3d92e.json",
+  "parameterValues" : [ ]
+}

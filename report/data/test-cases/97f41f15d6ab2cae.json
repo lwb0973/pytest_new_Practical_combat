@@ -1,0 +1,154 @@
+{
+  "uid" : "97f41f15d6ab2cae",
+  "name" : "test_vul_low",
+  "fullName" : "test_case.test_vul_distribution.test_vul_low.TestCase#test_vul_low",
+  "historyId" : "eea309db7e207d17d0049434b71d655b",
+  "time" : {
+    "start" : 1754031295769,
+    "stop" : 1754031295791,
+    "duration" : 22
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestCase",
+    "time" : {
+      "start" : 1754031295728,
+      "stop" : 1754031295768,
+      "duration" : 40
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "【资产】-【api列表】接口",
+      "time" : {
+        "start" : 1754031295728,
+        "stop" : 1754031295768,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "【低危弱点api总数】接口",
+      "time" : {
+        "start" : 1754031295769,
+        "stop" : 1754031295790,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "首页低危弱点api总数和资产-api列表低危弱点api总数对比一致",
+      "time" : {
+        "start" : 1754031295790,
+        "stop" : 1754031295790,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "72b7ff699a324a24",
+      "name" : "log",
+      "source" : "72b7ff699a324a24.txt",
+      "type" : "text/plain",
+      "size" : 299
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestCase::0",
+    "time" : {
+      "start" : 1754031295791,
+      "stop" : 1754031295791,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "feature",
+    "value" : "【首页】-【风险api分布饼图】-【低危弱点api总数】"
+  }, {
+    "name" : "story",
+    "value" : "【低危弱点api总数】"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.test_vul_distribution"
+  }, {
+    "name" : "suite",
+    "value" : "test_vul_low"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "5CD2323XZM"
+  }, {
+    "name" : "thread",
+    "value" : "19568-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_vul_distribution.test_vul_low"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "97f41f15d6ab2cae.json",
+  "parameterValues" : [ ]
+}
