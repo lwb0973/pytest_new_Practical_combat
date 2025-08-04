@@ -1,3 +1,0 @@
-INFO     common.log_handler:test_risk_mid.py:22 ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
-INFO     common.log_handler:test_risk_mid.py:31 获取到风险列表中危待处置数量：8，已处置数量：0
-INFO     common.log_handler:test_risk_mid.py:39 ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========

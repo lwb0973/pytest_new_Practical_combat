@@ -1,18 +1,11 @@
 import pytest
 import requests
-from jsonpath import jsonpath
 import json
 import settings
-import datetime
-import os
 import configparser
 from common.base64_handler import get_login_captcha_info,recognize_captcha_from_base64,rsa_encrypt
 from common.crypto_md5 import md5enc
-import getpass
-import socket
-import platform
-import sys
-import subprocess
+
 
 # 读取ini配置文件
 config = configparser.ConfigParser()

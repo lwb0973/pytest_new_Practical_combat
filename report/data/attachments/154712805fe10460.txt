@@ -1,6 +1,0 @@
-[32mINFO    [0m common.log_handler:test_file_count.py:25 ========获取首页文件总数数据，测试开始==========
-[31m[1mERROR   [0m common.log_handler:test_file_count.py:32 token 获取失败
-[32mINFO    [0m common.log_handler:test_file_count.py:25 ========获取首页文件总数数据，测试开始==========
-[31m[1mERROR   [0m common.log_handler:test_file_count.py:32 token 获取失败
-[32mINFO    [0m common.log_handler:test_file_count.py:25 ========获取首页文件总数数据，测试开始==========
-[31m[1mERROR   [0m common.log_handler:test_file_count.py:32 token 获取失败

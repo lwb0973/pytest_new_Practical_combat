@@ -1,2 +1,0 @@
-[32mINFO    [0m common.log_handler:test_vul_low.py:25 ========获取首页待处置事件低危弱点待处置/已处置饼图，测试开始==========
-[1m[31mERROR   [0m common.log_handler:test_vul_low.py:30 token 获取失败

@@ -1,8 +1,0 @@
-[32mINFO    [0m common.log_handler:test_risk_high.py:26 ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
-[1m[31mERROR   [0m common.log_handler:test_risk_high.py:32 token 获取失败
-[32mINFO    [0m common.log_handler:test_risk_high.py:26 ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
-[1m[31mERROR   [0m common.log_handler:test_risk_high.py:32 token 获取失败
-[32mINFO    [0m common.log_handler:test_risk_high.py:26 ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
-[1m[31mERROR   [0m common.log_handler:test_risk_high.py:32 token 获取失败
-[32mINFO    [0m common.log_handler:test_risk_high.py:26 ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
-[1m[31mERROR   [0m common.log_handler:test_risk_high.py:32 token 获取失败

@@ -1,3 +1,0 @@
-INFO     common.log_handler:test_vul_low.py:25 ========获取首页待处置事件低危弱点待处置/已处置饼图，测试开始==========
-INFO     common.log_handler:test_vul_low.py:35 获取到弱点列表低危弱点待处置数量：4，已处置数量：0
-INFO     common.log_handler:test_vul_low.py:41 ========获取首页待处置事件低危弱点待处置/已处置饼图，测试结束==========

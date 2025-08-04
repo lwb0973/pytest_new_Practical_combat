@@ -1,2 +1,0 @@
-{'msg': '', 'code': 200, 'data': {'total': 21, 'records': [], 'vul_type_list': {'total': 0, 'vul_types': None}}}
-{'msg': '', 'code': 200, 'data': {'total': 0, 'records': [], 'vul_type_list': {'total': 0, 'vul_types': None}}}

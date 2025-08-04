@@ -1,8 +1,0 @@
-[32mINFO    [0m common.log_handler:test_data_assets.py:24 ========获取首页风险概览涉敏数据量，测试开始==========
-[31m[1mERROR   [0m common.log_handler:test_data_assets.py:31 token 获取失败
-[32mINFO    [0m common.log_handler:test_data_assets.py:24 ========获取首页风险概览涉敏数据量，测试开始==========
-[31m[1mERROR   [0m common.log_handler:test_data_assets.py:31 token 获取失败
-[32mINFO    [0m common.log_handler:test_data_assets.py:24 ========获取首页风险概览涉敏数据量，测试开始==========
-[31m[1mERROR   [0m common.log_handler:test_data_assets.py:31 token 获取失败
-[32mINFO    [0m common.log_handler:test_data_assets.py:24 ========获取首页风险概览涉敏数据量，测试开始==========
-[31m[1mERROR   [0m common.log_handler:test_data_assets.py:31 token 获取失败

@@ -1,13 +1,18 @@
 import os
 import shutil
 import subprocess
-import time
 import settings
 import multiprocessing
 import pytest
+import configparser
 
 
+
+config = configparser.ConfigParser()
+config.read(settings.INI_FILE, encoding='utf-8')
+project_name = config.get('allure','Project')
 ALLURE_COMMAND = settings.ALLURE_COMMAND
+
 
 def run_tests():
     # multiprocessing自动获取CPU核心数
@@ -25,11 +30,15 @@ def run_tests():
         # 生成 Allure 原始结果在 result/ 目录
         "--alluredir=result",
         # 跳过指定用例
-        "-k", "not test_05",
+        # "-k", "not test_05",
         # 跳过指定py文件
-        # "--ignore=testcase/test_demo1.py"
+        # "--ignore=testcase/test_demo1.py",
+
     ])
-    subprocess.run([ALLURE_COMMAND, "generate", "result", "-o", "report", "--clean"])
+
+    # 1. 生成 Allure 报告
+    subprocess.run([ALLURE_COMMAND, "generate", "result", "-o", "report", "--clean", "--report-name", project_name])
+    # 2. 打开报告
     subprocess.run([ALLURE_COMMAND, "open", "report"])
 
 

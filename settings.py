@@ -18,8 +18,8 @@ INI_FILE = os.path.join(BASE_DIR, 'config.ini')
 # 测试用例路径
 TEST_PATH = os.path.join(BASE_DIR, 'test_case')
 # 本地allure绝对路径
-ALLURE_COMMAND = r'D:\allure\allure-2.10.0\bin\allure.bat'
-REPEAT_COUNT = 3
+ALLURE_COMMAND = r'D:\allure\allure-2.34.1\bin\allure.bat'
+
 
 
 
