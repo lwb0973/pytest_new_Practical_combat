@@ -49,14 +49,15 @@ class TestCase:
                 assert self.base_url["pending_total_count"] is not False, '风险列表待处置高危风险事件总数未获取'
                 assert self.base_url["total_count"] is not False, '风险列表高危风险事件总数未获取'
 
-            with allure.step('校验待处置数一致'):
+            with allure.step(f'校验待处置数一致,首页总数:{home_base_url["pending_count"]},风险列表总数:{self.base_url["pending_total_count"]}',):
                 assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
                     f'待处置数不一致：首页待处置高危风险为 {home_base_url["pending_count"]}，风险列表待处置高危风险为 {self.base_url["pending_total_count"]}'
 
-            with allure.step('校验已处置数一致'):
+            with allure.step(f'校验已处置数一致，首页总数:{home_base_url["done_count"]},风险列表总数:{self.base_url["total_count"]}'):
                 assert home_base_url["done_count"] == self.base_url["total_count"], \
                     f'已处置数不一致：首页已处置高危风险为 {home_base_url["done_count"]}，风险列表已处置高危风险为 {self.base_url["total_count"]}'
 
         except Exception as e:
+
             logger.error(f'test_risk_high_pending 异常: {e}', exc_info=True)
             pytest.fail(f'测试失败：{e}')

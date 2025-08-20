@@ -57,7 +57,7 @@ class TestCase:
                 vul_high_count = jsonpath(response.json(), '$.data.metric.vul_high_count')[0]
                 assert vul_high_count is not False, '未获取高危弱点api总数字段数据'
                 assert self.high_row_count is not False, '未获取api列表高危弱点api总数字段数据'
-            with allure.step('首页高危弱点api总数和资产-api列表高危弱点api总数对比一致'):
+            with allure.step(f'首页高危弱点api总数和资产-api列表高危弱点api总数对比一致,首页总数:{vul_high_count},api列表总数:{self.high_row_count}'):
                 assert vul_high_count == self.high_row_count, '首页高危弱点api总数与api列表的高危弱点api总数不一致'
 
         except JSONDecodeError as e:

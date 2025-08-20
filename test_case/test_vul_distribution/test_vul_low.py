@@ -58,7 +58,7 @@ class TestCase:
                 risk_low_count = jsonpath(response.json(), '$.data.metric.vul_low_count')[0]
                 assert risk_low_count is not False, '未获取低危弱点api总数字段数据'
                 assert self.low_row_count is not False, '未获取api列表低危弱点api总数字段数据'
-            with allure.step('首页低危弱点api总数和资产-api列表低危弱点api总数对比一致'):
+            with allure.step(f'首页低危弱点api总数和资产-api列表低危弱点api总数对比一致,首页总数:{risk_low_count},api列表总数:{self.low_row_count}'):
                 assert risk_low_count == self.low_row_count, '首页低危弱点api总数与api列表的低危弱点api总数不一致'
 
         except JSONDecodeError as e:

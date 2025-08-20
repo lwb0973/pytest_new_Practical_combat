@@ -47,7 +47,7 @@ class TestCase:
                 risk_mid_count = home_risk_api(sc_url=sc_ip, headers=self.headers, all_risk_count='risk_mid_count',risk_name='中危风险')
                 assert risk_mid_count is not False, '未获取中风险api总数字段数据'
                 assert self.mid_row_count is not False, '未获取api列表中风险api总数字段数据'
-            with allure.step('首页中风险api总数和资产-api列表中风险api总数对比一致'):
+            with allure.step(f'首页中风险api总数和资产-api列表中风险api总数对比一致,首页总数:{risk_mid_count},api列表总数:{self.mid_row_count}'):
                 assert risk_mid_count == self.mid_row_count, '首页中风险api总数与api列表的中风险api总数不一致'
         except JSONDecodeError as e:
             logger.error(f'提取JSON解析中风险api总数错误{e}')

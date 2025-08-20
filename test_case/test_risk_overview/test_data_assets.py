@@ -58,7 +58,7 @@ class TestCase:
                 sens_count = jsonpath(response.json(), '$.data.sens_data_count')[0]
                 assert sens_count is not False, '未获取涉敏数据量字段数据'
                 assert self.data_count is not False, '未获取数据列表涉敏数据量字段数据'
-            with allure.step('首页涉敏数据量和资产-数据列表涉敏数据量对比一致'):
+            with allure.step(f'首页涉敏数据量和资产-数据列表涉敏数据量对比一致,首页总数:{sens_count},数据列表总数:{self.data_count}'):
                 assert sens_count == self.data_count, '首页涉敏数据量与数据列表的涉敏数据量不一致'
         except JSONDecodeError as e:
             logger.error(f'提取JSON解析涉敏数据量错误{e}')

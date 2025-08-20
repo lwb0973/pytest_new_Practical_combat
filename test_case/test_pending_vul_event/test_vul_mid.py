@@ -6,14 +6,16 @@ import settings
 from settings import var
 from common.log_handler import setup_logger
 import urllib3
-from ..test_pending_vul_event.vul_all_pending import vul_list_all_pending,vul_home_all_pending
+from ..test_pending_vul_event.vul_all_pending import vul_list_all_pending, vul_home_all_pending
 import configparser
+
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 logger = setup_logger()
 config = configparser.ConfigParser()
 config.read(settings.INI_FILE, encoding='utf-8')
 sc_ip = config.get('login', 'sc_ip')
+
 
 @allure.feature('【首页】-【待处置事件】-【中危弱点待处置/已处置饼图】')
 class TestCase:
@@ -43,16 +45,19 @@ class TestCase:
     def test_vul_mid_pending(self):
         try:
             with allure.step('【待处置中危弱点总数】接口'):
-                home_base_url = vul_home_all_pending(sc_url=sc_ip, headers=self.headers, vul_level='3',vul_grade='中危弱点')
+                home_base_url = vul_home_all_pending(sc_url=sc_ip, headers=self.headers, vul_level='3',
+                                                     vul_grade='中危弱点')
                 # 校验 setup_class 中保存的数据
                 assert self.base_url["pending_total_count"] is not False, '弱点列表待处置中危弱点事件总数未获取'
                 assert self.base_url["total_count"] is not False, '弱点列表中危弱点事件总数未获取'
 
-            with allure.step('校验待处置数一致'):
+            with allure.step(
+                    f'校验待处置数一致,首页总数:{home_base_url["pending_count"]},弱点列表总数:{self.base_url["pending_total_count"]}'):
                 assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
                     f'待处置数不一致：首页待处置中危弱点为 {home_base_url["pending_count"]}，弱点列表中危弱点为 {self.base_url["pending_total_count"]}'
 
-            with allure.step('校验已处置数一致'):
+            with allure.step(
+                    f'校验已处置数一致,首页总数:{home_base_url["done_count"]},弱点列表总数:{self.base_url["total_count"]}'):
                 assert home_base_url["done_count"] == self.base_url["total_count"], \
                     f'已处置数不一致：首页已处置中危弱点为 {home_base_url["done_count"]}，弱点列表已处置中危弱点为 {self.base_url["total_count"]}'
 

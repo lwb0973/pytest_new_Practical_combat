@@ -57,7 +57,7 @@ class TestCase:
                 total_count = jsonpath(response.json(), '$.data.data_count')[0]
                 assert total_count is not False, '未获取首页数据总量字段数据'
                 assert self.data_count is not False, '未获取资产数据总量字段数据'
-            with allure.step('首页数据总量和资产数据总量对比一致'):
+            with allure.step(f'首页数据总量和资产数据总量对比一致，首页总数:{total_count},数据列表总数:{self.data_count}'):
                 assert total_count == self.data_count, '首页数据总量与资产数据总量不一致'
 
         except JSONDecodeError as e:

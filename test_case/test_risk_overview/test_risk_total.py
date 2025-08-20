@@ -63,7 +63,7 @@ class TestCase:
                 risk_total = risk_high + risk_mid + risk_low
                 assert risk_total is not False, '未获取风险api总数字段数据'
                 assert self.row_count is not False, '未获取资产风险api总数字段数据'
-            with allure.step('首页风险api总数和资产风险api总数对比一致'):
+            with allure.step(f'首页风险api总数和资产风险api总数对比一致，首页总数:{risk_total},api列表总数:{self.row_count}'):
                 assert risk_total == self.row_count, '首页风险api总数与资产api列表的风险api总数不一致'
 
         except JSONDecodeError as e:

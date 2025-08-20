@@ -8,12 +8,14 @@ from common.log_handler import setup_logger
 import urllib3
 from ..test_pending_risk_event.risk_all_pending import risk_list_all_pending, risk_home_all_pending
 import configparser
+
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 logger = setup_logger()
 config = configparser.ConfigParser()
 config.read(settings.INI_FILE, encoding='utf-8')
 sc_ip = config.get('login', 'sc_ip')
+
 
 @allure.feature('【首页】-【待处置事件】-【中危风险待处置/已处置饼图】')
 class TestCase:
@@ -43,16 +45,19 @@ class TestCase:
     def test_risk_mid_pending(self):
         try:
             with allure.step('【待处置中危风险总数】接口'):
-                home_base_url = risk_home_all_pending(sc_url=sc_ip, headers=self.headers, risk_level='3',risk_grade='中危风险')
+                home_base_url = risk_home_all_pending(sc_url=sc_ip, headers=self.headers, risk_level='3',
+                                                      risk_grade='中危风险')
                 # 校验 setup_class 中保存的数据
                 assert self.base_url["pending_total_count"] is not False, '风险列表待处置中危风险事件总数未获取'
                 assert self.base_url["total_count"] is not False, '风险列表中危风险事件总数未获取'
 
-            with allure.step('校验待处置数一致'):
+            with allure.step(
+                    f'校验待处置数一致,首页总数:{home_base_url["pending_count"]},风险列表总数:{self.base_url["pending_total_count"]}'):
                 assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
                     f'待处置数不一致：首页待处置中危风险为 {home_base_url["pending_count"]}，风险列表中危风险为 {self.base_url["pending_total_count"]}'
 
-            with allure.step('校验已处置数一致'):
+            with allure.step(
+                    f'校验已处置数一致,首页总数:{home_base_url["done_count"]},风险列表总数:{self.base_url["total_count"]}'):
                 assert home_base_url["done_count"] == self.base_url["total_count"], \
                     f'已处置数不一致：首页已处置中危风险为 {home_base_url["done_count"]}，风险列表已处置中危风险为 {self.base_url["total_count"]}'
 

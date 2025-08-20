@@ -57,7 +57,7 @@ class TestCase:
                 sens_count = jsonpath(response.json(), '$.data.sens_count')[0]
                 assert sens_count is not False, '未获取敏感文件总数字段数据'
                 assert self.file_row_count is not False, '未获取文件列表敏感文件总数字段数据'
-            with allure.step('首页敏感文件总数和用户-文件列表敏感文件总数对比一致'):
+            with allure.step(f'首页敏感文件总数和用户-文件列表敏感文件总数对比一致，首页总数:{sens_count},文件列表总数:{self.file_row_count}'):
                 assert sens_count == self.file_row_count, '首页敏感文件总数与文件列表的敏感文件总数不一致'
 
         except JSONDecodeError as e:

@@ -61,7 +61,7 @@ class TestCase:
                 user_risk_total = user_risk_high + user_risk_mid + user_risk_low
                 assert user_risk_total is not False, '未获取风险用户总数字段数据'
                 assert self.user_row_count is not False, '未获取用户列表总数字段数据'
-            with allure.step('首页风险用户总数和用户-用户列表总数对比一致'):
+            with allure.step(f'首页风险用户总数和用户-用户列表总数对比一致,首页总数:{user_risk_total},用户列表总数:{self.user_row_count}'):
                 assert user_risk_total == self.user_row_count, '首页风险用户总数与用户列表的风险用户总数不一致'
 
         except JSONDecodeError as e:

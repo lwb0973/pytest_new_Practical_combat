@@ -7,7 +7,8 @@ from settings import var
 from common.log_handler import setup_logger
 import urllib3
 import configparser
-from ..test_pending_vul_event.vul_all_pending import vul_list_all_pending,vul_home_all_pending
+from ..test_pending_vul_event.vul_all_pending import vul_list_all_pending, vul_home_all_pending
+
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 logger = setup_logger()
@@ -29,8 +30,9 @@ class TestCase:
                     logger.error("token 获取失败")
                     pytest.fail("setup_class: 未获取到 token")
                 cls.headers = {'token': token}
-                cls.base_url  = vul_list_all_pending(sc_url=sc_ip,headers=cls.headers, vul_level='4')
-                logger.info(f'获取到弱点列表高危待处置数量：{cls.base_url["pending_total_count"]}，已处置数量：{cls.base_url["total_count"]}')
+                cls.base_url = vul_list_all_pending(sc_url=sc_ip, headers=cls.headers, vul_level='4')
+                logger.info(
+                    f'获取到弱点列表高危待处置数量：{cls.base_url["pending_total_count"]}，已处置数量：{cls.base_url["total_count"]}')
         except Exception as e:
             logger.error(f'setup_class 异常: {e}', exc_info=True)
             pytest.fail(f'setup_class 执行失败: {e}')
@@ -44,16 +46,19 @@ class TestCase:
     def test_vul_high_pending(self):
         try:
             with allure.step('【待处置高危弱点总数】接口'):
-                home_base_url = vul_home_all_pending(sc_url=sc_ip,headers=self.headers,vul_level='4',vul_grade="高危弱点")
+                home_base_url = vul_home_all_pending(sc_url=sc_ip, headers=self.headers, vul_level='4',
+                                                     vul_grade="高危弱点")
                 # 校验 setup_class 中保存的数据
                 assert self.base_url["pending_total_count"] is not False, '弱点列表待处置高危弱点事件总数未获取'
                 assert self.base_url["total_count"] is not False, '弱点列表高危弱点事件总数未获取'
 
-            with allure.step('校验待处置数一致'):
+            with allure.step(
+                    f'校验待处置数一致,首页总数:{home_base_url["pending_count"]},弱点列表总数:{self.base_url["pending_total_count"]}'):
                 assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
                     f'待处置数不一致：首页待处置高危弱点为 {home_base_url["pending_count"]}，弱点列表待处置高危弱点为 {self.base_url["pending_total_count"]}'
 
-            with allure.step('校验已处置数一致'):
+            with allure.step(
+                    f'校验已处置数一致,首页总数:{home_base_url["done_count"]},弱点列表总数:{self.base_url["total_count"]}'):
                 assert home_base_url["done_count"] == self.base_url["total_count"], \
                     f'已处置数不一致：首页已处置高危弱点为 {home_base_url["done_count"]}，弱点列表已处置高危弱点为 {self.base_url["total_count"]}'
 
