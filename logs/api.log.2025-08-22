@@ -1,0 +1,1858 @@
+2025-08-22 11:13:09,057 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-08-22 11:13:09,118 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
+2025-08-22 11:13:09,122 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-08-22 11:13:09,204 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
+2025-08-22 11:13:09,207 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-08-22 11:13:09,306 - common.log_handler - ERROR - 请求数据发生异常首页数据总量与资产数据总量不一致
+assert 341762 == 341992
+ +  where 341992 = <test_case.test_asset_discovery.test_data_count.TestCase object at 0x0000025E22683150>.data_count
+2025-08-22 11:13:10,543 - common.log_handler - INFO - ========获取首页数据总量数据，测试结束==========
+2025-08-22 11:13:10,546 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-08-22 11:13:10,587 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
+2025-08-22 11:13:10,590 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-08-22 11:13:10,907 - common.log_handler - INFO - 获取到风险列表高危待处置数量：30575，已处置数量：7
+2025-08-22 11:13:10,931 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
+2025-08-22 11:13:10,938 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-08-22 11:13:11,009 - common.log_handler - INFO - 获取到风险列表低危风险待处置数量：10，已处置数量：5
+2025-08-22 11:13:11,031 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
+2025-08-22 11:13:11,034 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-08-22 11:13:11,344 - common.log_handler - INFO - 获取到风险列表中危待处置数量：9291，已处置数量：8
+2025-08-22 11:13:11,367 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
+2025-08-22 11:13:11,373 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试开始==========
+2025-08-22 11:13:11,661 - common.log_handler - INFO - 获取到弱点列表高危待处置数量：27783，已处置数量：0
+2025-08-22 11:13:11,683 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试结束==========
+2025-08-22 11:13:11,687 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试开始==========
+2025-08-22 11:13:11,933 - common.log_handler - INFO - 获取到弱点列表低危弱点待处置数量：9264，已处置数量：0
+2025-08-22 11:13:11,954 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试结束==========
+2025-08-22 11:13:11,958 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试开始==========
+2025-08-22 11:13:12,186 - common.log_handler - INFO - 获取到弱点列表中危待处置数量：12742，已处置数量：0
+2025-08-22 11:13:12,217 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试结束==========
+2025-08-22 11:13:12,223 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-08-22 11:13:12,289 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
+2025-08-22 11:13:12,293 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-08-22 11:13:12,346 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
+2025-08-22 11:13:12,349 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-08-22 11:13:12,414 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试结束==========
+2025-08-22 11:13:12,417 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
+2025-08-22 11:13:12,514 - common.log_handler - ERROR - 请求数据发生异常首页涉敏数据量与数据列表的涉敏数据量不一致
+assert 281707 == 281716
+ +  where 281716 = <test_case.test_risk_overview.test_data_assets.TestCase object at 0x0000025E22803590>.data_count
+2025-08-22 11:13:13,557 - common.log_handler - ERROR - 请求数据发生异常首页涉敏数据量与数据列表的涉敏数据量不一致
+assert 281707 == 281716
+ +  where 281716 = <test_case.test_risk_overview.test_data_assets.TestCase object at 0x0000025E22803590>.data_count
+2025-08-22 11:13:14,595 - common.log_handler - ERROR - 请求数据发生异常首页涉敏数据量与数据列表的涉敏数据量不一致
+assert 281707 == 281716
+ +  where 281716 = <test_case.test_risk_overview.test_data_assets.TestCase object at 0x0000025E22803590>.data_count
+2025-08-22 11:13:15,640 - common.log_handler - ERROR - 请求数据发生异常首页涉敏数据量与数据列表的涉敏数据量不一致
+assert 281707 == 281716
+ +  where 281716 = <test_case.test_risk_overview.test_data_assets.TestCase object at 0x0000025E22803590>.data_count
+2025-08-22 11:13:15,647 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试结束==========
+2025-08-22 11:13:15,651 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-08-22 11:13:15,695 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试结束==========
+2025-08-22 11:13:15,698 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-08-22 11:13:15,763 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试结束==========
+2025-08-22 11:13:15,767 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-08-22 11:13:15,812 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试结束==========
+2025-08-22 11:13:15,817 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-08-22 11:13:15,863 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试结束==========
+2025-08-22 11:13:15,866 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-08-22 11:13:15,933 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试结束==========
+2025-08-22 11:13:15,936 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-08-22 11:13:16,037 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试结束==========
+2025-08-22 11:13:16,041 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-08-22 11:13:16,107 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试结束==========
+2025-08-22 11:13:16,110 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-08-22 11:13:16,168 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试结束==========
+2025-08-22 16:54:03,856 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-08-22 16:54:03,941 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
+2025-08-22 16:54:03,944 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-08-22 16:54:04,048 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
+2025-08-22 16:54:04,052 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-08-22 16:54:04,196 - common.log_handler - ERROR - 请求数据发生异常首页数据总量与资产数据总量不一致
+assert 319636 == 319912
+ +  where 319912 = <test_case.test_asset_discovery.test_data_count.TestCase object at 0x000001B028603350>.data_count
+2025-08-22 16:54:05,412 - common.log_handler - ERROR - 请求数据发生异常首页数据总量与资产数据总量不一致
+assert 319636 == 319912
+ +  where 319912 = <test_case.test_asset_discovery.test_data_count.TestCase object at 0x000001B028603350>.data_count
+2025-08-22 16:54:06,452 - common.log_handler - ERROR - 请求数据发生异常首页数据总量与资产数据总量不一致
+assert 319636 == 319912
+ +  where 319912 = <test_case.test_asset_discovery.test_data_count.TestCase object at 0x000001B028603350>.data_count
+2025-08-22 16:54:07,495 - common.log_handler - ERROR - 请求数据发生异常首页数据总量与资产数据总量不一致
+assert 319636 == 319912
+ +  where 319912 = <test_case.test_asset_discovery.test_data_count.TestCase object at 0x000001B028603350>.data_count
+2025-08-22 16:54:07,504 - common.log_handler - INFO - ========获取首页数据总量数据，测试结束==========
+2025-08-22 16:54:07,507 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-08-22 16:54:07,553 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
+2025-08-22 16:54:07,557 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-08-22 16:54:07,891 - common.log_handler - INFO - 获取到风险列表高危待处置数量：34354，已处置数量：6
+2025-08-22 16:54:07,916 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
+2025-08-22 16:54:07,920 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-08-22 16:54:07,979 - common.log_handler - INFO - 获取到风险列表低危风险待处置数量：10，已处置数量：6
+2025-08-22 16:54:08,000 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
+2025-08-22 16:54:08,005 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-08-22 16:54:08,277 - common.log_handler - INFO - 获取到风险列表中危待处置数量：13149，已处置数量：9
+2025-08-22 16:54:08,300 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
+2025-08-22 16:54:08,306 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试开始==========
+2025-08-22 16:54:08,821 - common.log_handler - INFO - 获取到弱点列表高危待处置数量：31680，已处置数量：0
+2025-08-22 16:54:08,842 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试结束==========
+2025-08-22 16:54:08,845 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试开始==========
+2025-08-22 16:54:09,131 - common.log_handler - INFO - 获取到弱点列表低危弱点待处置数量：9282，已处置数量：0
+2025-08-22 16:54:09,156 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试结束==========
+2025-08-22 16:54:09,161 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试开始==========
+2025-08-22 16:54:09,458 - common.log_handler - INFO - 获取到弱点列表中危待处置数量：17419，已处置数量：0
+2025-08-22 16:54:09,479 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试结束==========
+2025-08-22 16:54:09,482 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-08-22 16:54:09,545 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
+2025-08-22 16:54:09,548 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-08-22 16:54:09,597 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
+2025-08-22 16:54:09,603 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-08-22 16:54:09,668 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试结束==========
+2025-08-22 16:54:09,671 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
+2025-08-22 16:54:09,775 - common.log_handler - ERROR - 请求数据发生异常首页涉敏数据量与数据列表的涉敏数据量不一致
+assert 293372 == 293565
+ +  where 293565 = <test_case.test_risk_overview.test_data_assets.TestCase object at 0x000001B02877EB90>.data_count
+2025-08-22 16:54:10,818 - common.log_handler - ERROR - 请求数据发生异常首页涉敏数据量与数据列表的涉敏数据量不一致
+assert 293372 == 293565
+ +  where 293565 = <test_case.test_risk_overview.test_data_assets.TestCase object at 0x000001B02877EB90>.data_count
+2025-08-22 16:54:11,865 - common.log_handler - ERROR - 请求数据发生异常首页涉敏数据量与数据列表的涉敏数据量不一致
+assert 293372 == 293565
+ +  where 293565 = <test_case.test_risk_overview.test_data_assets.TestCase object at 0x000001B02877EB90>.data_count
+2025-08-22 16:54:12,948 - common.log_handler - ERROR - 请求数据发生异常首页涉敏数据量与数据列表的涉敏数据量不一致
+assert 293372 == 293565
+ +  where 293565 = <test_case.test_risk_overview.test_data_assets.TestCase object at 0x000001B02877EB90>.data_count
+2025-08-22 16:54:12,954 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试结束==========
+2025-08-22 16:54:12,957 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-08-22 16:54:13,114 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试结束==========
+2025-08-22 16:54:13,118 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-08-22 16:54:13,364 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试结束==========
+2025-08-22 16:54:13,368 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-08-22 16:54:13,665 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试结束==========
+2025-08-22 16:54:13,669 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-08-22 16:54:14,325 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试结束==========
+2025-08-22 16:54:14,328 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-08-22 16:54:14,733 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试结束==========
+2025-08-22 16:54:14,736 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-08-22 16:54:15,049 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试结束==========
+2025-08-22 16:54:15,052 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-08-22 16:54:15,332 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试结束==========
+2025-08-22 16:54:15,336 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-08-22 16:54:15,650 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试结束==========
+2025-08-22 17:48:42,512 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-08-22 17:48:42,735 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
+2025-08-22 17:48:42,743 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-08-22 17:48:42,839 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
+2025-08-22 17:48:42,842 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-08-22 17:48:42,967 - common.log_handler - INFO - ========获取首页数据总量数据，测试结束==========
+2025-08-22 17:48:42,971 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-08-22 17:48:43,028 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
+2025-08-22 17:48:43,030 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-08-22 17:48:43,096 - common.log_handler - INFO - 获取到风险列表高危待处置数量：1，已处置数量：0
+2025-08-22 17:48:43,119 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
+2025-08-22 17:48:43,122 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-08-22 17:48:43,183 - common.log_handler - INFO - 获取到风险列表低危风险待处置数量：0，已处置数量：0
+2025-08-22 17:48:43,211 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
+2025-08-22 17:48:43,215 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-08-22 17:48:43,322 - common.log_handler - INFO - 获取到风险列表中危待处置数量：7，已处置数量：0
+2025-08-22 17:48:43,351 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
+2025-08-22 17:48:43,355 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试开始==========
+2025-08-22 17:48:43,452 - common.log_handler - INFO - 获取到弱点列表高危待处置数量：4，已处置数量：0
+2025-08-22 17:48:43,480 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试结束==========
+2025-08-22 17:48:43,483 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试开始==========
+2025-08-22 17:48:43,552 - common.log_handler - INFO - 获取到弱点列表低危弱点待处置数量：2，已处置数量：0
+2025-08-22 17:48:43,589 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试结束==========
+2025-08-22 17:48:43,592 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试开始==========
+2025-08-22 17:48:43,660 - common.log_handler - INFO - 获取到弱点列表中危待处置数量：4，已处置数量：0
+2025-08-22 17:48:43,688 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试结束==========
+2025-08-22 17:48:43,691 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-08-22 17:48:43,765 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
+2025-08-22 17:48:43,768 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-08-22 17:48:43,832 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
+2025-08-22 17:48:43,836 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-08-22 17:48:43,901 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试结束==========
+2025-08-22 17:48:43,904 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
+2025-08-22 17:48:44,026 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试结束==========
+2025-08-22 17:48:44,030 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-08-22 17:48:44,076 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试结束==========
+2025-08-22 17:48:44,079 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-08-22 17:48:44,153 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试结束==========
+2025-08-22 17:48:44,156 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-08-22 17:48:44,207 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试结束==========
+2025-08-22 17:48:44,210 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-08-22 17:48:44,259 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试结束==========
+2025-08-22 17:48:44,262 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-08-22 17:48:44,333 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试结束==========
+2025-08-22 17:48:44,336 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-08-22 17:48:44,405 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试结束==========
+2025-08-22 17:48:44,409 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-08-22 17:48:44,473 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试结束==========
+2025-08-22 17:48:44,476 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-08-22 17:48:44,549 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试结束==========
+2025-08-22 17:49:37,868 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-08-22 17:49:38,231 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
+2025-08-22 17:49:38,235 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-08-22 17:49:38,909 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
+2025-08-22 17:49:38,912 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-08-22 17:49:39,463 - common.log_handler - INFO - ========获取首页数据总量数据，测试结束==========
+2025-08-22 17:49:39,467 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-08-22 17:49:39,848 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
+2025-08-22 17:49:39,852 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-08-22 17:49:44,180 - common.log_handler - INFO - 获取到风险列表高危待处置数量：100002，已处置数量：0
+2025-08-22 17:49:44,310 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
+2025-08-22 17:49:44,314 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-08-22 17:49:45,585 - common.log_handler - INFO - 获取到风险列表低危风险待处置数量：47647，已处置数量：0
+2025-08-22 17:49:45,726 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
+2025-08-22 17:49:45,736 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-08-22 17:49:47,250 - common.log_handler - INFO - 获取到风险列表中危待处置数量：50023，已处置数量：1
+2025-08-22 17:49:47,402 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置中危风险为 51401，风险列表中危风险为 50023
+assert 51401 == 50023
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_risk_event\test_risk_mid.py", line 56, in test_risk_mid_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置中危风险为 51401，风险列表中危风险为 50023
+assert 51401 == 50023
+2025-08-22 17:49:48,742 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置中危风险为 51401，风险列表中危风险为 50023
+assert 51401 == 50023
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_risk_event\test_risk_mid.py", line 56, in test_risk_mid_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置中危风险为 51401，风险列表中危风险为 50023
+assert 51401 == 50023
+2025-08-22 17:49:49,907 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置中危风险为 51401，风险列表中危风险为 50023
+assert 51401 == 50023
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_risk_event\test_risk_mid.py", line 56, in test_risk_mid_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置中危风险为 51401，风险列表中危风险为 50023
+assert 51401 == 50023
+2025-08-22 17:49:51,074 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置中危风险为 51401，风险列表中危风险为 50023
+assert 51401 == 50023
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_risk_event\test_risk_mid.py", line 56, in test_risk_mid_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置中危风险为 51401，风险列表中危风险为 50023
+assert 51401 == 50023
+2025-08-22 17:49:51,082 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
+2025-08-22 17:49:51,087 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试开始==========
+2025-08-22 17:49:59,945 - common.log_handler - INFO - 获取到弱点列表高危待处置数量：275163，已处置数量：0
+2025-08-22 17:50:00,132 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置高危弱点为 347899，弱点列表待处置高危弱点为 275163
+assert 347899 == 275163
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_vul_event\test_vul_high.py", line 57, in test_vul_high_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置高危弱点为 347899，弱点列表待处置高危弱点为 275163
+assert 347899 == 275163
+2025-08-22 17:50:01,318 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置高危弱点为 347899，弱点列表待处置高危弱点为 275163
+assert 347899 == 275163
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_vul_event\test_vul_high.py", line 57, in test_vul_high_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置高危弱点为 347899，弱点列表待处置高危弱点为 275163
+assert 347899 == 275163
+2025-08-22 17:50:02,525 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置高危弱点为 347899，弱点列表待处置高危弱点为 275163
+assert 347899 == 275163
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_vul_event\test_vul_high.py", line 57, in test_vul_high_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置高危弱点为 347899，弱点列表待处置高危弱点为 275163
+assert 347899 == 275163
+2025-08-22 17:50:03,716 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置高危弱点为 347899，弱点列表待处置高危弱点为 275163
+assert 347899 == 275163
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_vul_event\test_vul_high.py", line 57, in test_vul_high_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置高危弱点为 347899，弱点列表待处置高危弱点为 275163
+assert 347899 == 275163
+2025-08-22 17:50:03,732 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试结束==========
+2025-08-22 17:50:03,740 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试开始==========
+2025-08-22 17:50:05,928 - common.log_handler - INFO - 获取到弱点列表低危弱点待处置数量：73951，已处置数量：0
+2025-08-22 17:50:06,092 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置低危弱点为 91487，弱点列表待处置低危弱点为 73951
+assert 91487 == 73951
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_vul_event\test_vul_low.py", line 58, in test_vul_low_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置低危弱点为 91487，弱点列表待处置低危弱点为 73951
+assert 91487 == 73951
+2025-08-22 17:50:07,276 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置低危弱点为 91487，弱点列表待处置低危弱点为 73951
+assert 91487 == 73951
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_vul_event\test_vul_low.py", line 58, in test_vul_low_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置低危弱点为 91487，弱点列表待处置低危弱点为 73951
+assert 91487 == 73951
+2025-08-22 17:50:08,464 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置低危弱点为 91487，弱点列表待处置低危弱点为 73951
+assert 91487 == 73951
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_vul_event\test_vul_low.py", line 58, in test_vul_low_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置低危弱点为 91487，弱点列表待处置低危弱点为 73951
+assert 91487 == 73951
+2025-08-22 17:50:09,690 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置低危弱点为 91487，弱点列表待处置低危弱点为 73951
+assert 91487 == 73951
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_vul_event\test_vul_low.py", line 58, in test_vul_low_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置低危弱点为 91487，弱点列表待处置低危弱点为 73951
+assert 91487 == 73951
+2025-08-22 17:50:09,707 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试结束==========
+2025-08-22 17:50:09,713 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试开始==========
+2025-08-22 17:50:12,399 - common.log_handler - INFO - 获取到弱点列表中危待处置数量：213133，已处置数量：0
+2025-08-22 17:50:12,597 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置中危弱点为 268277，弱点列表中危弱点为 213133
+assert 268277 == 213133
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_vul_event\test_vul_mid.py", line 56, in test_vul_mid_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置中危弱点为 268277，弱点列表中危弱点为 213133
+assert 268277 == 213133
+2025-08-22 17:50:13,787 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置中危弱点为 268277，弱点列表中危弱点为 213133
+assert 268277 == 213133
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_vul_event\test_vul_mid.py", line 56, in test_vul_mid_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置中危弱点为 268277，弱点列表中危弱点为 213133
+assert 268277 == 213133
+2025-08-22 17:50:15,007 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置中危弱点为 268277，弱点列表中危弱点为 213133
+assert 268277 == 213133
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_vul_event\test_vul_mid.py", line 56, in test_vul_mid_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置中危弱点为 268277，弱点列表中危弱点为 213133
+assert 268277 == 213133
+2025-08-22 17:50:16,228 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置中危弱点为 268277，弱点列表中危弱点为 213133
+assert 268277 == 213133
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_vul_event\test_vul_mid.py", line 56, in test_vul_mid_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置中危弱点为 268277，弱点列表中危弱点为 213133
+assert 268277 == 213133
+2025-08-22 17:50:16,251 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试结束==========
+2025-08-22 17:50:16,258 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-08-22 17:50:17,307 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
+2025-08-22 17:50:17,314 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-08-22 17:50:17,641 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
+2025-08-22 17:50:17,649 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-08-22 17:50:18,002 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试结束==========
+2025-08-22 17:50:18,006 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
+2025-08-22 17:50:18,452 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试结束==========
+2025-08-22 17:50:18,456 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-08-22 17:50:18,833 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试结束==========
+2025-08-22 17:50:18,842 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-08-22 17:50:19,289 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试结束==========
+2025-08-22 17:50:19,298 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-08-22 17:50:19,703 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试结束==========
+2025-08-22 17:50:19,707 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-08-22 17:50:20,264 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试结束==========
+2025-08-22 17:50:20,269 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-08-22 17:50:20,882 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试结束==========
+2025-08-22 17:50:20,891 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-08-22 17:50:21,507 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试结束==========
+2025-08-22 17:50:21,511 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-08-22 17:50:21,942 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试结束==========
+2025-08-22 17:50:21,951 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-08-22 17:50:22,556 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试结束==========
+2025-08-22 18:29:22,236 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-08-22 18:29:22,303 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
+2025-08-22 18:29:22,306 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-08-22 18:29:22,549 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
+2025-08-22 18:29:22,552 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-08-22 18:29:22,659 - common.log_handler - INFO - ========获取首页数据总量数据，测试结束==========
+2025-08-22 18:29:22,662 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-08-22 18:29:22,706 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
+2025-08-22 18:29:22,711 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-08-22 18:29:22,774 - common.log_handler - INFO - 获取到风险列表高危待处置数量：1，已处置数量：0
+2025-08-22 18:29:22,797 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
+2025-08-22 18:29:22,802 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-08-22 18:29:22,849 - common.log_handler - INFO - 获取到风险列表低危风险待处置数量：0，已处置数量：0
+2025-08-22 18:29:22,870 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
+2025-08-22 18:29:22,874 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-08-22 18:29:22,937 - common.log_handler - INFO - 获取到风险列表中危待处置数量：11，已处置数量：0
+2025-08-22 18:29:22,962 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
+2025-08-22 18:29:22,967 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试开始==========
+2025-08-22 18:29:23,418 - common.log_handler - INFO - 获取到弱点列表高危待处置数量：25592，已处置数量：0
+2025-08-22 18:29:23,440 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试结束==========
+2025-08-22 18:29:23,445 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试开始==========
+2025-08-22 18:29:23,668 - common.log_handler - INFO - 获取到弱点列表低危弱点待处置数量：3，已处置数量：0
+2025-08-22 18:29:23,691 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试结束==========
+2025-08-22 18:29:23,696 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试开始==========
+2025-08-22 18:29:23,942 - common.log_handler - INFO - 获取到弱点列表中危待处置数量：9，已处置数量：0
+2025-08-22 18:29:23,967 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试结束==========
+2025-08-22 18:29:23,972 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-08-22 18:29:24,034 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
+2025-08-22 18:29:24,038 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-08-22 18:29:24,093 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
+2025-08-22 18:29:24,095 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-08-22 18:29:24,149 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试结束==========
+2025-08-22 18:29:24,153 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
+2025-08-22 18:29:24,255 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试结束==========
+2025-08-22 18:29:24,258 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-08-22 18:29:24,308 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试结束==========
+2025-08-22 18:29:24,312 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-08-22 18:29:24,370 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试结束==========
+2025-08-22 18:29:24,372 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-08-22 18:29:24,460 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试结束==========
+2025-08-22 18:29:24,465 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-08-22 18:29:24,528 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试结束==========
+2025-08-22 18:29:24,533 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-08-22 18:29:24,591 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试结束==========
+2025-08-22 18:29:24,594 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-08-22 18:29:24,649 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试结束==========
+2025-08-22 18:29:24,653 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-08-22 18:29:24,702 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试结束==========
+2025-08-22 18:29:24,706 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-08-22 18:29:24,770 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试结束==========
+2025-08-22 20:05:14,622 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-08-22 20:05:14,911 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
+2025-08-22 20:05:14,914 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-08-22 20:05:15,462 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
+2025-08-22 20:05:15,465 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-08-22 20:05:16,038 - common.log_handler - INFO - ========获取首页数据总量数据，测试结束==========
+2025-08-22 20:05:16,041 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-08-22 20:05:16,216 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
+2025-08-22 20:05:16,219 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-08-22 20:05:16,822 - common.log_handler - INFO - 获取到风险列表高危待处置数量：110342，已处置数量：0
+2025-08-22 20:05:16,867 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置高危风险为 110352，风险列表待处置高危风险为 110342
+assert 110352 == 110342
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_risk_event\test_risk_high.py", line 53, in test_risk_high_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置高危风险为 110352，风险列表待处置高危风险为 110342
+assert 110352 == 110342
+2025-08-22 20:05:18,073 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置高危风险为 110352，风险列表待处置高危风险为 110342
+assert 110352 == 110342
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_risk_event\test_risk_high.py", line 53, in test_risk_high_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置高危风险为 110352，风险列表待处置高危风险为 110342
+assert 110352 == 110342
+2025-08-22 20:05:19,102 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置高危风险为 110352，风险列表待处置高危风险为 110342
+assert 110352 == 110342
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_risk_event\test_risk_high.py", line 53, in test_risk_high_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置高危风险为 110352，风险列表待处置高危风险为 110342
+assert 110352 == 110342
+2025-08-22 20:05:20,136 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置高危风险为 110352，风险列表待处置高危风险为 110342
+assert 110352 == 110342
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_risk_event\test_risk_high.py", line 53, in test_risk_high_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置高危风险为 110352，风险列表待处置高危风险为 110342
+assert 110352 == 110342
+2025-08-22 20:05:20,144 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
+2025-08-22 20:05:20,148 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-08-22 20:05:20,758 - common.log_handler - INFO - 获取到风险列表低危风险待处置数量：65115，已处置数量：0
+2025-08-22 20:05:20,779 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
+2025-08-22 20:05:20,783 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-08-22 20:05:21,305 - common.log_handler - INFO - 获取到风险列表中危待处置数量：65，已处置数量：0
+2025-08-22 20:05:21,327 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
+2025-08-22 20:05:21,331 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试开始==========
+2025-08-22 22:22:15,864 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-08-22 22:22:16,017 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_asset_discovery\test_api_summary.py", line 34, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+2025-08-22 22:22:17,270 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-08-22 22:22:17,290 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_asset_discovery\test_api_summary.py", line 34, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+2025-08-22 22:22:18,310 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-08-22 22:22:18,329 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_asset_discovery\test_api_summary.py", line 34, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+2025-08-22 22:22:19,345 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-08-22 22:22:19,364 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_asset_discovery\test_api_summary.py", line 34, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+2025-08-22 22:22:19,377 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-08-22 22:22:19,406 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_asset_discovery\test_app_summary.py", line 42, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+2025-08-22 22:22:20,425 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-08-22 22:22:20,446 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_asset_discovery\test_app_summary.py", line 42, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+2025-08-22 22:22:21,463 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-08-22 22:22:21,543 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_asset_discovery\test_app_summary.py", line 42, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+2025-08-22 22:22:22,562 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-08-22 22:22:22,584 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_asset_discovery\test_app_summary.py", line 42, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+2025-08-22 22:22:22,597 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-08-22 22:22:22,976 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_asset_discovery\test_data_count.py", line 34, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+2025-08-22 22:22:23,991 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-08-22 22:22:24,021 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_asset_discovery\test_data_count.py", line 34, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+2025-08-22 22:22:25,034 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-08-22 22:22:25,056 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_asset_discovery\test_data_count.py", line 34, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+2025-08-22 22:22:26,068 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-08-22 22:22:26,086 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_asset_discovery\test_data_count.py", line 34, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+2025-08-22 22:22:26,105 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-08-22 22:22:26,131 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_asset_discovery\test_file_count.py", line 36, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+2025-08-22 22:22:27,144 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-08-22 22:22:27,163 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_asset_discovery\test_file_count.py", line 36, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+2025-08-22 22:22:28,176 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-08-22 22:22:28,194 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_asset_discovery\test_file_count.py", line 36, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+2025-08-22 22:22:29,210 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-08-22 22:22:29,227 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_asset_discovery\test_file_count.py", line 36, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+2025-08-22 22:22:29,242 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-08-22 22:22:29,262 - common.log_handler - ERROR - 待处置 请求或数据提取失败: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 976, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_risk_event\get_total_from_url.py", line 13, in get_total_from_url
+    print(response.json())
+          ^^^^^^^^^^^^^^^
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 980, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-08-22 22:22:30,340 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-08-22 22:22:30,359 - common.log_handler - ERROR - 待处置 请求或数据提取失败: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 976, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_risk_event\get_total_from_url.py", line 13, in get_total_from_url
+    print(response.json())
+          ^^^^^^^^^^^^^^^
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 980, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-08-22 22:22:31,398 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-08-22 22:22:31,416 - common.log_handler - ERROR - 待处置 请求或数据提取失败: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 976, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_risk_event\get_total_from_url.py", line 13, in get_total_from_url
+    print(response.json())
+          ^^^^^^^^^^^^^^^
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 980, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-08-22 22:22:32,453 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-08-22 22:22:32,471 - common.log_handler - ERROR - 待处置 请求或数据提取失败: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 976, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_risk_event\get_total_from_url.py", line 13, in get_total_from_url
+    print(response.json())
+          ^^^^^^^^^^^^^^^
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 980, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-08-22 22:22:32,506 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-08-22 22:22:32,522 - common.log_handler - ERROR - 待处置 请求或数据提取失败: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 976, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_risk_event\get_total_from_url.py", line 13, in get_total_from_url
+    print(response.json())
+          ^^^^^^^^^^^^^^^
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 980, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-08-22 22:22:33,575 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-08-22 22:22:33,597 - common.log_handler - ERROR - 待处置 请求或数据提取失败: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 976, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_risk_event\get_total_from_url.py", line 13, in get_total_from_url
+    print(response.json())
+          ^^^^^^^^^^^^^^^
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 980, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-08-22 22:22:34,661 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-08-22 22:22:34,680 - common.log_handler - ERROR - 待处置 请求或数据提取失败: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 976, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_risk_event\get_total_from_url.py", line 13, in get_total_from_url
+    print(response.json())
+          ^^^^^^^^^^^^^^^
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 980, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-08-22 22:22:35,720 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-08-22 22:22:35,739 - common.log_handler - ERROR - 待处置 请求或数据提取失败: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 976, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_risk_event\get_total_from_url.py", line 13, in get_total_from_url
+    print(response.json())
+          ^^^^^^^^^^^^^^^
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 980, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-08-22 22:22:35,774 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-08-22 22:22:35,791 - common.log_handler - ERROR - 待处置 请求或数据提取失败: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 976, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_risk_event\get_total_from_url.py", line 13, in get_total_from_url
+    print(response.json())
+          ^^^^^^^^^^^^^^^
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 980, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-08-22 22:22:36,832 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-08-22 22:22:36,849 - common.log_handler - ERROR - 待处置 请求或数据提取失败: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 976, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_risk_event\get_total_from_url.py", line 13, in get_total_from_url
+    print(response.json())
+          ^^^^^^^^^^^^^^^
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 980, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-08-22 22:22:37,922 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-08-22 22:22:37,942 - common.log_handler - ERROR - 待处置 请求或数据提取失败: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 976, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_risk_event\get_total_from_url.py", line 13, in get_total_from_url
+    print(response.json())
+          ^^^^^^^^^^^^^^^
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 980, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-08-22 22:22:38,983 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-08-22 22:22:39,002 - common.log_handler - ERROR - 待处置 请求或数据提取失败: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 976, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_risk_event\get_total_from_url.py", line 13, in get_total_from_url
+    print(response.json())
+          ^^^^^^^^^^^^^^^
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 980, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-08-22 22:22:39,040 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试开始==========
+2025-08-22 22:22:39,055 - common.log_handler - ERROR - 待处置 请求或数据提取失败: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 976, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_vul_event\get_total_from_url.py", line 13, in get_total_from_url
+    print(response.json())
+          ^^^^^^^^^^^^^^^
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 980, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-08-22 22:22:40,109 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试开始==========
+2025-08-22 22:22:40,126 - common.log_handler - ERROR - 待处置 请求或数据提取失败: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 976, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_vul_event\get_total_from_url.py", line 13, in get_total_from_url
+    print(response.json())
+          ^^^^^^^^^^^^^^^
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 980, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-08-22 22:22:41,193 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试开始==========
+2025-08-22 22:22:41,209 - common.log_handler - ERROR - 待处置 请求或数据提取失败: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 976, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_vul_event\get_total_from_url.py", line 13, in get_total_from_url
+    print(response.json())
+          ^^^^^^^^^^^^^^^
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 980, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-08-22 22:22:42,249 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试开始==========
+2025-08-22 22:22:42,269 - common.log_handler - ERROR - 待处置 请求或数据提取失败: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 976, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_vul_event\get_total_from_url.py", line 13, in get_total_from_url
+    print(response.json())
+          ^^^^^^^^^^^^^^^
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 980, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-08-22 22:22:42,304 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试开始==========
+2025-08-22 22:22:42,321 - common.log_handler - ERROR - 待处置 请求或数据提取失败: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 976, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_vul_event\get_total_from_url.py", line 13, in get_total_from_url
+    print(response.json())
+          ^^^^^^^^^^^^^^^
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 980, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-08-22 22:22:43,361 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试开始==========
+2025-08-22 22:22:43,377 - common.log_handler - ERROR - 待处置 请求或数据提取失败: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 976, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_vul_event\get_total_from_url.py", line 13, in get_total_from_url
+    print(response.json())
+          ^^^^^^^^^^^^^^^
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 980, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-08-22 22:22:44,417 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试开始==========
+2025-08-22 22:22:44,434 - common.log_handler - ERROR - 待处置 请求或数据提取失败: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 976, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_vul_event\get_total_from_url.py", line 13, in get_total_from_url
+    print(response.json())
+          ^^^^^^^^^^^^^^^
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 980, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-08-22 22:22:45,472 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试开始==========
+2025-08-22 22:22:45,488 - common.log_handler - ERROR - 待处置 请求或数据提取失败: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 976, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_vul_event\get_total_from_url.py", line 13, in get_total_from_url
+    print(response.json())
+          ^^^^^^^^^^^^^^^
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 980, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-08-22 22:22:45,536 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试开始==========
+2025-08-22 22:22:45,556 - common.log_handler - ERROR - 待处置 请求或数据提取失败: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 976, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_vul_event\get_total_from_url.py", line 13, in get_total_from_url
+    print(response.json())
+          ^^^^^^^^^^^^^^^
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 980, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-08-22 22:22:46,599 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试开始==========
+2025-08-22 22:22:46,614 - common.log_handler - ERROR - 待处置 请求或数据提取失败: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 976, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_vul_event\get_total_from_url.py", line 13, in get_total_from_url
+    print(response.json())
+          ^^^^^^^^^^^^^^^
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 980, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-08-22 22:22:47,682 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试开始==========
+2025-08-22 22:22:47,699 - common.log_handler - ERROR - 待处置 请求或数据提取失败: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 976, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_vul_event\get_total_from_url.py", line 13, in get_total_from_url
+    print(response.json())
+          ^^^^^^^^^^^^^^^
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 980, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-08-22 22:22:48,743 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试开始==========
+2025-08-22 22:22:48,761 - common.log_handler - ERROR - 待处置 请求或数据提取失败: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 976, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_vul_event\get_total_from_url.py", line 13, in get_total_from_url
+    print(response.json())
+          ^^^^^^^^^^^^^^^
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 980, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-08-22 22:22:48,799 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-08-22 22:22:48,835 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：502
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_distribution\test_risk_high.py", line 35, in setup_class
+    cls.high_row_count = risk_api_list(sc_url=sc_ip,headers=cls.headers,payload=payload)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_distribution\risk_all.py", line 15, in risk_api_list
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：502
+2025-08-22 22:22:49,849 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-08-22 22:22:49,867 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：502
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_distribution\test_risk_high.py", line 35, in setup_class
+    cls.high_row_count = risk_api_list(sc_url=sc_ip,headers=cls.headers,payload=payload)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_distribution\risk_all.py", line 15, in risk_api_list
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：502
+2025-08-22 22:22:50,880 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-08-22 22:22:50,899 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：502
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_distribution\test_risk_high.py", line 35, in setup_class
+    cls.high_row_count = risk_api_list(sc_url=sc_ip,headers=cls.headers,payload=payload)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_distribution\risk_all.py", line 15, in risk_api_list
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：502
+2025-08-22 22:22:51,920 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-08-22 22:22:51,948 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：502
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_distribution\test_risk_high.py", line 35, in setup_class
+    cls.high_row_count = risk_api_list(sc_url=sc_ip,headers=cls.headers,payload=payload)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_distribution\risk_all.py", line 15, in risk_api_list
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：502
+2025-08-22 22:22:51,961 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-08-22 22:22:51,987 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：502
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_distribution\test_risk_low.py", line 33, in setup_class
+    cls.low_row_count = risk_api_list(sc_url=sc_ip, headers=cls.headers, payload=payload)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_distribution\risk_all.py", line 15, in risk_api_list
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：502
+2025-08-22 22:22:53,008 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-08-22 22:22:53,026 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：502
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_distribution\test_risk_low.py", line 33, in setup_class
+    cls.low_row_count = risk_api_list(sc_url=sc_ip, headers=cls.headers, payload=payload)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_distribution\risk_all.py", line 15, in risk_api_list
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：502
+2025-08-22 22:22:54,041 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-08-22 22:22:54,062 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：502
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_distribution\test_risk_low.py", line 33, in setup_class
+    cls.low_row_count = risk_api_list(sc_url=sc_ip, headers=cls.headers, payload=payload)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_distribution\risk_all.py", line 15, in risk_api_list
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：502
+2025-08-22 22:22:55,079 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-08-22 22:22:55,097 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：502
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_distribution\test_risk_low.py", line 33, in setup_class
+    cls.low_row_count = risk_api_list(sc_url=sc_ip, headers=cls.headers, payload=payload)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_distribution\risk_all.py", line 15, in risk_api_list
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：502
+2025-08-22 22:22:55,111 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-08-22 22:22:55,138 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：502
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_distribution\test_risk_mid.py", line 33, in setup_class
+    cls.mid_row_count = risk_api_list(sc_url=sc_ip, headers=cls.headers, payload=payload)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_distribution\risk_all.py", line 15, in risk_api_list
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：502
+2025-08-22 22:22:56,153 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-08-22 22:22:56,170 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：502
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_distribution\test_risk_mid.py", line 33, in setup_class
+    cls.mid_row_count = risk_api_list(sc_url=sc_ip, headers=cls.headers, payload=payload)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_distribution\risk_all.py", line 15, in risk_api_list
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：502
+2025-08-22 22:23:27,419 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-08-22 22:23:27,493 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
+2025-08-22 22:23:27,496 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-08-22 22:23:27,579 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
+2025-08-22 22:23:27,582 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-08-22 22:23:27,676 - common.log_handler - INFO - ========获取首页数据总量数据，测试结束==========
+2025-08-22 22:23:27,679 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-08-22 22:23:27,725 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
+2025-08-22 22:23:27,729 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-08-22 22:23:27,787 - common.log_handler - INFO - 获取到风险列表高危待处置数量：1，已处置数量：0
+2025-08-22 22:23:27,813 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
+2025-08-22 22:23:27,818 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-08-22 22:23:27,870 - common.log_handler - INFO - 获取到风险列表低危风险待处置数量：0，已处置数量：0
+2025-08-22 22:23:27,898 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
+2025-08-22 22:23:27,901 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-08-22 22:23:27,967 - common.log_handler - INFO - 获取到风险列表中危待处置数量：7，已处置数量：0
+2025-08-22 22:23:27,990 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
+2025-08-22 22:23:27,995 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试开始==========
+2025-08-22 22:23:28,056 - common.log_handler - INFO - 获取到弱点列表高危待处置数量：4，已处置数量：0
+2025-08-22 22:23:28,080 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试结束==========
+2025-08-22 22:23:28,084 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试开始==========
+2025-08-22 22:23:28,153 - common.log_handler - INFO - 获取到弱点列表低危弱点待处置数量：2，已处置数量：0
+2025-08-22 22:23:28,189 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试结束==========
+2025-08-22 22:23:28,193 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试开始==========
+2025-08-22 22:23:28,272 - common.log_handler - INFO - 获取到弱点列表中危待处置数量：4，已处置数量：0
+2025-08-22 22:23:28,303 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试结束==========
+2025-08-22 22:23:28,309 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-08-22 22:23:28,374 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
+2025-08-22 22:23:28,379 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-08-22 22:23:28,440 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
+2025-08-22 22:23:28,444 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-08-22 22:23:28,513 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试结束==========
+2025-08-22 22:23:28,518 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
+2025-08-22 22:23:28,651 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试结束==========
+2025-08-22 22:23:28,654 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-08-22 22:23:28,701 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试结束==========
+2025-08-22 22:23:28,705 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-08-22 22:23:28,775 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试结束==========
+2025-08-22 22:23:28,779 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-08-22 22:23:28,830 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试结束==========
+2025-08-22 22:23:28,834 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-08-22 22:23:28,883 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试结束==========
+2025-08-22 22:23:28,886 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-08-22 22:23:28,961 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试结束==========
+2025-08-22 22:23:28,963 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-08-22 22:23:29,039 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试结束==========
+2025-08-22 22:23:29,042 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-08-22 22:23:29,112 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试结束==========
+2025-08-22 22:23:29,116 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-08-22 22:23:29,180 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试结束==========
+2025-08-22 22:24:10,351 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-08-22 22:24:10,367 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_asset_discovery\test_api_summary.py", line 34, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+2025-08-22 22:24:10,551 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-08-22 22:24:10,568 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_asset_discovery\test_app_summary.py", line 42, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+2025-08-22 22:24:10,585 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-08-22 22:24:10,602 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_asset_discovery\test_data_count.py", line 34, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+2025-08-22 22:24:10,615 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-08-22 22:24:10,633 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_asset_discovery\test_file_count.py", line 36, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+2025-08-22 22:24:10,648 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-08-22 22:24:10,666 - common.log_handler - ERROR - 待处置 请求或数据提取失败: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 976, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_risk_event\get_total_from_url.py", line 13, in get_total_from_url
+    print(response.json())
+          ^^^^^^^^^^^^^^^
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 980, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-08-22 22:24:10,706 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-08-22 22:24:10,724 - common.log_handler - ERROR - 待处置 请求或数据提取失败: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 976, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_risk_event\get_total_from_url.py", line 13, in get_total_from_url
+    print(response.json())
+          ^^^^^^^^^^^^^^^
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 980, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-08-22 22:24:10,759 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-08-22 22:24:10,776 - common.log_handler - ERROR - 待处置 请求或数据提取失败: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 976, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_risk_event\get_total_from_url.py", line 13, in get_total_from_url
+    print(response.json())
+          ^^^^^^^^^^^^^^^
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 980, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-08-22 22:24:10,814 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试开始==========
+2025-08-22 22:24:10,832 - common.log_handler - ERROR - 待处置 请求或数据提取失败: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 976, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_vul_event\get_total_from_url.py", line 13, in get_total_from_url
+    print(response.json())
+          ^^^^^^^^^^^^^^^
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 980, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-08-22 22:24:10,870 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试开始==========
+2025-08-22 22:24:10,888 - common.log_handler - ERROR - 待处置 请求或数据提取失败: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 976, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_vul_event\get_total_from_url.py", line 13, in get_total_from_url
+    print(response.json())
+          ^^^^^^^^^^^^^^^
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 980, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-08-22 22:24:10,924 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试开始==========
+2025-08-22 22:24:10,943 - common.log_handler - ERROR - 待处置 请求或数据提取失败: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 976, in json
+    return complexjson.loads(self.text, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\python3.11\Lib\json\decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_vul_event\get_total_from_url.py", line 13, in get_total_from_url
+    print(response.json())
+          ^^^^^^^^^^^^^^^
+  File "D:\my_venv\myenv\Lib\site-packages\requests\models.py", line 980, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+2025-08-22 22:24:11,009 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-08-22 22:24:11,029 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：502
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_distribution\test_risk_high.py", line 35, in setup_class
+    cls.high_row_count = risk_api_list(sc_url=sc_ip,headers=cls.headers,payload=payload)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_distribution\risk_all.py", line 15, in risk_api_list
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：502
+2025-08-22 22:24:11,044 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-08-22 22:24:11,063 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：502
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_distribution\test_risk_low.py", line 33, in setup_class
+    cls.low_row_count = risk_api_list(sc_url=sc_ip, headers=cls.headers, payload=payload)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_distribution\risk_all.py", line 15, in risk_api_list
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：502
+2025-08-22 22:24:11,076 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-08-22 22:24:11,095 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：502
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_distribution\test_risk_mid.py", line 33, in setup_class
+    cls.mid_row_count = risk_api_list(sc_url=sc_ip, headers=cls.headers, payload=payload)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_distribution\risk_all.py", line 15, in risk_api_list
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：502
+2025-08-22 22:24:11,111 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
+2025-08-22 22:24:11,129 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_overview\test_data_assets.py", line 35, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+2025-08-22 22:24:11,142 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-08-22 22:24:11,170 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_overview\test_file_assets.py", line 35, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+2025-08-22 22:24:11,183 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-08-22 22:24:11,208 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_overview\test_risk_total.py", line 37, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+2025-08-22 22:24:11,222 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-08-22 22:24:11,247 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_overview\test_risk_user.py", line 34, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+2025-08-22 22:24:11,265 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-08-22 22:24:11,294 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_overview\test_risk_users.py", line 35, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+2025-08-22 22:24:11,309 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-08-22 22:24:11,337 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_overview\test_vul_total.py", line 36, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+2025-08-22 22:24:11,350 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-08-22 22:24:11,375 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_vul_distribution\test_vul_high.py", line 35, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+2025-08-22 22:24:11,388 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-08-22 22:24:11,413 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_vul_distribution\test_vul_low.py", line 36, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+2025-08-22 22:24:11,426 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-08-22 22:24:11,451 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_vul_distribution\test_vul_mid.py", line 35, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：502
+assert 502 == 200
+ +  where 502 = <Response [502]>.status_code
+2025-08-22 22:27:01,237 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-08-22 22:27:01,336 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
+2025-08-22 22:27:01,339 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-08-22 22:27:01,893 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
+2025-08-22 22:27:01,897 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-08-22 22:27:02,464 - common.log_handler - INFO - ========获取首页数据总量数据，测试结束==========
+2025-08-22 22:27:02,468 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-08-22 22:27:02,546 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
+2025-08-22 22:27:02,551 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-08-22 22:27:04,501 - common.log_handler - INFO - 获取到风险列表高危待处置数量：443478，已处置数量：0
+2025-08-22 22:27:04,524 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
+2025-08-22 22:27:04,531 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-08-22 22:27:06,309 - common.log_handler - INFO - 获取到风险列表低危风险待处置数量：65115，已处置数量：0
+2025-08-22 22:27:06,332 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
+2025-08-22 22:27:06,338 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-08-22 22:27:06,432 - common.log_handler - INFO - 获取到风险列表中危待处置数量：72，已处置数量：0
+2025-08-22 22:27:06,455 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
+2025-08-22 22:27:06,460 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试开始==========
+2025-08-22 22:28:49,400 - common.log_handler - INFO - 获取到弱点列表高危待处置数量：1111386，已处置数量：0
+2025-08-22 22:28:49,419 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置高危弱点为 1111388，弱点列表待处置高危弱点为 1111386
+assert 1111388 == 1111386
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_vul_event\test_vul_high.py", line 57, in test_vul_high_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置高危弱点为 1111388，弱点列表待处置高危弱点为 1111386
+assert 1111388 == 1111386
+2025-08-22 22:28:49,621 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试结束==========
+2025-08-22 22:28:49,626 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试开始==========
+2025-08-22 22:29:52,258 - common.log_handler - INFO - 获取到弱点列表低危弱点待处置数量：158792，已处置数量：0
+2025-08-22 22:29:52,294 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试结束==========
+2025-08-22 22:29:52,297 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试开始==========
+2025-08-22 22:31:02,848 - common.log_handler - INFO - 获取到弱点列表中危待处置数量：294332，已处置数量：0
+2025-08-22 22:31:02,867 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试结束==========
+2025-08-22 22:31:02,870 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-08-22 22:31:04,884 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
+2025-08-22 22:31:04,889 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-08-22 22:31:06,087 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
+2025-08-22 22:31:06,092 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-08-22 22:31:06,142 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试结束==========
+2025-08-22 22:31:06,146 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
+2025-08-22 22:31:06,704 - common.log_handler - ERROR - 请求数据发生异常首页涉敏数据量与数据列表的涉敏数据量不一致
+assert 2126058 == 2126072
+ +  where 2126072 = <test_case.test_risk_overview.test_data_assets.TestCase object at 0x000002C3D94DA410>.data_count
+2025-08-22 22:31:06,710 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试结束==========
+2025-08-22 22:31:06,713 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-08-22 22:31:06,761 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试结束==========
+2025-08-22 22:31:06,764 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-08-22 22:31:16,749 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试结束==========
+2025-08-22 22:31:16,752 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-08-22 22:31:16,800 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试结束==========
+2025-08-22 22:31:16,804 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-08-22 22:31:16,862 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试结束==========
+2025-08-22 22:31:16,866 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-08-22 22:31:17,859 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试结束==========
+2025-08-22 22:31:17,863 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-08-22 22:31:18,638 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试结束==========
+2025-08-22 22:31:18,643 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-08-22 22:31:18,747 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试结束==========
+2025-08-22 22:31:18,750 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-08-22 22:31:18,854 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试结束==========
+2025-08-22 22:32:36,544 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-08-22 22:32:36,605 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
+2025-08-22 22:32:36,608 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-08-22 22:32:37,163 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
+2025-08-22 22:32:37,167 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-08-22 22:32:37,208 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
+2025-08-22 22:32:37,213 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-08-22 22:32:38,858 - common.log_handler - INFO - 获取到风险列表高危待处置数量：443537，已处置数量：0
+2025-08-22 22:32:38,883 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
+2025-08-22 22:32:38,890 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-08-22 22:32:40,536 - common.log_handler - INFO - 获取到风险列表低危风险待处置数量：65115，已处置数量：0
+2025-08-22 22:32:40,557 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
+2025-08-22 22:32:40,564 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-08-22 22:32:40,631 - common.log_handler - INFO - 获取到风险列表中危待处置数量：74，已处置数量：0
+2025-08-22 22:32:40,650 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
+2025-08-22 22:32:40,654 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试开始==========
+2025-08-22 22:34:40,709 - common.log_handler - ERROR - 待处置 请求或数据提取失败: 待处置 接口请求失败，状态码：400
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_vul_event\get_total_from_url.py", line 14, in get_total_from_url
+    assert response.status_code == 200, f"{label} 接口请求失败，状态码：{response.status_code}"
+AssertionError: 待处置 接口请求失败，状态码：400
+2025-08-22 22:34:41,005 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试开始==========
+2025-08-22 22:35:54,722 - common.log_handler - INFO - 获取到弱点列表低危弱点待处置数量：158795，已处置数量：0
+2025-08-22 22:35:54,794 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试结束==========
+2025-08-22 22:35:54,798 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试开始==========
+2025-08-22 22:37:13,127 - common.log_handler - INFO - 获取到弱点列表中危待处置数量：294398，已处置数量：0
+2025-08-22 22:37:13,223 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试结束==========
+2025-08-22 22:37:13,235 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-08-22 22:37:15,526 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
+2025-08-22 22:37:15,534 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-08-22 22:37:16,934 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
+2025-08-22 22:37:16,944 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-08-22 22:37:17,176 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试结束==========
+2025-08-22 22:37:17,184 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-08-22 22:37:17,401 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试结束==========
+2025-08-22 22:37:17,411 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-08-22 22:37:27,641 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试结束==========
+2025-08-22 22:37:27,649 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-08-22 22:37:27,884 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试结束==========
+2025-08-22 22:37:27,893 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-08-22 22:37:28,116 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试结束==========
+2025-08-22 22:37:28,120 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-08-22 22:37:29,304 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试结束==========
+2025-08-22 22:37:29,315 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-08-22 22:37:30,371 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试结束==========
+2025-08-22 22:37:30,376 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-08-22 22:37:30,633 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试结束==========
+2025-08-22 22:37:30,637 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-08-22 22:37:30,909 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试结束==========
+2025-08-22 22:41:15,699 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-08-22 22:41:15,827 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
+2025-08-22 22:41:15,829 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-08-22 22:41:15,979 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
+2025-08-22 22:41:15,982 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-08-22 22:41:16,095 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
+2025-08-22 22:41:16,099 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-08-22 22:41:16,235 - common.log_handler - INFO - 获取到风险列表高危待处置数量：1，已处置数量：0
+2025-08-22 22:41:16,299 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
+2025-08-22 22:41:16,301 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-08-22 22:41:16,427 - common.log_handler - INFO - 获取到风险列表低危风险待处置数量：0，已处置数量：0
+2025-08-22 22:41:16,488 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
+2025-08-22 22:41:16,491 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-08-22 22:41:16,633 - common.log_handler - INFO - 获取到风险列表中危待处置数量：7，已处置数量：0
+2025-08-22 22:41:16,696 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
+2025-08-22 22:41:16,701 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试开始==========
+2025-08-22 22:41:16,830 - common.log_handler - INFO - 获取到弱点列表高危待处置数量：4，已处置数量：0
+2025-08-22 22:41:16,882 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试结束==========
+2025-08-22 22:41:16,885 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试开始==========
+2025-08-22 22:41:17,017 - common.log_handler - INFO - 获取到弱点列表低危弱点待处置数量：2，已处置数量：0
+2025-08-22 22:41:17,072 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试结束==========
+2025-08-22 22:41:17,075 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试开始==========
+2025-08-22 22:41:17,209 - common.log_handler - INFO - 获取到弱点列表中危待处置数量：4，已处置数量：0
+2025-08-22 22:41:17,263 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试结束==========
+2025-08-22 22:41:17,266 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-08-22 22:41:17,389 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
+2025-08-22 22:41:17,393 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-08-22 22:41:17,530 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
+2025-08-22 22:41:17,535 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-08-22 22:41:17,702 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试结束==========
+2025-08-22 22:41:17,705 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-08-22 22:41:17,831 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试结束==========
+2025-08-22 22:41:17,833 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-08-22 22:41:17,973 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试结束==========
+2025-08-22 22:41:17,976 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-08-22 22:41:18,101 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试结束==========
+2025-08-22 22:41:18,102 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-08-22 22:41:18,241 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试结束==========
+2025-08-22 22:41:18,246 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-08-22 22:41:18,382 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试结束==========
+2025-08-22 22:41:18,386 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-08-22 22:41:18,536 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试结束==========
+2025-08-22 22:41:18,539 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-08-22 22:41:18,677 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试结束==========
+2025-08-22 22:41:18,682 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-08-22 22:41:18,820 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试结束==========
+2025-08-22 22:59:57,150 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-08-22 22:59:57,313 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
+2025-08-22 22:59:57,316 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-08-22 22:59:57,578 - common.log_handler - ERROR - 请求数据发生异常首页应用总数与资产应用总数不一致
+assert 75 == 77
+ +  where 77 = <test_case.test_asset_discovery.test_app_summary.TestCase object at 0x000001E03A147050>.row_count
+2025-08-22 22:59:57,758 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
+2025-08-22 22:59:57,762 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-08-22 22:59:57,804 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
+2025-08-22 22:59:57,807 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-08-22 22:59:59,187 - common.log_handler - INFO - 获取到风险列表高危待处置数量：100254，已处置数量：0
+2025-08-22 22:59:59,232 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
+2025-08-22 22:59:59,236 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-08-22 23:00:00,161 - common.log_handler - INFO - 获取到风险列表低危风险待处置数量：58871，已处置数量：0
+2025-08-22 23:00:00,184 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
+2025-08-22 23:00:00,189 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-08-22 23:00:00,986 - common.log_handler - INFO - 获取到风险列表中危待处置数量：39046，已处置数量：1
+2025-08-22 23:00:01,010 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
+2025-08-22 23:00:01,015 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试开始==========
+2025-08-22 23:00:19,833 - common.log_handler - INFO - 获取到弱点列表高危待处置数量：276329，已处置数量：0
+2025-08-22 23:00:19,853 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试结束==========
+2025-08-22 23:00:19,856 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试开始==========
+2025-08-22 23:00:22,186 - common.log_handler - INFO - 获取到弱点列表低危弱点待处置数量：74417，已处置数量：0
+2025-08-22 23:00:22,206 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试结束==========
+2025-08-22 23:00:22,210 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试开始==========
+2025-08-22 23:00:24,943 - common.log_handler - INFO - 获取到弱点列表中危待处置数量：214299，已处置数量：0
+2025-08-22 23:00:24,983 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试结束==========
+2025-08-22 23:00:24,986 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-08-22 23:00:26,955 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
+2025-08-22 23:00:26,958 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-08-22 23:00:27,009 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
+2025-08-22 23:00:27,012 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-08-22 23:00:27,358 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试结束==========
+2025-08-22 23:00:27,363 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-08-22 23:00:27,407 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试结束==========
+2025-08-22 23:00:27,410 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-08-22 23:00:27,540 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试结束==========
+2025-08-22 23:00:27,546 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-08-22 23:00:27,594 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试结束==========
+2025-08-22 23:00:27,596 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-08-22 23:00:27,642 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试结束==========
+2025-08-22 23:00:27,645 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-08-22 23:00:27,985 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试结束==========
+2025-08-22 23:00:27,988 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-08-22 23:00:28,291 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试结束==========
+2025-08-22 23:00:28,293 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-08-22 23:00:29,084 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试结束==========
+2025-08-22 23:00:29,087 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-08-22 23:00:29,818 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试结束==========

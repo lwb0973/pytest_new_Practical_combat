@@ -1,0 +1,100 @@
+2025-09-22 09:21:46,125 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-09-22 09:21:47,269 - common.log_handler - ERROR - 请求数据发生异常首页api总数与资产api总数不一致
+assert 533777 == 533766
+ +  where 533766 = <test_case.test_asset_discovery.test_api_summary.TestCase object at 0x00000176E79CC850>.row_count
+2025-09-22 09:21:47,500 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
+2025-09-22 09:21:47,503 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-09-22 09:21:48,123 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
+2025-09-22 09:21:48,126 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-09-22 09:21:49,949 - common.log_handler - ERROR - 请求数据发生异常首页数据总量与资产数据总量不一致
+assert 3088322 == 3088658
+ +  where 3088658 = <test_case.test_asset_discovery.test_data_count.TestCase object at 0x00000176E79F3990>.data_count
+2025-09-22 09:21:49,958 - common.log_handler - INFO - ========获取首页数据总量数据，测试结束==========
+2025-09-22 09:21:49,960 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-09-22 09:21:50,003 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
+2025-09-22 09:21:50,006 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-09-22 09:23:50,585 - common.log_handler - ERROR - 待处置 请求或数据提取失败: 待处置 接口请求失败，状态码：400
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_risk_event\get_total_from_url.py", line 14, in get_total_from_url
+    assert response.status_code == 200, f"{label} 接口请求失败，状态码：{response.status_code}"
+AssertionError: 待处置 接口请求失败，状态码：400
+2025-09-22 09:23:50,705 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-09-22 09:25:50,728 - common.log_handler - ERROR - 待处置 请求或数据提取失败: 待处置 接口请求失败，状态码：400
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_risk_event\get_total_from_url.py", line 14, in get_total_from_url
+    assert response.status_code == 200, f"{label} 接口请求失败，状态码：{response.status_code}"
+AssertionError: 待处置 接口请求失败，状态码：400
+2025-09-22 09:25:50,761 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-09-22 09:27:50,784 - common.log_handler - ERROR - 待处置 请求或数据提取失败: 待处置 接口请求失败，状态码：400
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_risk_event\get_total_from_url.py", line 14, in get_total_from_url
+    assert response.status_code == 200, f"{label} 接口请求失败，状态码：{response.status_code}"
+AssertionError: 待处置 接口请求失败，状态码：400
+2025-09-22 09:27:50,811 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试开始==========
+2025-09-22 09:29:50,834 - common.log_handler - ERROR - 待处置 请求或数据提取失败: 待处置 接口请求失败，状态码：400
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_vul_event\get_total_from_url.py", line 14, in get_total_from_url
+    assert response.status_code == 200, f"{label} 接口请求失败，状态码：{response.status_code}"
+AssertionError: 待处置 接口请求失败，状态码：400
+2025-09-22 09:29:50,884 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试开始==========
+2025-09-22 09:31:50,908 - common.log_handler - ERROR - 待处置 请求或数据提取失败: 待处置 接口请求失败，状态码：400
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_vul_event\get_total_from_url.py", line 14, in get_total_from_url
+    assert response.status_code == 200, f"{label} 接口请求失败，状态码：{response.status_code}"
+AssertionError: 待处置 接口请求失败，状态码：400
+2025-09-22 09:31:50,965 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试开始==========
+2025-09-22 09:33:51,005 - common.log_handler - ERROR - 待处置 请求或数据提取失败: 待处置 接口请求失败，状态码：400
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_vul_event\get_total_from_url.py", line 14, in get_total_from_url
+    assert response.status_code == 200, f"{label} 接口请求失败，状态码：{response.status_code}"
+AssertionError: 待处置 接口请求失败，状态码：400
+2025-09-22 09:33:51,041 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-09-22 09:35:51,253 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_distribution\test_risk_high.py", line 35, in setup_class
+    cls.high_row_count = risk_api_list(sc_url=sc_ip,headers=cls.headers,payload=payload)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_distribution\risk_all.py", line 15, in risk_api_list
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：400
+2025-09-22 09:35:51,266 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-09-22 09:36:30,688 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
+2025-09-22 09:36:30,691 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-09-22 09:36:36,614 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试结束==========
+2025-09-22 09:36:36,618 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
+2025-09-22 09:36:37,536 - common.log_handler - ERROR - 请求数据发生异常首页涉敏数据量与数据列表的涉敏数据量不一致
+assert 3103841 == 3104941
+ +  where 3104941 = <test_case.test_risk_overview.test_data_assets.TestCase object at 0x00000176E7B73790>.data_count
+2025-09-22 09:36:37,542 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试结束==========
+2025-09-22 09:36:37,544 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-09-22 09:36:38,720 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试结束==========
+2025-09-22 09:36:38,723 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-09-22 09:38:38,761 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_overview\test_risk_total.py", line 37, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+2025-09-22 09:38:38,776 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-09-22 09:38:47,804 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试结束==========
+2025-09-22 09:38:47,809 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-09-22 09:38:52,716 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试结束==========
+2025-09-22 09:38:52,719 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-09-22 09:40:52,752 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_risk_overview\test_vul_total.py", line 36, in setup_class
+    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
+AssertionError: 接口请求失败，状态码：400
+assert 400 == 200
+ +  where 400 = <Response [400]>.status_code
+2025-09-22 09:40:52,765 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-09-22 09:41:43,825 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试结束==========
+2025-09-22 09:41:43,828 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-09-22 09:41:46,232 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试结束==========
+2025-09-22 09:41:46,235 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-09-22 09:41:47,315 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试结束==========

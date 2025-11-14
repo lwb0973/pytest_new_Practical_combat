@@ -1,0 +1,687 @@
+2025-08-21 09:30:50,219 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-08-21 09:30:50,288 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
+2025-08-21 09:30:50,293 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-08-21 09:30:50,450 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
+2025-08-21 09:30:50,453 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-08-21 09:30:50,780 - common.log_handler - ERROR - 请求数据发生异常首页数据总量与资产数据总量不一致
+assert 3715493 == 3715563
+ +  where 3715563 = <test_case.test_asset_discovery.test_data_count.TestCase object at 0x000001B817803210>.data_count
+2025-08-21 09:30:51,998 - common.log_handler - ERROR - 请求数据发生异常首页数据总量与资产数据总量不一致
+assert 3715493 == 3715563
+ +  where 3715563 = <test_case.test_asset_discovery.test_data_count.TestCase object at 0x000001B817803210>.data_count
+2025-08-21 09:30:53,055 - common.log_handler - ERROR - 请求数据发生异常首页数据总量与资产数据总量不一致
+assert 3715493 == 3715563
+ +  where 3715563 = <test_case.test_asset_discovery.test_data_count.TestCase object at 0x000001B817803210>.data_count
+2025-08-21 09:30:54,115 - common.log_handler - ERROR - 请求数据发生异常首页数据总量与资产数据总量不一致
+assert 3715493 == 3715563
+ +  where 3715563 = <test_case.test_asset_discovery.test_data_count.TestCase object at 0x000001B817803210>.data_count
+2025-08-21 09:30:54,122 - common.log_handler - INFO - ========获取首页数据总量数据，测试结束==========
+2025-08-21 09:30:54,127 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-08-21 09:30:54,171 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
+2025-08-21 09:30:54,177 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-08-21 09:30:54,650 - common.log_handler - INFO - 获取到风险列表高危待处置数量：41301，已处置数量：13
+2025-08-21 09:30:54,674 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
+2025-08-21 09:30:54,680 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-08-21 09:30:54,757 - common.log_handler - INFO - 获取到风险列表低危风险待处置数量：122，已处置数量：13
+2025-08-21 09:30:54,778 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
+2025-08-21 09:30:54,784 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-08-21 09:30:55,202 - common.log_handler - INFO - 获取到风险列表中危待处置数量：26831，已处置数量：29
+2025-08-21 09:30:55,225 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
+2025-08-21 09:30:55,232 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试开始==========
+2025-08-21 09:30:56,887 - common.log_handler - INFO - 获取到弱点列表高危待处置数量：80870，已处置数量：0
+2025-08-21 09:30:56,907 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试结束==========
+2025-08-21 09:30:56,912 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试开始==========
+2025-08-21 09:30:57,507 - common.log_handler - INFO - 获取到弱点列表低危弱点待处置数量：19553，已处置数量：0
+2025-08-21 09:30:57,527 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试结束==========
+2025-08-21 09:30:57,532 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试开始==========
+2025-08-21 09:30:58,245 - common.log_handler - INFO - 获取到弱点列表中危待处置数量：56779，已处置数量：0
+2025-08-21 09:30:58,266 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试结束==========
+2025-08-21 09:30:58,270 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-08-21 09:30:58,382 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
+2025-08-21 09:30:58,385 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-08-21 09:30:58,438 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
+2025-08-21 09:30:58,442 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-08-21 09:30:58,518 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试结束==========
+2025-08-21 09:30:58,522 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
+2025-08-21 09:30:58,724 - common.log_handler - ERROR - 请求数据发生异常首页涉敏数据量与数据列表的涉敏数据量不一致
+assert 3623299 == 3623338
+ +  where 3623338 = <test_case.test_risk_overview.test_data_assets.TestCase object at 0x000001B8179826D0>.data_count
+2025-08-21 09:30:59,773 - common.log_handler - ERROR - 请求数据发生异常首页涉敏数据量与数据列表的涉敏数据量不一致
+assert 3623299 == 3623338
+ +  where 3623338 = <test_case.test_risk_overview.test_data_assets.TestCase object at 0x000001B8179826D0>.data_count
+2025-08-21 09:31:00,823 - common.log_handler - ERROR - 请求数据发生异常首页涉敏数据量与数据列表的涉敏数据量不一致
+assert 3623299 == 3623338
+ +  where 3623338 = <test_case.test_risk_overview.test_data_assets.TestCase object at 0x000001B8179826D0>.data_count
+2025-08-21 09:31:01,882 - common.log_handler - ERROR - 请求数据发生异常首页涉敏数据量与数据列表的涉敏数据量不一致
+assert 3623299 == 3623338
+ +  where 3623338 = <test_case.test_risk_overview.test_data_assets.TestCase object at 0x000001B8179826D0>.data_count
+2025-08-21 09:31:01,890 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试结束==========
+2025-08-21 09:31:01,894 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-08-21 09:31:01,934 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试结束==========
+2025-08-21 09:31:01,938 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-08-21 09:31:02,017 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试结束==========
+2025-08-21 09:31:02,020 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-08-21 09:31:02,062 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试结束==========
+2025-08-21 09:31:02,066 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-08-21 09:31:02,127 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试结束==========
+2025-08-21 09:31:02,131 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-08-21 09:31:02,236 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试结束==========
+2025-08-21 09:31:02,240 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-08-21 09:31:02,389 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试结束==========
+2025-08-21 09:31:02,392 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-08-21 09:31:02,457 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试结束==========
+2025-08-21 09:31:02,460 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-08-21 09:31:02,526 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试结束==========
+2025-08-21 09:34:12,449 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-08-21 09:34:12,514 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
+2025-08-21 09:34:12,518 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-08-21 09:34:12,657 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
+2025-08-21 09:34:12,661 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-08-21 09:34:12,842 - common.log_handler - ERROR - 请求数据发生异常首页数据总量与资产数据总量不一致
+assert 3716340 == 3716428
+ +  where 3716428 = <test_case.test_asset_discovery.test_data_count.TestCase object at 0x000001C402B02D90>.data_count
+2025-08-21 09:34:14,066 - common.log_handler - ERROR - 请求数据发生异常首页数据总量与资产数据总量不一致
+assert 3716340 == 3716428
+ +  where 3716428 = <test_case.test_asset_discovery.test_data_count.TestCase object at 0x000001C402B02D90>.data_count
+2025-08-21 09:34:15,138 - common.log_handler - ERROR - 请求数据发生异常首页数据总量与资产数据总量不一致
+assert 3716340 == 3716428
+ +  where 3716428 = <test_case.test_asset_discovery.test_data_count.TestCase object at 0x000001C402B02D90>.data_count
+2025-08-21 09:34:16,197 - common.log_handler - ERROR - 请求数据发生异常首页数据总量与资产数据总量不一致
+assert 3716340 == 3716428
+ +  where 3716428 = <test_case.test_asset_discovery.test_data_count.TestCase object at 0x000001C402B02D90>.data_count
+2025-08-21 09:34:16,207 - common.log_handler - INFO - ========获取首页数据总量数据，测试结束==========
+2025-08-21 09:34:16,209 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-08-21 09:34:16,250 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
+2025-08-21 09:34:16,253 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-08-21 09:34:16,659 - common.log_handler - INFO - 获取到风险列表高危待处置数量：41303，已处置数量：13
+2025-08-21 09:34:16,683 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
+2025-08-21 09:34:16,688 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-08-21 09:34:16,761 - common.log_handler - INFO - 获取到风险列表低危风险待处置数量：122，已处置数量：13
+2025-08-21 09:34:16,781 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
+2025-08-21 09:34:16,785 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-08-21 09:34:17,266 - common.log_handler - INFO - 获取到风险列表中危待处置数量：26833，已处置数量：29
+2025-08-21 09:34:17,290 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
+2025-08-21 09:34:17,298 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试开始==========
+2025-08-21 09:34:18,041 - common.log_handler - INFO - 获取到弱点列表高危待处置数量：80872，已处置数量：0
+2025-08-21 09:34:18,062 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试结束==========
+2025-08-21 09:34:18,066 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试开始==========
+2025-08-21 09:34:18,686 - common.log_handler - INFO - 获取到弱点列表低危弱点待处置数量：19554，已处置数量：0
+2025-08-21 09:34:18,707 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试结束==========
+2025-08-21 09:34:18,712 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试开始==========
+2025-08-21 09:34:19,399 - common.log_handler - INFO - 获取到弱点列表中危待处置数量：56785，已处置数量：0
+2025-08-21 09:34:19,420 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试结束==========
+2025-08-21 09:34:19,425 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-08-21 09:34:19,507 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
+2025-08-21 09:34:19,511 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-08-21 09:34:19,567 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
+2025-08-21 09:34:19,570 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-08-21 09:34:19,633 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试结束==========
+2025-08-21 09:34:19,638 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
+2025-08-21 09:34:19,839 - common.log_handler - ERROR - 请求数据发生异常首页涉敏数据量与数据列表的涉敏数据量不一致
+assert 3623882 == 3623937
+ +  where 3623937 = <test_case.test_risk_overview.test_data_assets.TestCase object at 0x000001C402C82390>.data_count
+2025-08-21 09:34:20,898 - common.log_handler - ERROR - 请求数据发生异常首页涉敏数据量与数据列表的涉敏数据量不一致
+assert 3623882 == 3623937
+ +  where 3623937 = <test_case.test_risk_overview.test_data_assets.TestCase object at 0x000001C402C82390>.data_count
+2025-08-21 09:34:21,961 - common.log_handler - ERROR - 请求数据发生异常首页涉敏数据量与数据列表的涉敏数据量不一致
+assert 3623882 == 3623937
+ +  where 3623937 = <test_case.test_risk_overview.test_data_assets.TestCase object at 0x000001C402C82390>.data_count
+2025-08-21 09:34:23,020 - common.log_handler - ERROR - 请求数据发生异常首页涉敏数据量与数据列表的涉敏数据量不一致
+assert 3623882 == 3623937
+ +  where 3623937 = <test_case.test_risk_overview.test_data_assets.TestCase object at 0x000001C402C82390>.data_count
+2025-08-21 09:34:23,029 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试结束==========
+2025-08-21 09:34:23,032 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-08-21 09:34:23,073 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试结束==========
+2025-08-21 09:34:23,076 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-08-21 09:34:23,148 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试结束==========
+2025-08-21 09:34:23,152 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-08-21 09:34:23,197 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试结束==========
+2025-08-21 09:34:23,202 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-08-21 09:34:23,250 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试结束==========
+2025-08-21 09:34:23,252 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-08-21 09:34:23,371 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试结束==========
+2025-08-21 09:34:23,374 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-08-21 09:34:23,551 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试结束==========
+2025-08-21 09:34:23,554 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-08-21 09:34:23,622 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试结束==========
+2025-08-21 09:34:23,625 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-08-21 09:34:23,699 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试结束==========
+2025-08-21 09:36:07,777 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-08-21 09:36:07,863 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
+2025-08-21 09:36:07,866 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-08-21 09:36:07,964 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
+2025-08-21 09:36:07,968 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-08-21 09:36:08,081 - common.log_handler - INFO - ========获取首页数据总量数据，测试结束==========
+2025-08-21 09:36:08,084 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-08-21 09:36:08,130 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
+2025-08-21 09:36:08,137 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-08-21 09:36:08,213 - common.log_handler - INFO - 获取到风险列表高危待处置数量：2，已处置数量：1
+2025-08-21 09:36:08,237 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
+2025-08-21 09:36:08,241 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-08-21 09:36:08,321 - common.log_handler - INFO - 获取到风险列表低危风险待处置数量：3，已处置数量：2
+2025-08-21 09:36:08,343 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
+2025-08-21 09:36:08,347 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-08-21 09:36:08,413 - common.log_handler - INFO - 获取到风险列表中危待处置数量：2，已处置数量：0
+2025-08-21 09:36:08,435 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
+2025-08-21 09:36:08,438 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试开始==========
+2025-08-21 09:36:08,505 - common.log_handler - INFO - 获取到弱点列表高危待处置数量：2，已处置数量：1
+2025-08-21 09:36:08,529 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试结束==========
+2025-08-21 09:36:08,533 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试开始==========
+2025-08-21 09:36:08,635 - common.log_handler - INFO - 获取到弱点列表低危弱点待处置数量：3，已处置数量：2
+2025-08-21 09:36:08,662 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试结束==========
+2025-08-21 09:36:08,666 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试开始==========
+2025-08-21 09:36:08,745 - common.log_handler - INFO - 获取到弱点列表中危待处置数量：2，已处置数量：0
+2025-08-21 09:36:08,771 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试结束==========
+2025-08-21 09:36:08,775 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-08-21 09:36:08,853 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
+2025-08-21 09:36:08,856 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-08-21 09:36:08,952 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
+2025-08-21 09:36:08,956 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-08-21 09:36:09,096 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试结束==========
+2025-08-21 09:36:09,121 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
+2025-08-21 09:36:09,322 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试结束==========
+2025-08-21 09:36:09,327 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-08-21 09:36:09,443 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试结束==========
+2025-08-21 09:36:09,448 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-08-21 09:36:09,540 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试结束==========
+2025-08-21 09:36:09,546 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-08-21 09:36:09,634 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试结束==========
+2025-08-21 09:36:09,641 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-08-21 09:36:09,731 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试结束==========
+2025-08-21 09:36:09,738 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-08-21 09:36:09,839 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试结束==========
+2025-08-21 09:36:09,845 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-08-21 09:36:09,945 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试结束==========
+2025-08-21 09:36:09,949 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-08-21 09:36:10,049 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试结束==========
+2025-08-21 09:36:10,056 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-08-21 09:36:10,153 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试结束==========
+2025-08-21 11:12:38,079 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-08-21 11:12:50,112 - common.log_handler - ERROR - 请求数据发生异常首页api总数与资产api总数不一致
+assert 46426 == 46292
+ +  where 46292 = <test_case.test_asset_discovery.test_api_summary.TestCase object at 0x0000024ECC19AA50>.row_count
+2025-08-21 11:12:51,844 - common.log_handler - ERROR - 请求数据发生异常首页api总数与资产api总数不一致
+assert 46442 == 46292
+ +  where 46292 = <test_case.test_asset_discovery.test_api_summary.TestCase object at 0x0000024ECC19AA50>.row_count
+2025-08-21 11:12:53,290 - common.log_handler - ERROR - 请求数据发生异常首页api总数与资产api总数不一致
+assert 46449 == 46292
+ +  where 46292 = <test_case.test_asset_discovery.test_api_summary.TestCase object at 0x0000024ECC19AA50>.row_count
+2025-08-21 11:12:55,333 - common.log_handler - ERROR - 请求数据发生异常首页api总数与资产api总数不一致
+assert 46472 == 46292
+ +  where 46292 = <test_case.test_asset_discovery.test_api_summary.TestCase object at 0x0000024ECC19AA50>.row_count
+2025-08-21 11:12:55,344 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
+2025-08-21 11:12:55,346 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-08-21 11:13:04,767 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
+2025-08-21 11:13:04,770 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-08-21 11:13:17,121 - common.log_handler - ERROR - 请求数据发生异常首页数据总量与资产数据总量不一致
+assert 17691277 == 17669407
+ +  where 17669407 = <test_case.test_asset_discovery.test_data_count.TestCase object at 0x0000024ECD9CF090>.data_count
+2025-08-21 11:13:24,309 - common.log_handler - ERROR - 请求数据发生异常首页数据总量与资产数据总量不一致
+assert 17691277 == 17669407
+ +  where 17669407 = <test_case.test_asset_discovery.test_data_count.TestCase object at 0x0000024ECD9CF090>.data_count
+2025-08-21 11:13:26,005 - common.log_handler - ERROR - 请求数据发生异常首页数据总量与资产数据总量不一致
+assert 17691277 == 17669407
+ +  where 17669407 = <test_case.test_asset_discovery.test_data_count.TestCase object at 0x0000024ECD9CF090>.data_count
+2025-08-21 11:13:28,275 - common.log_handler - ERROR - 请求数据发生异常首页数据总量与资产数据总量不一致
+assert 17691277 == 17669407
+ +  where 17669407 = <test_case.test_asset_discovery.test_data_count.TestCase object at 0x0000024ECD9CF090>.data_count
+2025-08-21 11:13:28,288 - common.log_handler - INFO - ========获取首页数据总量数据，测试结束==========
+2025-08-21 11:13:28,292 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-08-21 11:13:33,340 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
+2025-08-21 11:13:33,347 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-08-21 11:14:36,126 - common.log_handler - INFO - 获取到风险列表高危待处置数量：69517，已处置数量：14
+2025-08-21 11:14:36,174 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置高危风险为 103141，风险列表待处置高危风险为 69517
+assert 103141 == 69517
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_risk_event\test_risk_high.py", line 53, in test_risk_high_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置高危风险为 103141，风险列表待处置高危风险为 69517
+assert 103141 == 69517
+2025-08-21 11:14:37,424 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置高危风险为 103172，风险列表待处置高危风险为 69517
+assert 103172 == 69517
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_risk_event\test_risk_high.py", line 53, in test_risk_high_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置高危风险为 103172，风险列表待处置高危风险为 69517
+assert 103172 == 69517
+2025-08-21 11:14:38,576 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置高危风险为 103193，风险列表待处置高危风险为 69517
+assert 103193 == 69517
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_risk_event\test_risk_high.py", line 53, in test_risk_high_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置高危风险为 103193，风险列表待处置高危风险为 69517
+assert 103193 == 69517
+2025-08-21 11:14:39,861 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置高危风险为 103200，风险列表待处置高危风险为 69517
+assert 103200 == 69517
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_risk_event\test_risk_high.py", line 53, in test_risk_high_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置高危风险为 103200，风险列表待处置高危风险为 69517
+assert 103200 == 69517
+2025-08-21 11:14:39,871 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
+2025-08-21 11:14:39,877 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-08-21 11:14:42,141 - common.log_handler - INFO - 获取到风险列表低危风险待处置数量：132，已处置数量：16
+2025-08-21 11:14:42,514 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
+2025-08-21 11:14:42,523 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-08-21 11:14:50,967 - common.log_handler - INFO - 获取到风险列表中危待处置数量：55983，已处置数量：37
+2025-08-21 11:14:51,015 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置中危风险为 89021，风险列表中危风险为 55983
+assert 89021 == 55983
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_risk_event\test_risk_mid.py", line 56, in test_risk_mid_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置中危风险为 89021，风险列表中危风险为 55983
+assert 89021 == 55983
+2025-08-21 11:14:54,318 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置中危风险为 89116，风险列表中危风险为 55983
+assert 89116 == 55983
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_risk_event\test_risk_mid.py", line 56, in test_risk_mid_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置中危风险为 89116，风险列表中危风险为 55983
+assert 89116 == 55983
+2025-08-21 11:15:06,604 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置中危风险为 89134，风险列表中危风险为 55983
+assert 89134 == 55983
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_risk_event\test_risk_mid.py", line 56, in test_risk_mid_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置中危风险为 89134，风险列表中危风险为 55983
+assert 89134 == 55983
+2025-08-21 11:15:08,136 - common.log_handler - ERROR - test_risk_high_pending 异常: 待处置数不一致：首页待处置中危风险为 89205，风险列表中危风险为 55983
+assert 89205 == 55983
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_risk_event\test_risk_mid.py", line 56, in test_risk_mid_pending
+    assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
+AssertionError: 待处置数不一致：首页待处置中危风险为 89205，风险列表中危风险为 55983
+assert 89205 == 55983
+2025-08-21 11:15:08,145 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
+2025-08-21 11:15:08,154 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试开始==========
+2025-08-21 11:17:14,030 - common.log_handler - ERROR - 待处置 请求或数据提取失败: 待处置 接口请求失败，状态码：400
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_vul_event\get_total_from_url.py", line 14, in get_total_from_url
+    assert response.status_code == 200, f"{label} 接口请求失败，状态码：{response.status_code}"
+AssertionError: 待处置 接口请求失败，状态码：400
+2025-08-21 11:17:15,058 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试开始==========
+2025-08-21 11:19:22,508 - common.log_handler - ERROR - 待处置 请求或数据提取失败: 待处置 接口请求失败，状态码：400
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_vul_event\get_total_from_url.py", line 14, in get_total_from_url
+    assert response.status_code == 200, f"{label} 接口请求失败，状态码：{response.status_code}"
+AssertionError: 待处置 接口请求失败，状态码：400
+2025-08-21 11:19:23,531 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试开始==========
+2025-08-21 11:21:29,034 - common.log_handler - ERROR - 待处置 请求或数据提取失败: 待处置 接口请求失败，状态码：400
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_vul_event\get_total_from_url.py", line 14, in get_total_from_url
+    assert response.status_code == 200, f"{label} 接口请求失败，状态码：{response.status_code}"
+AssertionError: 待处置 接口请求失败，状态码：400
+2025-08-21 11:21:30,052 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试开始==========
+2025-08-21 11:23:35,791 - common.log_handler - ERROR - 待处置 请求或数据提取失败: 待处置 接口请求失败，状态码：400
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_vul_event\get_total_from_url.py", line 14, in get_total_from_url
+    assert response.status_code == 200, f"{label} 接口请求失败，状态码：{response.status_code}"
+AssertionError: 待处置 接口请求失败，状态码：400
+2025-08-21 11:23:35,832 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试开始==========
+2025-08-21 11:25:44,404 - common.log_handler - ERROR - 待处置 请求或数据提取失败: 待处置 接口请求失败，状态码：400
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_vul_event\get_total_from_url.py", line 14, in get_total_from_url
+    assert response.status_code == 200, f"{label} 接口请求失败，状态码：{response.status_code}"
+AssertionError: 待处置 接口请求失败，状态码：400
+2025-08-21 11:25:45,433 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试开始==========
+2025-08-21 11:27:51,901 - common.log_handler - ERROR - 待处置 请求或数据提取失败: 待处置 接口请求失败，状态码：400
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_vul_event\get_total_from_url.py", line 14, in get_total_from_url
+    assert response.status_code == 200, f"{label} 接口请求失败，状态码：{response.status_code}"
+AssertionError: 待处置 接口请求失败，状态码：400
+2025-08-21 11:27:52,931 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试开始==========
+2025-08-21 11:32:00,037 - common.log_handler - ERROR - 待处置 请求或数据提取失败: 待处置 接口请求失败，状态码：400
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_vul_event\get_total_from_url.py", line 14, in get_total_from_url
+    assert response.status_code == 200, f"{label} 接口请求失败，状态码：{response.status_code}"
+AssertionError: 待处置 接口请求失败，状态码：400
+2025-08-21 11:32:01,066 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试开始==========
+2025-08-21 11:34:01,812 - common.log_handler - ERROR - 待处置 请求或数据提取失败: 待处置 接口请求失败，状态码：400
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_vul_event\get_total_from_url.py", line 14, in get_total_from_url
+    assert response.status_code == 200, f"{label} 接口请求失败，状态码：{response.status_code}"
+AssertionError: 待处置 接口请求失败，状态码：400
+2025-08-21 11:34:01,854 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试开始==========
+2025-08-21 11:36:08,130 - common.log_handler - ERROR - 待处置 请求或数据提取失败: 待处置 接口请求失败，状态码：400
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_vul_event\get_total_from_url.py", line 14, in get_total_from_url
+    assert response.status_code == 200, f"{label} 接口请求失败，状态码：{response.status_code}"
+AssertionError: 待处置 接口请求失败，状态码：400
+2025-08-21 11:36:09,167 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试开始==========
+2025-08-21 11:38:15,817 - common.log_handler - ERROR - 待处置 请求或数据提取失败: 待处置 接口请求失败，状态码：400
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_vul_event\get_total_from_url.py", line 14, in get_total_from_url
+    assert response.status_code == 200, f"{label} 接口请求失败，状态码：{response.status_code}"
+AssertionError: 待处置 接口请求失败，状态码：400
+2025-08-21 11:38:16,857 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试开始==========
+2025-08-21 11:40:27,258 - common.log_handler - ERROR - 待处置 请求或数据提取失败: 待处置 接口请求失败，状态码：400
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_vul_event\get_total_from_url.py", line 14, in get_total_from_url
+    assert response.status_code == 200, f"{label} 接口请求失败，状态码：{response.status_code}"
+AssertionError: 待处置 接口请求失败，状态码：400
+2025-08-21 11:40:28,305 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试开始==========
+2025-08-21 11:42:29,676 - common.log_handler - ERROR - 待处置 请求或数据提取失败: 待处置 接口请求失败，状态码：400
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_vul_event\get_total_from_url.py", line 14, in get_total_from_url
+    assert response.status_code == 200, f"{label} 接口请求失败，状态码：{response.status_code}"
+AssertionError: 待处置 接口请求失败，状态码：400
+2025-08-21 11:42:29,711 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-08-21 11:43:11,915 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
+2025-08-21 11:43:11,922 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-08-21 11:43:12,238 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
+2025-08-21 11:43:12,243 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-08-21 11:43:18,636 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试结束==========
+2025-08-21 11:43:18,644 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
+2025-08-21 11:43:36,773 - common.log_handler - ERROR - 请求数据发生异常首页涉敏数据量与数据列表的涉敏数据量不一致
+assert 31189406 == 31191185
+ +  where 31191185 = <test_case.test_risk_overview.test_data_assets.TestCase object at 0x0000024ECDB53190>.data_count
+2025-08-21 11:43:42,210 - common.log_handler - ERROR - 请求数据发生异常首页涉敏数据量与数据列表的涉敏数据量不一致
+assert 31189406 == 31191185
+ +  where 31191185 = <test_case.test_risk_overview.test_data_assets.TestCase object at 0x0000024ECDB53190>.data_count
+2025-08-21 11:43:45,192 - common.log_handler - ERROR - 请求数据发生异常首页涉敏数据量与数据列表的涉敏数据量不一致
+assert 31189406 == 31191185
+ +  where 31191185 = <test_case.test_risk_overview.test_data_assets.TestCase object at 0x0000024ECDB53190>.data_count
+2025-08-21 11:43:50,883 - common.log_handler - ERROR - 请求数据发生异常首页涉敏数据量与数据列表的涉敏数据量不一致
+assert 31189406 == 31191185
+ +  where 31191185 = <test_case.test_risk_overview.test_data_assets.TestCase object at 0x0000024ECDB53190>.data_count
+2025-08-21 11:43:50,893 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试结束==========
+2025-08-21 11:43:50,898 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-08-21 11:43:57,275 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试结束==========
+2025-08-21 11:43:57,278 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-08-21 11:44:00,708 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试结束==========
+2025-08-21 11:44:00,714 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-08-21 11:44:01,252 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试结束==========
+2025-08-21 11:44:01,256 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-08-21 11:44:01,643 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试结束==========
+2025-08-21 11:44:01,649 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-08-21 11:44:14,334 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试结束==========
+2025-08-21 11:44:14,341 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-08-21 11:44:15,258 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试结束==========
+2025-08-21 11:44:15,261 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-08-21 11:44:18,250 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试结束==========
+2025-08-21 11:44:18,260 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-08-21 11:44:20,995 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试结束==========
+2025-08-21 16:57:22,941 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-08-21 16:57:23,000 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
+2025-08-21 16:57:23,002 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-08-21 16:57:23,105 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
+2025-08-21 16:57:23,108 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-08-21 16:57:23,560 - common.log_handler - ERROR - 请求数据发生异常首页数据总量与资产数据总量不一致
+assert 429473 == 432080
+ +  where 432080 = <test_case.test_asset_discovery.test_data_count.TestCase object at 0x0000020256DF72D0>.data_count
+2025-08-21 16:57:24,775 - common.log_handler - ERROR - 请求数据发生异常首页数据总量与资产数据总量不一致
+assert 429473 == 432080
+ +  where 432080 = <test_case.test_asset_discovery.test_data_count.TestCase object at 0x0000020256DF72D0>.data_count
+2025-08-21 16:57:25,817 - common.log_handler - ERROR - 请求数据发生异常首页数据总量与资产数据总量不一致
+assert 429473 == 432080
+ +  where 432080 = <test_case.test_asset_discovery.test_data_count.TestCase object at 0x0000020256DF72D0>.data_count
+2025-08-21 16:57:26,869 - common.log_handler - ERROR - 请求数据发生异常首页数据总量与资产数据总量不一致
+assert 429473 == 432080
+ +  where 432080 = <test_case.test_asset_discovery.test_data_count.TestCase object at 0x0000020256DF72D0>.data_count
+2025-08-21 16:57:26,876 - common.log_handler - INFO - ========获取首页数据总量数据，测试结束==========
+2025-08-21 16:57:26,879 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-08-21 16:57:26,917 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
+2025-08-21 16:57:26,920 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-08-21 16:57:27,241 - common.log_handler - INFO - 获取到风险列表高危待处置数量：30762，已处置数量：10
+2025-08-21 16:57:27,265 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
+2025-08-21 16:57:27,270 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-08-21 16:57:27,328 - common.log_handler - INFO - 获取到风险列表低危风险待处置数量：10，已处置数量：7
+2025-08-21 16:57:27,348 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
+2025-08-21 16:57:27,350 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-08-21 16:57:27,644 - common.log_handler - INFO - 获取到风险列表中危待处置数量：12011，已处置数量：11
+2025-08-21 16:57:27,667 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
+2025-08-21 16:57:27,672 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试开始==========
+2025-08-21 16:57:27,999 - common.log_handler - INFO - 获取到弱点列表高危待处置数量：31846，已处置数量：0
+2025-08-21 16:57:28,020 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试结束==========
+2025-08-21 16:57:28,022 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试开始==========
+2025-08-21 16:57:28,307 - common.log_handler - INFO - 获取到弱点列表低危弱点待处置数量：9335，已处置数量：0
+2025-08-21 16:57:28,325 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试结束==========
+2025-08-21 16:57:28,329 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试开始==========
+2025-08-21 16:57:28,625 - common.log_handler - INFO - 获取到弱点列表中危待处置数量：17533，已处置数量：0
+2025-08-21 16:57:28,643 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试结束==========
+2025-08-21 16:57:28,647 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-08-21 16:57:28,713 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
+2025-08-21 16:57:28,717 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-08-21 16:57:28,762 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
+2025-08-21 16:57:28,765 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-08-21 16:57:28,825 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试结束==========
+2025-08-21 16:57:28,828 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
+2025-08-21 16:57:28,944 - common.log_handler - ERROR - 请求数据发生异常首页涉敏数据量与数据列表的涉敏数据量不一致
+assert 421032 == 424243
+ +  where 424243 = <test_case.test_risk_overview.test_data_assets.TestCase object at 0x0000020256F77950>.data_count
+2025-08-21 16:57:29,995 - common.log_handler - ERROR - 请求数据发生异常首页涉敏数据量与数据列表的涉敏数据量不一致
+assert 421032 == 424243
+ +  where 424243 = <test_case.test_risk_overview.test_data_assets.TestCase object at 0x0000020256F77950>.data_count
+2025-08-21 16:57:31,036 - common.log_handler - ERROR - 请求数据发生异常首页涉敏数据量与数据列表的涉敏数据量不一致
+assert 421032 == 424243
+ +  where 424243 = <test_case.test_risk_overview.test_data_assets.TestCase object at 0x0000020256F77950>.data_count
+2025-08-21 16:57:32,079 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试结束==========
+2025-08-21 16:57:32,083 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-08-21 16:57:32,122 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试结束==========
+2025-08-21 16:57:32,124 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-08-21 16:57:32,202 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试结束==========
+2025-08-21 16:57:32,205 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-08-21 16:57:32,242 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试结束==========
+2025-08-21 16:57:32,245 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-08-21 16:57:32,291 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试结束==========
+2025-08-21 16:57:32,294 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-08-21 16:57:32,369 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试结束==========
+2025-08-21 16:57:32,372 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-08-21 16:57:32,454 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试结束==========
+2025-08-21 16:57:32,457 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-08-21 16:57:32,506 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试结束==========
+2025-08-21 16:57:32,509 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-08-21 16:57:32,656 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试结束==========
+2025-08-21 16:59:31,175 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-08-21 16:59:31,261 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
+2025-08-21 16:59:31,264 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-08-21 16:59:31,346 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
+2025-08-21 16:59:31,349 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-08-21 16:59:31,484 - common.log_handler - ERROR - 请求数据发生异常首页数据总量与资产数据总量不一致
+assert 436195 == 439861
+ +  where 439861 = <test_case.test_asset_discovery.test_data_count.TestCase object at 0x000002748E12B590>.data_count
+2025-08-21 16:59:32,685 - common.log_handler - ERROR - 请求数据发生异常首页数据总量与资产数据总量不一致
+assert 439870 == 439861
+ +  where 439861 = <test_case.test_asset_discovery.test_data_count.TestCase object at 0x000002748E12B590>.data_count
+2025-08-21 16:59:33,773 - common.log_handler - ERROR - 请求数据发生异常首页数据总量与资产数据总量不一致
+assert 439870 == 439861
+ +  where 439861 = <test_case.test_asset_discovery.test_data_count.TestCase object at 0x000002748E12B590>.data_count
+2025-08-21 16:59:34,820 - common.log_handler - ERROR - 请求数据发生异常首页数据总量与资产数据总量不一致
+assert 439870 == 439861
+ +  where 439861 = <test_case.test_asset_discovery.test_data_count.TestCase object at 0x000002748E12B590>.data_count
+2025-08-21 16:59:34,826 - common.log_handler - INFO - ========获取首页数据总量数据，测试结束==========
+2025-08-21 16:59:34,829 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-08-21 16:59:34,879 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
+2025-08-21 16:59:34,882 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-08-21 16:59:35,176 - common.log_handler - INFO - 获取到风险列表高危待处置数量：30806，已处置数量：10
+2025-08-21 16:59:35,236 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
+2025-08-21 16:59:35,241 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-08-21 16:59:35,303 - common.log_handler - INFO - 获取到风险列表低危风险待处置数量：10，已处置数量：7
+2025-08-21 16:59:35,323 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
+2025-08-21 16:59:35,326 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-08-21 16:59:35,643 - common.log_handler - INFO - 获取到风险列表中危待处置数量：12011，已处置数量：11
+2025-08-21 16:59:35,665 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
+2025-08-21 16:59:35,670 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试开始==========
+2025-08-21 16:59:35,973 - common.log_handler - INFO - 获取到弱点列表高危待处置数量：31850，已处置数量：0
+2025-08-21 16:59:35,993 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试结束==========
+2025-08-21 16:59:35,997 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试开始==========
+2025-08-21 16:59:36,228 - common.log_handler - INFO - 获取到弱点列表低危弱点待处置数量：9343，已处置数量：0
+2025-08-21 16:59:36,266 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试结束==========
+2025-08-21 16:59:36,269 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试开始==========
+2025-08-21 16:59:36,535 - common.log_handler - INFO - 获取到弱点列表中危待处置数量：17545，已处置数量：0
+2025-08-21 16:59:36,610 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试结束==========
+2025-08-21 16:59:36,614 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-08-21 16:59:36,682 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
+2025-08-21 16:59:36,686 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-08-21 16:59:36,813 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
+2025-08-21 16:59:36,816 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-08-21 16:59:36,894 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试结束==========
+2025-08-21 16:59:36,897 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
+2025-08-21 16:59:37,022 - common.log_handler - ERROR - 请求数据发生异常首页涉敏数据量与数据列表的涉敏数据量不一致
+assert 431146 == 431594
+ +  where 431594 = <test_case.test_risk_overview.test_data_assets.TestCase object at 0x000002748E2B3A10>.data_count
+2025-08-21 16:59:38,070 - common.log_handler - ERROR - 请求数据发生异常首页涉敏数据量与数据列表的涉敏数据量不一致
+assert 431146 == 431594
+ +  where 431594 = <test_case.test_risk_overview.test_data_assets.TestCase object at 0x000002748E2B3A10>.data_count
+2025-08-21 16:59:39,139 - common.log_handler - ERROR - 请求数据发生异常首页涉敏数据量与数据列表的涉敏数据量不一致
+assert 431146 == 431594
+ +  where 431594 = <test_case.test_risk_overview.test_data_assets.TestCase object at 0x000002748E2B3A10>.data_count
+2025-08-21 16:59:40,192 - common.log_handler - ERROR - 请求数据发生异常首页涉敏数据量与数据列表的涉敏数据量不一致
+assert 431146 == 431594
+ +  where 431594 = <test_case.test_risk_overview.test_data_assets.TestCase object at 0x000002748E2B3A10>.data_count
+2025-08-21 16:59:40,199 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试结束==========
+2025-08-21 16:59:40,202 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-08-21 16:59:40,245 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试结束==========
+2025-08-21 16:59:40,248 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-08-21 16:59:40,322 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试结束==========
+2025-08-21 16:59:40,325 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-08-21 16:59:40,375 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试结束==========
+2025-08-21 16:59:40,378 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-08-21 16:59:40,418 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试结束==========
+2025-08-21 16:59:40,422 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-08-21 16:59:40,543 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试结束==========
+2025-08-21 16:59:40,546 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-08-21 16:59:40,674 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试结束==========
+2025-08-21 16:59:40,677 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-08-21 16:59:40,757 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试结束==========
+2025-08-21 16:59:40,759 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-08-21 16:59:40,821 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试结束==========
+2025-08-21 17:00:56,884 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-08-21 17:00:56,972 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
+2025-08-21 17:00:56,977 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-08-21 17:00:57,065 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
+2025-08-21 17:00:57,068 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-08-21 17:00:57,200 - common.log_handler - ERROR - 请求数据发生异常首页数据总量与资产数据总量不一致
+assert 441830 == 445325
+ +  where 445325 = <test_case.test_asset_discovery.test_data_count.TestCase object at 0x000002742AEAB650>.data_count
+2025-08-21 17:00:58,422 - common.log_handler - ERROR - 请求数据发生异常首页数据总量与资产数据总量不一致
+assert 441830 == 445325
+ +  where 445325 = <test_case.test_asset_discovery.test_data_count.TestCase object at 0x000002742AEAB650>.data_count
+2025-08-21 17:00:59,465 - common.log_handler - ERROR - 请求数据发生异常首页数据总量与资产数据总量不一致
+assert 441830 == 445325
+ +  where 445325 = <test_case.test_asset_discovery.test_data_count.TestCase object at 0x000002742AEAB650>.data_count
+2025-08-21 17:01:00,507 - common.log_handler - ERROR - 请求数据发生异常首页数据总量与资产数据总量不一致
+assert 441830 == 445325
+ +  where 445325 = <test_case.test_asset_discovery.test_data_count.TestCase object at 0x000002742AEAB650>.data_count
+2025-08-21 17:01:00,514 - common.log_handler - INFO - ========获取首页数据总量数据，测试结束==========
+2025-08-21 17:01:00,516 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-08-21 17:01:00,560 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
+2025-08-21 17:01:00,565 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-08-21 17:01:00,868 - common.log_handler - INFO - 获取到风险列表高危待处置数量：30809，已处置数量：10
+2025-08-21 17:01:00,894 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
+2025-08-21 17:01:00,901 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-08-21 17:01:00,970 - common.log_handler - INFO - 获取到风险列表低危风险待处置数量：10，已处置数量：7
+2025-08-21 17:01:00,993 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
+2025-08-21 17:01:00,996 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-08-21 17:01:01,283 - common.log_handler - INFO - 获取到风险列表中危待处置数量：12013，已处置数量：11
+2025-08-21 17:01:01,310 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
+2025-08-21 17:01:01,315 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试开始==========
+2025-08-21 17:01:01,660 - common.log_handler - INFO - 获取到弱点列表高危待处置数量：31852，已处置数量：0
+2025-08-21 17:01:01,679 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试结束==========
+2025-08-21 17:01:01,682 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试开始==========
+2025-08-21 17:01:01,955 - common.log_handler - INFO - 获取到弱点列表低危弱点待处置数量：9345，已处置数量：0
+2025-08-21 17:01:01,974 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试结束==========
+2025-08-21 17:01:01,980 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试开始==========
+2025-08-21 17:01:02,333 - common.log_handler - INFO - 获取到弱点列表中危待处置数量：17549，已处置数量：0
+2025-08-21 17:01:02,364 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试结束==========
+2025-08-21 17:01:02,368 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-08-21 17:01:02,452 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
+2025-08-21 17:01:02,455 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-08-21 17:01:02,508 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
+2025-08-21 17:01:02,511 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-08-21 17:01:02,589 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试结束==========
+2025-08-21 17:01:02,593 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
+2025-08-21 17:01:02,688 - common.log_handler - ERROR - 请求数据发生异常首页涉敏数据量与数据列表的涉敏数据量不一致
+assert 433050 == 436469
+ +  where 436469 = <test_case.test_risk_overview.test_data_assets.TestCase object at 0x000002742B043750>.data_count
+2025-08-21 17:01:03,776 - common.log_handler - ERROR - 请求数据发生异常首页涉敏数据量与数据列表的涉敏数据量不一致
+assert 433050 == 436469
+ +  where 436469 = <test_case.test_risk_overview.test_data_assets.TestCase object at 0x000002742B043750>.data_count
+2025-08-21 17:01:04,842 - common.log_handler - ERROR - 请求数据发生异常首页涉敏数据量与数据列表的涉敏数据量不一致
+assert 433050 == 436469
+ +  where 436469 = <test_case.test_risk_overview.test_data_assets.TestCase object at 0x000002742B043750>.data_count
+2025-08-21 17:01:05,885 - common.log_handler - ERROR - 请求数据发生异常首页涉敏数据量与数据列表的涉敏数据量不一致
+assert 433050 == 436469
+ +  where 436469 = <test_case.test_risk_overview.test_data_assets.TestCase object at 0x000002742B043750>.data_count
+2025-08-21 17:01:05,892 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试结束==========
+2025-08-21 17:01:05,895 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-08-21 17:01:05,935 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试结束==========
+2025-08-21 17:01:05,937 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-08-21 17:01:06,017 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试结束==========
+2025-08-21 17:01:06,019 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-08-21 17:01:06,061 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试结束==========
+2025-08-21 17:01:06,064 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-08-21 17:01:06,107 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试结束==========
+2025-08-21 17:01:06,109 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-08-21 17:01:06,186 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试结束==========
+2025-08-21 17:01:06,189 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-08-21 17:01:06,281 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试结束==========
+2025-08-21 17:01:06,287 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-08-21 17:01:06,339 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试结束==========
+2025-08-21 17:01:06,342 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-08-21 17:01:06,401 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试结束==========
+2025-08-21 20:07:01,238 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-08-21 20:07:01,298 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
+2025-08-21 20:07:01,301 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-08-21 20:07:01,387 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
+2025-08-21 20:07:01,390 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-08-21 20:07:01,482 - common.log_handler - ERROR - 请求数据发生异常首页数据总量与资产数据总量不一致
+assert 1052657 == 1055339
+ +  where 1055339 = <test_case.test_asset_discovery.test_data_count.TestCase object at 0x000002E542672ED0>.data_count
+2025-08-21 20:07:02,693 - common.log_handler - INFO - ========获取首页数据总量数据，测试结束==========
+2025-08-21 20:07:02,695 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-08-21 20:07:02,735 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
+2025-08-21 20:07:02,743 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-08-21 20:07:03,035 - common.log_handler - INFO - 获取到风险列表高危待处置数量：31146，已处置数量：12
+2025-08-21 20:07:03,056 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
+2025-08-21 20:07:03,061 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-08-21 20:07:03,122 - common.log_handler - INFO - 获取到风险列表低危风险待处置数量：39，已处置数量：45
+2025-08-21 20:07:03,141 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
+2025-08-21 20:07:03,145 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-08-21 20:07:03,421 - common.log_handler - INFO - 获取到风险列表中危待处置数量：12114，已处置数量：14
+2025-08-21 20:07:03,443 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
+2025-08-21 20:07:03,448 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试开始==========
+2025-08-21 20:07:03,728 - common.log_handler - INFO - 获取到弱点列表高危待处置数量：31897，已处置数量：0
+2025-08-21 20:07:03,765 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试结束==========
+2025-08-21 20:07:03,769 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试开始==========
+2025-08-21 20:07:03,991 - common.log_handler - INFO - 获取到弱点列表低危弱点待处置数量：9387，已处置数量：0
+2025-08-21 20:07:04,010 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试结束==========
+2025-08-21 20:07:04,014 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试开始==========
+2025-08-21 20:07:04,247 - common.log_handler - INFO - 获取到弱点列表中危待处置数量：17646，已处置数量：0
+2025-08-21 20:07:04,267 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试结束==========
+2025-08-21 20:07:04,270 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-08-21 20:07:04,331 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
+2025-08-21 20:07:04,333 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-08-21 20:07:04,377 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
+2025-08-21 20:07:04,379 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-08-21 20:07:04,435 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试结束==========
+2025-08-21 20:07:04,438 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
+2025-08-21 20:07:04,523 - common.log_handler - ERROR - 请求数据发生异常首页涉敏数据量与数据列表的涉敏数据量不一致
+assert 1019826 == 1020197
+ +  where 1020197 = <test_case.test_risk_overview.test_data_assets.TestCase object at 0x000002E5427F1D10>.data_count
+2025-08-21 20:07:05,570 - common.log_handler - ERROR - 请求数据发生异常首页涉敏数据量与数据列表的涉敏数据量不一致
+assert 1019826 == 1020197
+ +  where 1020197 = <test_case.test_risk_overview.test_data_assets.TestCase object at 0x000002E5427F1D10>.data_count
+2025-08-21 20:07:06,611 - common.log_handler - ERROR - 请求数据发生异常首页涉敏数据量与数据列表的涉敏数据量不一致
+assert 1019826 == 1020197
+ +  where 1020197 = <test_case.test_risk_overview.test_data_assets.TestCase object at 0x000002E5427F1D10>.data_count
+2025-08-21 20:07:07,657 - common.log_handler - ERROR - 请求数据发生异常首页涉敏数据量与数据列表的涉敏数据量不一致
+assert 1019826 == 1020197
+ +  where 1020197 = <test_case.test_risk_overview.test_data_assets.TestCase object at 0x000002E5427F1D10>.data_count
+2025-08-21 20:07:07,664 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试结束==========
+2025-08-21 20:07:07,666 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-08-21 20:07:07,708 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试结束==========
+2025-08-21 20:07:07,711 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-08-21 20:07:07,768 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试结束==========
+2025-08-21 20:07:07,770 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-08-21 20:07:07,811 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试结束==========
+2025-08-21 20:07:07,814 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-08-21 20:07:07,856 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试结束==========
+2025-08-21 20:07:07,858 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-08-21 20:07:07,930 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试结束==========
+2025-08-21 20:07:07,932 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-08-21 20:07:08,019 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试结束==========
+2025-08-21 20:07:08,022 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-08-21 20:07:08,084 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试结束==========
+2025-08-21 20:07:08,086 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-08-21 20:07:08,149 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试结束==========

@@ -1,0 +1,74 @@
+2025-09-12 10:04:12,532 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-09-12 10:04:29,758 - common.log_handler - ERROR - 请求数据发生异常首页api总数与资产api总数不一致
+assert 361375 == 361208
+ +  where 361208 = <test_case.test_asset_discovery.test_api_summary.TestCase object at 0x00000251266BFB90>.row_count
+2025-09-12 10:04:30,169 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
+2025-09-12 10:04:30,173 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-09-12 10:04:34,009 - common.log_handler - ERROR - 请求数据发生异常首页应用总数与资产应用总数不一致
+assert 149 == 151
+ +  where 151 = <test_case.test_asset_discovery.test_app_summary.TestCase object at 0x00000251266CA990>.row_count
+2025-09-12 10:04:34,026 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
+2025-09-12 10:04:34,030 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-09-12 10:04:56,081 - common.log_handler - ERROR - 请求数据发生异常首页数据总量与资产数据总量不一致
+assert 452189 == 943805
+ +  where 943805 = <test_case.test_asset_discovery.test_data_count.TestCase object at 0x00000251266D6C90>.data_count
+2025-09-12 10:04:56,102 - common.log_handler - INFO - ========获取首页数据总量数据，测试结束==========
+2025-09-12 10:04:56,110 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-09-12 10:05:04,423 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
+2025-09-12 10:05:04,431 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-09-12 10:07:09,073 - common.log_handler - ERROR - 待处置 请求或数据提取失败: 待处置 接口请求失败，状态码：400
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_risk_event\get_total_from_url.py", line 14, in get_total_from_url
+    assert response.status_code == 200, f"{label} 接口请求失败，状态码：{response.status_code}"
+AssertionError: 待处置 接口请求失败，状态码：400
+2025-09-12 10:07:09,205 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-09-12 10:09:21,108 - common.log_handler - ERROR - 待处置 请求或数据提取失败: 待处置 接口请求失败，状态码：400
+Traceback (most recent call last):
+  File "D:\pythonProject3\autotest_api\test_case\test_pending_risk_event\get_total_from_url.py", line 14, in get_total_from_url
+    assert response.status_code == 200, f"{label} 接口请求失败，状态码：{response.status_code}"
+AssertionError: 待处置 接口请求失败，状态码：400
+2025-09-12 10:09:21,156 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-09-12 10:15:28,509 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
+2025-09-12 10:15:28,509 - common.log_handler - ERROR - token 获取失败
+2025-09-12 10:15:28,520 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
+2025-09-12 10:15:28,520 - common.log_handler - ERROR - token 获取失败
+2025-09-12 10:15:28,532 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
+2025-09-12 10:15:28,532 - common.log_handler - ERROR - token 获取失败
+2025-09-12 10:15:28,542 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
+2025-09-12 10:15:28,542 - common.log_handler - ERROR - token 获取失败
+2025-09-12 10:15:28,563 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
+2025-09-12 10:15:28,563 - common.log_handler - ERROR - token 获取失败
+2025-09-12 10:15:28,573 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
+2025-09-12 10:15:28,573 - common.log_handler - ERROR - token 获取失败
+2025-09-12 10:15:28,584 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
+2025-09-12 10:15:28,584 - common.log_handler - ERROR - token 获取失败
+2025-09-12 10:15:28,603 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试开始==========
+2025-09-12 10:15:28,603 - common.log_handler - ERROR - token 获取失败
+2025-09-12 10:15:28,628 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试开始==========
+2025-09-12 10:15:28,628 - common.log_handler - ERROR - token 获取失败
+2025-09-12 10:15:28,647 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试开始==========
+2025-09-12 10:15:28,647 - common.log_handler - ERROR - token 获取失败
+2025-09-12 10:15:28,665 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-09-12 10:15:28,665 - common.log_handler - ERROR - token 获取失败
+2025-09-12 10:15:28,687 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-09-12 10:15:28,687 - common.log_handler - ERROR - token 获取失败
+2025-09-12 10:15:28,706 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-09-12 10:15:28,706 - common.log_handler - ERROR - token 获取失败
+2025-09-12 10:15:28,727 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
+2025-09-12 10:15:28,728 - common.log_handler - ERROR - token 获取失败
+2025-09-12 10:15:28,752 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-09-12 10:15:28,753 - common.log_handler - ERROR - token 获取失败
+2025-09-12 10:15:28,775 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-09-12 10:15:28,775 - common.log_handler - ERROR - token 获取失败
+2025-09-12 10:15:28,796 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-09-12 10:15:28,796 - common.log_handler - ERROR - token 获取失败
+2025-09-12 10:15:28,815 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-09-12 10:15:28,815 - common.log_handler - ERROR - token 获取失败
+2025-09-12 10:15:28,837 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
+2025-09-12 10:15:28,837 - common.log_handler - ERROR - token 获取失败
+2025-09-12 10:15:28,858 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
+2025-09-12 10:15:28,859 - common.log_handler - ERROR - token 获取失败
+2025-09-12 10:15:28,878 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
+2025-09-12 10:15:28,878 - common.log_handler - ERROR - token 获取失败
+2025-09-12 10:15:28,898 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
+2025-09-12 10:15:28,898 - common.log_handler - ERROR - token 获取失败
