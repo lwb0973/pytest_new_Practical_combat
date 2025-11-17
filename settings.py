@@ -22,10 +22,3 @@ ALLURE_COMMAND = r'D:\allure\allure-2.34.1\bin\allure.bat'
 
 
 
-
-class Var():
-    def __init__(self):
-        pass
-
-
-var = Var()

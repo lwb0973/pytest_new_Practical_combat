@@ -24,7 +24,7 @@ def run_tests():
         # 重复执行用例
         # "--count=1",
         # 失败用例重跑
-        "--reruns=3",
+        # "--reruns=3",
         # 重跑间隔时间
         "--reruns-delay=1",
         # 生成 Allure 原始结果在 result/ 目录
@@ -32,7 +32,9 @@ def run_tests():
         # 跳过指定用例
         # "-k", "not test_05",
         # 跳过指定py文件
-        # "--ignore=testcase/test_demo1.py",
+        # "--ignore=testcase/.py",
+        # 跳过整个包路径
+        # "--ignore-glob=testcase/test_risk_overview/.py"
 
     ])
 
