@@ -30,7 +30,7 @@ class TestCase:
     def test_data_count(self, sc_login):
         """首页数据总量"""
         try:
-            with allure.step('【资产】-【数据列表】接口'):
+            with allure.step('【资产】-【流动数据列表】接口'):
                 url = f'https://{sc_ip}/apione/v2/data-assets'
                 payload = {"page_num": 1, "page_size": 100000}
                 headers = {'token': sc_login, 'Content-Type': 'application/json'}
@@ -42,19 +42,19 @@ class TestCase:
                 else:
                     data_count = sum(data_count_list)
 
-            with allure.step('【首页】-【数据总量】接口'):
+            with allure.step('【首页】-【流动数据总量】接口'):
                 url = f'https://{sc_ip}/apione/v2/data-assets/data-count'
                 response = requests.request(method='GET', url=url, headers=headers, verify=False)
-                assert response.status_code == 200, '首页数据总量请求响应失败'
+                assert response.status_code == 200, '首页流动数据总量请求响应失败'
                 total_count = jsonpath(response.json(), '$.data.data_count')[0]
-                assert total_count is not False, '未获取首页数据总量字段数据'
-                assert data_count is not False, '未获取资产数据总量字段数据'
-            with allure.step('首页数据总量和资产数据总量对比一致'):
-                assert total_count == data_count, '首页数据总量与资产数据总量不一致'
+                assert total_count is not False, '未获取首页流动数据总量字段数据'
+                assert data_count is not False, '未获取资产流动数据总量字段数据'
+            with allure.step('首页流动数据总量和资产流动数据总量对比一致'):
+                assert total_count == data_count, '首页流动数据总量与资产流动数据总量不一致'
 
         except JSONDecodeError as e:
-            logger.error(f'提取JSON解析数据总量错误{e}')
-            pytest.fail(f'提取JSON解析数据总量解析失败: {e}')
+            logger.error(f'提取JSON解析流动数据总量错误{e}')
+            pytest.fail(f'提取JSON解析流动数据总量解析失败: {e}')
         except Exception as e:
             logger.error(f'请求数据发生异常{e}')
             pytest.fail(f'请求异常: {e}')
