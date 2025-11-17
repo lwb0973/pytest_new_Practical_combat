@@ -7,7 +7,13 @@ logger = setup_logger()
 
 
 def get_total_from_url(url, headers, label):
-    """请求接口并返回 $.data.total 字段"""
+    """
+    请求接口并返回 $.data.total 字段
+    :param url: 总控地址
+    :param headers: 请求头
+    :param label: 风险等级参数
+    :return:
+    """
     try:
         response = requests.get(url, headers=headers, verify=False)
         print(response.json())

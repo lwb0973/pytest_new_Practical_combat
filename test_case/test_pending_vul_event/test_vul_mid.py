@@ -1,9 +1,6 @@
 import allure
-from jsonpath import jsonpath
-import requests
 import pytest
 import settings
-from settings import var
 from common.log_handler import setup_logger
 import urllib3
 from ..test_pending_vul_event.vul_all_pending import vul_list_all_pending, vul_home_all_pending
@@ -21,46 +18,55 @@ sc_ip = config.get('login', 'sc_ip')
 class TestCase:
     @classmethod
     def setup_class(cls):
-        logger.info('========获取首页待处置事件中危弱点待处置/已处置饼图，测试开始==========')
-        try:
-            with allure.step('【弱点】-【弱点事件列表】接口'):
-                token = getattr(var, "token", None)
-                if not token:
-                    logger.error("token 获取失败")
-                    pytest.fail("setup_class: 未获取到 token")
-                cls.headers = {'token': token}
-                cls.base_url = vul_list_all_pending(sc_url=sc_ip, headers=cls.headers, vul_level='3')
-                logger.info(
-                    f'获取到弱点列表中危待处置数量：{cls.base_url["pending_total_count"]}，已处置数量：{cls.base_url["total_count"]}')
-        except Exception as e:
-            logger.error(f'setup_class 异常: {e}', exc_info=True)
-            pytest.fail(f'setup_class 执行失败: {e}')
+        logger.info('======== 获取首页待处置事件中危弱点待处置/已处置饼图，测试开始 ==========')
+
 
     @classmethod
     def teardown_class(cls):
-        logger.info('========获取首页待处置事件中危弱点待处置/已处置饼图，测试结束==========')
+        logger.info('======== 获取首页待处置事件中危弱点待处置/已处置饼图，测试结束 ==========')
 
-    @allure.severity('normal')
     @allure.story('【待处置中危弱点总数】')
-    def test_vul_mid_pending(self):
+    def test_vul_mid_pending(self, sc_login):
+        """待处置/已处置中危弱点事件饼图总数"""
         try:
+            headers = {'token': sc_login}
+            # 获取弱点事件列表数据
+            with allure.step('【弱点】-【弱点事件列表】接口'):
+                vul_data = vul_list_all_pending(
+                    sc_url=sc_ip,
+                    headers=headers,
+                    vul_level='3'  # 中危等级
+                )
+                pending_total = vul_data.get("pending_total_count")
+                total_count = vul_data.get("total_count")
+
+                logger.info(f'获取弱点列表中危待处置数量：{pending_total}，已处置数量：{total_count}')
+                assert pending_total is not None, "弱点列表待处置中危弱点事件总数未获取"
+                assert total_count is not None, "弱点列表中危弱点事件总数未获取"
+
+            # 获取首页饼图数据
             with allure.step('【待处置中危弱点总数】接口'):
-                home_base_url = vul_home_all_pending(sc_url=sc_ip, headers=self.headers, vul_level='3',
-                                                     vul_grade='中危弱点')
-                # 校验 setup_class 中保存的数据
-                assert self.base_url["pending_total_count"] is not False, '弱点列表待处置中危弱点事件总数未获取'
-                assert self.base_url["total_count"] is not False, '弱点列表中危弱点事件总数未获取'
+                home_data = vul_home_all_pending(
+                    sc_url=sc_ip,
+                    headers=headers,
+                    vul_level='3',
+                    vul_grade='中危弱点'
+                )
 
-            with allure.step(
-                    f'校验待处置数一致,首页总数:{home_base_url["pending_count"]},弱点列表总数:{self.base_url["pending_total_count"]}'):
-                assert home_base_url["pending_count"] == self.base_url["pending_total_count"], \
-                    f'待处置数不一致：首页待处置中危弱点为 {home_base_url["pending_count"]}，弱点列表中危弱点为 {self.base_url["pending_total_count"]}'
+            # 校验待处置数量一致
+            with allure.step('校验待处置数一致'):
+                assert home_data.get("pending_count") == pending_total, (
+                    f'待处置数不一致：首页为 {home_data.get("pending_count")}，'
+                    f'弱点列表为 {pending_total}'
+                )
 
-            with allure.step(
-                    f'校验已处置数一致,首页总数:{home_base_url["done_count"]},弱点列表总数:{self.base_url["total_count"]}'):
-                assert home_base_url["done_count"] == self.base_url["total_count"], \
-                    f'已处置数不一致：首页已处置中危弱点为 {home_base_url["done_count"]}，弱点列表已处置中危弱点为 {self.base_url["total_count"]}'
+            # 校验已处置数量一致
+            with allure.step('校验已处置数一致'):
+                assert home_data.get("done_count") == total_count, (
+                    f'已处置数不一致：首页为 {home_data.get("done_count")}，'
+                    f'弱点列表为 {total_count}'
+                )
 
         except Exception as e:
-            logger.error(f'test_risk_high_pending 异常: {e}', exc_info=True)
+            logger.error(f'test_vul_mid_pending 异常: {e}', exc_info=True)
             pytest.fail(f'测试失败：{e}')

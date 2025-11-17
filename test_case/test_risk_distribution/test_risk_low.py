@@ -1,10 +1,7 @@
 from json import JSONDecodeError
 import allure
-from jsonpath import jsonpath
-import requests
 import pytest
 import settings
-from settings import var
 from common.log_handler import setup_logger
 import urllib3
 from ..test_risk_distribution.risk_all import risk_api_list,home_risk_api
@@ -22,36 +19,42 @@ class TestCase:
     @classmethod
     def setup_class(cls):
         logger.info('========获取首页风险api分布饼图低风险api总数数据，测试开始==========')
-        try:
-            with allure.step('【资产】-【api列表】接口'):
-                payload = {"risk_level_ids": [2], "page_num": 1, "page_size": 10, "time_layout": "2006-01-02 15:04:05","sort": -1}
-                token = getattr(var, "token", None)
-                if not token:
-                    logger.error("token 获取失败")
-                    pytest.fail("setup_class: 未获取到 token")
-                cls.headers = {'token': token}
-                cls.low_row_count = risk_api_list(sc_url=sc_ip, headers=cls.headers, payload=payload)
-        except Exception as e:
-            logger.error(f'setup_class 异常: {e}', exc_info=True)
-            pytest.fail(f'setup_class 执行失败: {e}')
+
 
     @classmethod
     def teardown_class(cls):
         logger.info('========获取首页风险api分布饼图低风险api总数数据，测试结束==========')
 
-    @allure.severity('normal')
     @allure.story('【低风险api总数】')
-    def test_risk_low(self):
+    def test_risk_low(self, sc_login):
+        """首页获取低危风险api总数"""
         try:
+            headers = {'token': sc_login}
+            with allure.step('【资产】-【api列表】接口'):
+                payload = {
+                    "risk_level_ids": [2],
+                    "page_num": 1,
+                    "page_size": 10,
+                    "time_layout": "2006-01-02 15:04:05",
+                    "sort": -1
+                }
+                low_row_count = risk_api_list(sc_url=sc_ip, headers=headers, payload=payload)
+
             with allure.step('【低风险api总数】接口'):
-                risk_low_count = home_risk_api(sc_url=sc_ip, headers=self.headers, all_risk_count='risk_low_count',risk_name='低危风险')
+                risk_low_count = home_risk_api(
+                    sc_url=sc_ip,
+                    headers=headers,
+                    all_risk_count='risk_low_count',
+                    risk_name='低危风险'
+                )
                 assert risk_low_count is not False, '未获取低风险api总数字段数据'
-                assert self.low_row_count is not False, '未获取api列表低风险api总数字段数据'
-            with allure.step(f'首页低风险api总数和资产-api列表低风险api总数对比一致,首页总数:{risk_low_count},api列表总数:{self.low_row_count}'):
-                assert risk_low_count == self.low_row_count, '首页低风险api总数与api列表的低风险api总数不一致'
+                assert low_row_count is not False, '未获取api列表低风险api总数字段数据'
+
+            with allure.step('首页低风险api总数和资产-api列表低风险api总数对比一致'):
+                assert risk_low_count == low_row_count, '首页低风险api总数与api列表的低风险api总数不一致'
+
         except JSONDecodeError as e:
-            logger.error(f'提取JSON解析低风险api总数错误{e}')
+            logger.error(f'提取JSON解析低风险api总数错误: {e}')
             pytest.fail(f'提取JSON解析低风险api总数解析失败: {e}')
         except Exception as e:
-            logger.error(f'请求数据发生异常{e}')
-            pytest.fail(f'请求异常: {e}')
+            logger.error(f'请求数据发生异常: {e}')
