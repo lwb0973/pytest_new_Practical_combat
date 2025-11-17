@@ -4,7 +4,7 @@ import settings
 from common.log_handler import setup_logger
 import urllib3
 import configparser
-from ..test_pending_vul_event.vul_all_pending import vul_list_all_pending, vul_home_all_pending
+from test_case.test_pending_vul_event.vul_all_pending import vul_list_all_pending, vul_home_all_pending
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 

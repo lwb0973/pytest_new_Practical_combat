@@ -4,7 +4,7 @@ import settings
 from common.log_handler import setup_logger
 import urllib3
 import configparser
-from ..test_pending_risk_event.risk_all_pending import risk_list_all_pending,risk_home_all_pending
+from test_case.test_pending_risk_event.risk_all_pending import risk_list_all_pending,risk_home_all_pending
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 logger = setup_logger()

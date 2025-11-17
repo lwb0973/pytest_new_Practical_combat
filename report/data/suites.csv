@@ -1,31 +1,19 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"待处置/已处置中危弱点事件饼图总数","1326","test_vul_mid_pending","test_case.test_pending_vul_event","Fri Nov 14 17:51:16 CST 2025","passed","Fri Nov 14 17:51:17 CST 2025","TestCase","test_vul_mid","",""
-"
-        首页流动数据总量
-        :param sc_login:
-        :return:
-        ","254","test_data_count","test_case.test_asset_discovery","Fri Nov 14 17:51:07 CST 2025","passed","Fri Nov 14 17:51:08 CST 2025","TestCase","test_data_count","",""
-"
-        首页应用总数
-        :param sc_login:
-        :return:
-        ","68","test_app_summary","test_case.test_asset_discovery","Fri Nov 14 17:51:07 CST 2025","passed","Fri Nov 14 17:51:07 CST 2025","TestCase","test_app_summary","",""
-"待处置/已处置低危风险事件饼图总数","2223","test_risk_low_pending","test_case.test_pending_risk_event","Fri Nov 14 17:51:09 CST 2025","passed","Fri Nov 14 17:51:12 CST 2025","TestCase","test_risk_low","",""
-"首页风险概览风险用户总数","88","test_risk_users","test_case.test_risk_overview","Fri Nov 14 17:51:18 CST 2025","passed","Fri Nov 14 17:51:18 CST 2025","TestCase","test_risk_users","",""
-"首页风险概览风险api总数","75","test_risk_total","test_case.test_risk_overview","Fri Nov 14 17:51:18 CST 2025","passed","Fri Nov 14 17:51:18 CST 2025","TestCase","test_risk_total","",""
-"首页风险概览风险账号总数","52","test_risk_user","test_case.test_risk_overview","Fri Nov 14 17:51:18 CST 2025","passed","Fri Nov 14 17:51:18 CST 2025","TestCase","test_risk_user","",""
-"首页风险概览涉敏数据量","126","test_data_assets","test_case.test_risk_overview","Fri Nov 14 17:51:18 CST 2025","passed","Fri Nov 14 17:51:18 CST 2025","TestCase","test_data_assets","",""
-"待处置/已处置低危弱点事件饼图总数","1356","test_vul_low_pending","test_case.test_pending_vul_event","Fri Nov 14 17:51:15 CST 2025","passed","Fri Nov 14 17:51:16 CST 2025","TestCase","test_vul_low","",""
-"待处置/已处置中危风险事件饼图总数","1757","test_risk_mid_pending","test_case.test_pending_risk_event","Fri Nov 14 17:51:12 CST 2025","passed","Fri Nov 14 17:51:13 CST 2025","TestCase","test_risk_mid","",""
-"首页获取中危风险api总数","58","test_risk_mid","test_case.test_risk_distribution","Fri Nov 14 17:51:18 CST 2025","passed","Fri Nov 14 17:51:18 CST 2025","TestCase","test_risk_mid","",""
-"待处置/已处置高危风险事件饼图总数","1764","test_risk_high_pending","test_case.test_pending_risk_event","Fri Nov 14 17:51:08 CST 2025","passed","Fri Nov 14 17:51:09 CST 2025","TestCase","test_risk_high","",""
-"待处置/已处置高危弱点事件饼图总数","1244","test_vul_high_pending","test_case.test_pending_vul_event","Fri Nov 14 17:51:13 CST 2025","passed","Fri Nov 14 17:51:15 CST 2025","TestCase","test_vul_high","",""
-"
-        首页api总数
-        :param sc_login:
-        :return:
-        ","64","test_api_summary","test_case.test_asset_discovery","Fri Nov 14 17:51:07 CST 2025","passed","Fri Nov 14 17:51:07 CST 2025","TestCase","test_api_summary","",""
-"首页风险概览敏感文件总数","63","test_file_assets","test_case.test_risk_overview","Fri Nov 14 17:51:18 CST 2025","passed","Fri Nov 14 17:51:18 CST 2025","TestCase","test_file_assets","",""
-"首页获取高危风险api总数","77","test_risk_high","test_case.test_risk_distribution","Fri Nov 14 17:51:17 CST 2025","passed","Fri Nov 14 17:51:17 CST 2025","TestCase","test_risk_high","",""
-"首页文件总数","49","test_file_count","test_case.test_asset_discovery","Fri Nov 14 17:51:08 CST 2025","passed","Fri Nov 14 17:51:08 CST 2025","TestCase","test_file_count","",""
-"首页获取低危风险api总数","62","test_risk_low","test_case.test_risk_distribution","Fri Nov 14 17:51:17 CST 2025","passed","Fri Nov 14 17:51:18 CST 2025","TestCase","test_risk_low","",""
+"首页获取中危风险api总数","82","test_risk_mid","test_case.test_risk_distribution","Mon Nov 17 14:18:29 CST 2025","passed","Mon Nov 17 14:18:29 CST 2025","TestCase","test_risk_mid","",""
+"首页获取高危风险api总数","148","test_risk_high","test_case.test_risk_distribution","Mon Nov 17 14:18:29 CST 2025","passed","Mon Nov 17 14:18:29 CST 2025","TestCase","test_risk_high","",""
+"首页获取低危风险api总数","85","test_risk_low","test_case.test_risk_distribution","Mon Nov 17 14:18:29 CST 2025","passed","Mon Nov 17 14:18:29 CST 2025","TestCase","test_risk_low","",""
+"首页风险概览风险api总数","72","test_risk_total","test_case.test_risk_overview","Mon Nov 17 14:18:29 CST 2025","passed","Mon Nov 17 14:18:29 CST 2025","TestCase","test_risk_total","",""
+"待处置/已处置中危弱点事件饼图总数","1658","test_vul_mid_pending","test_case.test_pending_vul_event","Mon Nov 17 14:18:27 CST 2025","passed","Mon Nov 17 14:18:29 CST 2025","TestCase","test_vul_mid","",""
+"首页风险概览涉敏数据量","142","test_data_assets","test_case.test_risk_overview","Mon Nov 17 14:18:29 CST 2025","passed","Mon Nov 17 14:18:29 CST 2025","TestCase","test_data_assets","",""
+"首页风险概览敏感文件总数","55","test_file_assets","test_case.test_risk_overview","Mon Nov 17 14:18:29 CST 2025","passed","Mon Nov 17 14:18:29 CST 2025","TestCase","test_file_assets","",""
+"待处置/已处置低危弱点事件饼图总数","1697","test_vul_low_pending","test_case.test_pending_vul_event","Mon Nov 17 14:18:26 CST 2025","passed","Mon Nov 17 14:18:27 CST 2025","TestCase","test_vul_low","",""
+"待处置/已处置高危风险事件饼图总数","2152","test_risk_high_pending","test_case.test_pending_risk_event","Mon Nov 17 14:18:17 CST 2025","passed","Mon Nov 17 14:18:19 CST 2025","TestCase","test_risk_high","",""
+"首页风险概览风险用户总数","65","test_risk_users","test_case.test_risk_overview","Mon Nov 17 14:18:30 CST 2025","passed","Mon Nov 17 14:18:30 CST 2025","TestCase","test_risk_users","",""
+"首页应用总数","77","test_app_summary","test_case.test_asset_discovery","Mon Nov 17 14:18:16 CST 2025","passed","Mon Nov 17 14:18:16 CST 2025","TestCase","test_app_summary","",""
+"首页风险概览风险账号总数","53","test_risk_user","test_case.test_risk_overview","Mon Nov 17 14:18:29 CST 2025","passed","Mon Nov 17 14:18:30 CST 2025","TestCase","test_risk_user","",""
+"待处置/已处置高危弱点事件饼图总数","1938","test_vul_high_pending","test_case.test_pending_vul_event","Mon Nov 17 14:18:24 CST 2025","passed","Mon Nov 17 14:18:26 CST 2025","TestCase","test_vul_high","",""
+"首页API总数","67","test_api_summary","test_case.test_asset_discovery","Mon Nov 17 14:18:16 CST 2025","passed","Mon Nov 17 14:18:16 CST 2025","TestCase","test_api_summary","",""
+"首页文件总数","49","test_file_count","test_case.test_asset_discovery","Mon Nov 17 14:18:17 CST 2025","passed","Mon Nov 17 14:18:17 CST 2025","TestCase","test_file_count","",""
+"首页数据总量","319","test_data_count","test_case.test_asset_discovery","Mon Nov 17 14:18:16 CST 2025","passed","Mon Nov 17 14:18:17 CST 2025","TestCase","test_data_count","",""
+"待处置/已处置中危风险事件饼图总数","2621","test_risk_mid_pending","test_case.test_pending_risk_event","Mon Nov 17 14:18:21 CST 2025","passed","Mon Nov 17 14:18:24 CST 2025","TestCase","test_risk_mid","",""
+"待处置/已处置低危风险事件饼图总数","1996","test_risk_low_pending","test_case.test_pending_risk_event","Mon Nov 17 14:18:19 CST 2025","passed","Mon Nov 17 14:18:21 CST 2025","TestCase","test_risk_low","",""

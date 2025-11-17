@@ -4,7 +4,7 @@ import pytest
 import settings
 from common.log_handler import setup_logger
 import urllib3
-from ..test_pending_risk_event.risk_all_pending import risk_list_all_pending, risk_home_all_pending
+from test_case.test_pending_risk_event.risk_all_pending import risk_list_all_pending, risk_home_all_pending
 import configparser
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
