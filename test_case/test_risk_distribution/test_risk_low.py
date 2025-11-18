@@ -4,7 +4,7 @@ import pytest
 import settings
 from common.log_handler import setup_logger
 import urllib3
-from ..test_risk_distribution.risk_all import risk_api_list,home_risk_api
+from test_case.test_risk_distribution.risk_all import risk_api_list,home_risk_api
 import configparser
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 

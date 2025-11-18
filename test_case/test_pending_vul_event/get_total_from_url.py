@@ -11,11 +11,12 @@ def get_total_from_url(url, headers, label):
     请求接口并返回 $.data.total 字段
     :param url: 总控地址
     :param headers: 请求头包含token
-    :param label: 弱点记录处置状态带处置/已处置，中文标识
+    :param label: 弱点等级参数
     :return:
     """
     try:
         response = requests.get(url, headers=headers, verify=False)
+        print(response.json())
         assert response.status_code == 200, f"{label} 接口请求失败，状态码：{response.status_code}"
 
         total = jsonpath(response.json(), '$.data.total')

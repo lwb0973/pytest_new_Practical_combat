@@ -35,8 +35,8 @@ def home_risk_api(sc_url,headers,all_risk_count,risk_name):
     获取首页高中低风险api数
     :param sc_url: 总控地址
     :param headers: 请求头包含token
-    :param all_risk_count: 获取对应风险等级的总数
-    :param risk_name: 中文风险等级名称
+    :param all_risk_count: 对应风险等级参数
+    :param risk_name: 风险等级中文名称
     :return:
     """
     url = f'https://{sc_url}/apione/v2/api-assets/home/summary?period=7d'

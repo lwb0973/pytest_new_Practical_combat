@@ -3,8 +3,15 @@ from jsonpath import jsonpath
 import requests
 from test_case.test_pending_vul_event.get_total_from_url import get_total_from_url
 
-# 弱点列表获取对应弱点等级函数
+#
 def vul_list_all_pending(sc_url, headers, vul_level):
+    """
+    弱点列表获取对应弱点等级函数
+    :param sc_url: 总控地址
+    :param headers: 请求头包含token
+    :param vul_level: 弱点等级参数
+    :return:
+    """
     base_url = f'https://{sc_url}/apione/v2/vul/records?page_num=1000000&page_size=50&api_name_exact=0&vul_level={vul_level}'
     pending_url = f'{base_url}&disposal_status=2&layout=2006-01-02%2015%3A04%3A05'
     total_url = f'{base_url}&disposal_status=3&layout=2006-01-02%2015%3A04%3A05'
@@ -13,8 +20,16 @@ def vul_list_all_pending(sc_url, headers, vul_level):
     return {'pending_total_count':pending_total_count, 'total_count':total_count}
 
 
-# 首页获取弱点待处置对应弱点等级函数
+#
 def vul_home_all_pending(sc_url, headers, vul_level,vul_grade):
+    """
+    首页获取弱点待处置对应弱点等级函数
+    :param sc_url: 总控地址
+    :param headers: 请求头包含token
+    :param vul_level: 弱点等级参数
+    :param vul_grade: 弱点等级中文名称
+    :return:
+    """
     url = f'https://{sc_url}/apione/v2/vul/records/summary/by-level?period=7d&time_layout=2006-01-02'
     response = requests.get(url, headers=headers, verify=False)
     assert response.status_code == 200, f'首页待处置{vul_grade}总数请求失败'

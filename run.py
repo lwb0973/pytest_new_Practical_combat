@@ -1,17 +1,24 @@
 import os
-import shutil
 import subprocess
 import settings
 import multiprocessing
 import pytest
 import configparser
+import requests
+import socket
+from conftest import get_local_ip, send_wechat_report,start_http_server
+
 
 
 
 config = configparser.ConfigParser()
 config.read(settings.INI_FILE, encoding='utf-8')
-project_name = config.get('allure','Project')
+project_name = config.get('allure', 'Project')
+WECHAT_KEY = config.get('WECHAT_WEBHOOK', 'webchat_key')
 ALLURE_COMMAND = settings.ALLURE_COMMAND
+
+# HTTP 服务端口
+HTTP_PORT = 8888
 
 
 def run_tests():
@@ -38,10 +45,17 @@ def run_tests():
 
     ])
 
-    # 1. 生成 Allure 报告
-    subprocess.run([ALLURE_COMMAND, "generate", "result", "-o", "report", "--clean", "--report-name", project_name])
-    # 2. 打开报告
-    subprocess.run([ALLURE_COMMAND, "open", "report"])
+    # ----------------- 生成 Allure 报告 -----------------
+    subprocess.run([ALLURE_COMMAND,"generate", "result","-o", "report","--clean", "--report-name", project_name])
+
+    # ----------------- 推送企业微信 -----------------
+
+    report_url = f"http://{get_local_ip()}:{HTTP_PORT}"
+    send_wechat_report(WECHAT_KEY,report_url)
+
+    # ----------------- 启动 HTTP 服务 -----------------
+    print("启动本地 HTTP 服务以访问 Allure 报告...")
+    start_http_server("report", HTTP_PORT)
 
 
 if __name__ == "__main__":
