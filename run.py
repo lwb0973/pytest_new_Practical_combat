@@ -6,6 +6,7 @@ import pytest
 import configparser
 import requests
 import socket
+from conftest import get_local_ip, send_wechat_report,start_http_server
 
 
 
@@ -18,43 +19,6 @@ ALLURE_COMMAND = settings.ALLURE_COMMAND
 
 # HTTP 服务端口
 HTTP_PORT = 8888
-
-def get_local_ip():
-    """获取本机 IP 地址"""
-    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    try:
-        s.connect(("8.8.8.8", 80))
-        ip = s.getsockname()[0]
-    except Exception:
-        ip = "127.0.0.1"
-    finally:
-        s.close()
-    return ip
-
-
-def start_http_server(directory, port=HTTP_PORT):
-    """启动 HTTP 服务，用于访问 Allure 报告"""
-    import http.server
-    import socketserver
-
-    os.chdir(directory)
-    handler = http.server.SimpleHTTPRequestHandler
-    with socketserver.TCPServer(("", port), handler) as httpd:
-        print(f"Allure 报告服务器已启动: http://{get_local_ip()}:{port}")
-        httpd.serve_forever()
-
-def send_wechat_report(url):
-    """发送企业微信通知 URL"""
-    send_url = f"https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key={WECHAT_KEY}"
-    data = {
-        "msgtype": "text",
-        "text": {
-            "content": f"🎉 首页自动化准确性测试完成\n\n📊 Allure 测试报告已生成\n➡ {url}\n\n请点击上方链接查看完整可视化报告"
-        }
-    }
-    r = requests.post(send_url, json=data)
-    print("企业微信推送结果:", r.json())
-
 
 
 def run_tests():
@@ -87,7 +51,7 @@ def run_tests():
     # ----------------- 推送企业微信 -----------------
 
     report_url = f"http://{get_local_ip()}:{HTTP_PORT}"
-    send_wechat_report(report_url)
+    send_wechat_report(WECHAT_KEY,report_url)
 
     # ----------------- 启动 HTTP 服务 -----------------
     print("启动本地 HTTP 服务以访问 Allure 报告...")

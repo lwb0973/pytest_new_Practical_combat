@@ -5,6 +5,8 @@ from datetime import datetime
 import settings
 import configparser
 import json
+import socket
+import requests
 
 
 
@@ -64,4 +66,34 @@ with open(f"{settings.RESULT_FILE}/executor.json", "w", encoding="utf-8") as f:
     json.dump(executor_info, f, ensure_ascii=False, indent=2)
 
 
+def get_local_ip():
+    """获取本机 IP 地址"""
+    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    try:
+        s.connect(("8.8.8.8", 80))
+        ip = s.getsockname()[0]
+    except:
+        ip = "127.0.0.1"
+    finally:
+        s.close()
+    return ip
 
+
+def send_wechat_report(key, url):
+    """发送企业微信通知 URL"""
+    api = f"https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key={key}"
+    data = {"msgtype": "text","text": {"content": f"🎉 首页自动化准确性测试完成\n\n📊 Allure 测试报告已生成\n➡ {url}\n\n请点击上方链接查看完整可视化报告"}}
+    r = requests.post(api, json=data)
+    return r.json()
+
+
+def start_http_server(directory, port):
+    """启动 HTTP 服务，用于访问 Allure 报告"""
+    import http.server
+    import socketserver
+
+    os.chdir(directory)
+    handler = http.server.SimpleHTTPRequestHandler
+    with socketserver.TCPServer(("", port), handler) as httpd:
+        print(f"Allure 报告服务器已启动: http://{get_local_ip()}:{port}")
+        httpd.serve_forever()
