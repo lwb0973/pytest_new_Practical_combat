@@ -1,0 +1,2 @@
+{'msg': '', 'code': 200, 'data': {'total': 4, 'records': [], 'vul_type_list': {'total': 0, 'vul_types': None}, 'related_instances': {}}}
+{'msg': '', 'code': 200, 'data': {'total': 0, 'records': [], 'vul_type_list': {'total': 0, 'vul_types': None}, 'related_instances': {}}}
