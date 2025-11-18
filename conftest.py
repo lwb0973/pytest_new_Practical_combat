@@ -45,9 +45,9 @@ def create_environment_file():
             f.write(f"{key}={safe_value}\n")
 
 
-# pytest 会在测试会话开始前调用这个钩子
-def pytest_sessionstart(session):
-    create_environment_file()
+# # pytest 会在测试会话开始前调用这个钩子
+# def pytest_sessionstart(session):
+#     create_environment_file()
 
 
 # allure测试报告写入运行器信息
