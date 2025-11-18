@@ -1,11 +1,8 @@
-import os
 import subprocess
 import settings
 import multiprocessing
 import pytest
 import configparser
-import requests
-import socket
 from conftest import get_local_ip, send_wechat_report,start_http_server
 
 
@@ -13,12 +10,15 @@ from conftest import get_local_ip, send_wechat_report,start_http_server
 
 config = configparser.ConfigParser()
 config.read(settings.INI_FILE, encoding='utf-8')
+# 报告标题
 project_name = config.get('allure', 'Project')
+# 企微机器人地址key
 WECHAT_KEY = config.get('WECHAT_WEBHOOK', 'webchat_key')
+# 启用http服务端口
+HTTP_PORT = config.get('server_port','HTTP_PORT')
+# 获取alluer本地路径
 ALLURE_COMMAND = settings.ALLURE_COMMAND
 
-# HTTP 服务端口
-HTTP_PORT = 8888
 
 
 def run_tests():
