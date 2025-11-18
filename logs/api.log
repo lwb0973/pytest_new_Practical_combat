@@ -1,717 +1,126 @@
-2025-11-14 15:26:33,604 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
-2025-11-14 15:26:33,669 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
-2025-11-14 15:26:33,672 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
-2025-11-14 15:26:33,758 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
-2025-11-14 15:26:33,761 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
-2025-11-14 15:26:34,121 - common.log_handler - INFO - ========获取首页数据总量数据，测试结束==========
-2025-11-14 15:26:34,127 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
-2025-11-14 15:26:34,180 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
-2025-11-14 15:26:34,184 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
-2025-11-14 15:26:36,444 - common.log_handler - INFO - 获取到风险列表高危待处置数量：17，已处置数量：3
-2025-11-14 15:26:36,472 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
-2025-11-14 15:26:36,476 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
-2025-11-14 15:26:38,547 - common.log_handler - INFO - 获取到风险列表低危风险待处置数量：39，已处置数量：5
-2025-11-14 15:26:38,580 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
-2025-11-14 15:26:38,584 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
-2025-11-14 15:26:41,656 - common.log_handler - INFO - 获取到风险列表中危待处置数量：29，已处置数量：2
-2025-11-14 15:26:41,700 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
-2025-11-14 15:26:41,709 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试开始==========
-2025-11-14 15:26:44,534 - common.log_handler - INFO - 获取到弱点列表高危待处置数量：4，已处置数量：0
-2025-11-14 15:26:44,563 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试结束==========
-2025-11-14 15:26:44,568 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试开始==========
-2025-11-14 15:26:47,371 - common.log_handler - INFO - 获取到弱点列表低危弱点待处置数量：3，已处置数量：0
-2025-11-14 15:26:47,407 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试结束==========
-2025-11-14 15:26:47,416 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试开始==========
-2025-11-14 15:26:50,192 - common.log_handler - INFO - 获取到弱点列表中危待处置数量：6，已处置数量：0
-2025-11-14 15:26:50,221 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试结束==========
-2025-11-14 15:26:50,230 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
-2025-11-14 15:26:50,348 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
-2025-11-14 15:26:50,351 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
-2025-11-14 15:26:50,460 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
-2025-11-14 15:26:50,469 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
-2025-11-14 15:26:50,625 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试结束==========
-2025-11-14 15:26:50,629 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
-2025-11-14 15:26:50,818 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试结束==========
-2025-11-14 15:26:50,821 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
-2025-11-14 15:26:50,966 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试结束==========
-2025-11-14 15:26:50,973 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
-2025-11-14 15:26:51,102 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试结束==========
-2025-11-14 15:26:51,106 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
-2025-11-14 15:26:51,200 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试结束==========
-2025-11-14 15:26:51,203 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
-2025-11-14 15:26:51,279 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试结束==========
-2025-11-14 15:26:51,284 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
-2025-11-14 15:26:51,392 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
-assert 400 == 200
- +  where 400 = <Response [400]>.status_code
-Traceback (most recent call last):
-  File "D:\pythonProject3\autotest_api\test_case\test_risk_overview\test_vul_total.py", line 36, in setup_class
-    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
-AssertionError: 接口请求失败，状态码：400
-assert 400 == 200
- +  where 400 = <Response [400]>.status_code
-2025-11-14 15:26:51,644 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
-2025-11-14 15:26:51,869 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
-assert 400 == 200
- +  where 400 = <Response [400]>.status_code
-Traceback (most recent call last):
-  File "D:\pythonProject3\autotest_api\test_case\test_vul_distribution\test_vul_high.py", line 35, in setup_class
-    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
-AssertionError: 接口请求失败，状态码：400
-assert 400 == 200
- +  where 400 = <Response [400]>.status_code
-2025-11-14 15:26:51,890 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
-2025-11-14 15:26:52,140 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
-assert 400 == 200
- +  where 400 = <Response [400]>.status_code
-Traceback (most recent call last):
-  File "D:\pythonProject3\autotest_api\test_case\test_vul_distribution\test_vul_low.py", line 36, in setup_class
-    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
-AssertionError: 接口请求失败，状态码：400
-assert 400 == 200
- +  where 400 = <Response [400]>.status_code
-2025-11-14 15:26:52,156 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
-2025-11-14 15:26:52,241 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
-assert 400 == 200
- +  where 400 = <Response [400]>.status_code
-Traceback (most recent call last):
-  File "D:\pythonProject3\autotest_api\test_case\test_vul_distribution\test_vul_mid.py", line 35, in setup_class
-    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
-AssertionError: 接口请求失败，状态码：400
-assert 400 == 200
- +  where 400 = <Response [400]>.status_code
-2025-11-14 15:34:10,550 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
-2025-11-14 15:34:10,630 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
-2025-11-14 15:34:10,634 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
-2025-11-14 15:34:10,710 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
-2025-11-14 15:34:10,714 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
-2025-11-14 15:34:11,009 - common.log_handler - INFO - ========获取首页数据总量数据，测试结束==========
-2025-11-14 15:34:11,014 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
-2025-11-14 15:34:11,070 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
-2025-11-14 15:34:11,073 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
-2025-11-14 15:34:13,079 - common.log_handler - INFO - 获取到风险列表高危待处置数量：17，已处置数量：3
-2025-11-14 15:34:13,105 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
-2025-11-14 15:34:13,110 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
-2025-11-14 15:34:15,884 - common.log_handler - INFO - 获取到风险列表低危风险待处置数量：39，已处置数量：5
-2025-11-14 15:34:15,912 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
-2025-11-14 15:34:15,918 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
-2025-11-14 15:34:18,575 - common.log_handler - INFO - 获取到风险列表中危待处置数量：29，已处置数量：2
-2025-11-14 15:34:18,603 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
-2025-11-14 15:34:18,612 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试开始==========
-2025-11-14 15:34:20,800 - common.log_handler - INFO - 获取到弱点列表高危待处置数量：4，已处置数量：0
-2025-11-14 15:34:20,842 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试结束==========
-2025-11-14 15:34:20,849 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试开始==========
-2025-11-14 15:34:23,386 - common.log_handler - INFO - 获取到弱点列表低危弱点待处置数量：3，已处置数量：0
-2025-11-14 15:34:23,423 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试结束==========
-2025-11-14 15:34:23,429 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试开始==========
-2025-11-14 15:34:26,576 - common.log_handler - INFO - 获取到弱点列表中危待处置数量：6，已处置数量：0
-2025-11-14 15:34:26,609 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试结束==========
-2025-11-14 15:34:26,613 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
-2025-11-14 15:34:26,749 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
-2025-11-14 15:34:26,752 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
-2025-11-14 15:34:26,863 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
-2025-11-14 15:34:26,868 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
-2025-11-14 15:34:26,967 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试结束==========
-2025-11-14 15:34:26,970 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
-2025-11-14 15:34:27,155 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试结束==========
-2025-11-14 15:34:27,160 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
-2025-11-14 15:34:27,286 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试结束==========
-2025-11-14 15:34:27,290 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
-2025-11-14 15:34:27,439 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试结束==========
-2025-11-14 15:34:27,442 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
-2025-11-14 15:34:27,516 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试结束==========
-2025-11-14 15:34:27,519 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
-2025-11-14 15:34:27,601 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试结束==========
-2025-11-14 15:34:27,607 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
-2025-11-14 15:34:27,662 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
-assert 400 == 200
- +  where 400 = <Response [400]>.status_code
-Traceback (most recent call last):
-  File "D:\pythonProject3\autotest_api\test_case\test_risk_overview\test_vul_total.py", line 36, in setup_class
-    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
-AssertionError: 接口请求失败，状态码：400
-assert 400 == 200
- +  where 400 = <Response [400]>.status_code
-2025-11-14 15:34:27,835 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
-2025-11-14 15:34:27,896 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
-assert 400 == 200
- +  where 400 = <Response [400]>.status_code
-Traceback (most recent call last):
-  File "D:\pythonProject3\autotest_api\test_case\test_vul_distribution\test_vul_high.py", line 35, in setup_class
-    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
-AssertionError: 接口请求失败，状态码：400
-assert 400 == 200
- +  where 400 = <Response [400]>.status_code
-2025-11-14 15:34:27,911 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
-2025-11-14 15:34:27,992 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
-assert 400 == 200
- +  where 400 = <Response [400]>.status_code
-Traceback (most recent call last):
-  File "D:\pythonProject3\autotest_api\test_case\test_vul_distribution\test_vul_low.py", line 36, in setup_class
-    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
-AssertionError: 接口请求失败，状态码：400
-assert 400 == 200
- +  where 400 = <Response [400]>.status_code
-2025-11-14 15:34:28,009 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
-2025-11-14 15:34:28,106 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
-assert 400 == 200
- +  where 400 = <Response [400]>.status_code
-Traceback (most recent call last):
-  File "D:\pythonProject3\autotest_api\test_case\test_vul_distribution\test_vul_mid.py", line 35, in setup_class
-    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
-AssertionError: 接口请求失败，状态码：400
-assert 400 == 200
- +  where 400 = <Response [400]>.status_code
-2025-11-14 15:36:41,454 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
-2025-11-14 15:36:41,521 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
-2025-11-14 15:36:41,525 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
-2025-11-14 15:36:41,618 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
-2025-11-14 15:36:41,622 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
-2025-11-14 15:36:41,965 - common.log_handler - INFO - ========获取首页数据总量数据，测试结束==========
-2025-11-14 15:36:41,970 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
-2025-11-14 15:36:42,018 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
-2025-11-14 15:36:42,021 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
-2025-11-14 15:36:44,498 - common.log_handler - INFO - 获取到风险列表高危待处置数量：17，已处置数量：3
-2025-11-14 15:36:44,523 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
-2025-11-14 15:36:44,526 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
-2025-11-14 15:36:47,067 - common.log_handler - INFO - 获取到风险列表低危风险待处置数量：39，已处置数量：5
-2025-11-14 15:36:47,093 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
-2025-11-14 15:36:47,097 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
-2025-11-14 15:36:50,565 - common.log_handler - INFO - 获取到风险列表中危待处置数量：29，已处置数量：2
-2025-11-14 15:36:50,605 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
-2025-11-14 15:36:50,609 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试开始==========
-2025-11-14 15:36:52,930 - common.log_handler - INFO - 获取到弱点列表高危待处置数量：4，已处置数量：0
-2025-11-14 15:36:52,961 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试结束==========
-2025-11-14 15:36:52,964 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试开始==========
-2025-11-14 15:36:55,761 - common.log_handler - INFO - 获取到弱点列表低危弱点待处置数量：3，已处置数量：0
-2025-11-14 15:36:55,821 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试结束==========
-2025-11-14 15:36:55,824 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试开始==========
-2025-11-14 15:36:59,558 - common.log_handler - INFO - 获取到弱点列表中危待处置数量：6，已处置数量：0
-2025-11-14 15:36:59,619 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试结束==========
-2025-11-14 15:36:59,625 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
-2025-11-14 15:36:59,789 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
-2025-11-14 15:36:59,794 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
-2025-11-14 15:36:59,870 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
-2025-11-14 15:36:59,875 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
-2025-11-14 15:36:59,989 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试结束==========
-2025-11-14 15:36:59,993 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
-2025-11-14 15:37:00,158 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试结束==========
-2025-11-14 15:37:00,161 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
-2025-11-14 15:37:00,235 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试结束==========
-2025-11-14 15:37:00,238 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
-2025-11-14 15:37:00,361 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试结束==========
-2025-11-14 15:37:00,366 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
-2025-11-14 15:37:00,467 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试结束==========
-2025-11-14 15:37:00,470 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
-2025-11-14 15:37:00,566 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试结束==========
-2025-11-14 15:37:00,569 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
-2025-11-14 15:37:00,610 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
-assert 400 == 200
- +  where 400 = <Response [400]>.status_code
-Traceback (most recent call last):
-  File "D:\pythonProject3\autotest_api\test_case\test_risk_overview\test_vul_total.py", line 36, in setup_class
-    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
-AssertionError: 接口请求失败，状态码：400
-assert 400 == 200
- +  where 400 = <Response [400]>.status_code
-2025-11-14 15:37:00,786 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
-2025-11-14 15:37:00,830 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
-assert 400 == 200
- +  where 400 = <Response [400]>.status_code
-Traceback (most recent call last):
-  File "D:\pythonProject3\autotest_api\test_case\test_vul_distribution\test_vul_high.py", line 35, in setup_class
-    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
-AssertionError: 接口请求失败，状态码：400
-assert 400 == 200
- +  where 400 = <Response [400]>.status_code
-2025-11-14 15:37:00,843 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
-2025-11-14 15:37:00,895 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
-assert 400 == 200
- +  where 400 = <Response [400]>.status_code
-Traceback (most recent call last):
-  File "D:\pythonProject3\autotest_api\test_case\test_vul_distribution\test_vul_low.py", line 36, in setup_class
-    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
-AssertionError: 接口请求失败，状态码：400
-assert 400 == 200
- +  where 400 = <Response [400]>.status_code
-2025-11-14 15:37:00,908 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
-2025-11-14 15:37:00,971 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
-assert 400 == 200
- +  where 400 = <Response [400]>.status_code
-Traceback (most recent call last):
-  File "D:\pythonProject3\autotest_api\test_case\test_vul_distribution\test_vul_mid.py", line 35, in setup_class
-    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
-AssertionError: 接口请求失败，状态码：400
-assert 400 == 200
- +  where 400 = <Response [400]>.status_code
-2025-11-14 15:41:12,174 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
-2025-11-14 15:41:12,248 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
-2025-11-14 15:41:12,252 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
-2025-11-14 15:41:12,323 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
-2025-11-14 15:41:12,326 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
-2025-11-14 15:41:12,605 - common.log_handler - INFO - ========获取首页数据总量数据，测试结束==========
-2025-11-14 15:41:12,610 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
-2025-11-14 15:41:12,665 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
-2025-11-14 15:41:12,668 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
-2025-11-14 15:41:14,703 - common.log_handler - INFO - 获取到风险列表高危待处置数量：17，已处置数量：3
-2025-11-14 15:41:14,732 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
-2025-11-14 15:41:14,735 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
-2025-11-14 15:41:16,682 - common.log_handler - INFO - 获取到风险列表低危风险待处置数量：39，已处置数量：5
-2025-11-14 15:41:16,713 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
-2025-11-14 15:41:16,718 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
-2025-11-14 15:41:18,546 - common.log_handler - INFO - 获取到风险列表中危待处置数量：29，已处置数量：2
-2025-11-14 15:41:18,571 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
-2025-11-14 15:41:18,575 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试开始==========
-2025-11-14 15:41:20,269 - common.log_handler - INFO - 获取到弱点列表高危待处置数量：4，已处置数量：0
-2025-11-14 15:41:20,301 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试结束==========
-2025-11-14 15:41:20,304 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试开始==========
-2025-11-14 15:41:22,455 - common.log_handler - INFO - 获取到弱点列表低危弱点待处置数量：3，已处置数量：0
-2025-11-14 15:41:22,479 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试结束==========
-2025-11-14 15:41:22,482 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试开始==========
-2025-11-14 15:41:24,597 - common.log_handler - INFO - 获取到弱点列表中危待处置数量：6，已处置数量：0
-2025-11-14 15:41:24,647 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试结束==========
-2025-11-14 15:41:24,653 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
-2025-11-14 15:41:24,789 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
-2025-11-14 15:41:24,791 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
-2025-11-14 15:41:24,878 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
-2025-11-14 15:41:24,882 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
-2025-11-14 15:41:24,948 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试结束==========
-2025-11-14 15:41:24,951 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
-2025-11-14 15:41:25,142 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试结束==========
-2025-11-14 15:41:25,146 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
-2025-11-14 15:41:25,219 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试结束==========
-2025-11-14 15:41:25,222 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
-2025-11-14 15:41:25,309 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试结束==========
-2025-11-14 15:41:25,311 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
-2025-11-14 15:41:25,367 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试结束==========
-2025-11-14 15:41:25,371 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
-2025-11-14 15:41:25,430 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试结束==========
-2025-11-14 15:41:25,432 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
-2025-11-14 15:41:25,473 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
-assert 400 == 200
- +  where 400 = <Response [400]>.status_code
-Traceback (most recent call last):
-  File "D:\pythonProject3\autotest_api\test_case\test_risk_overview\test_vul_total.py", line 36, in setup_class
-    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
-AssertionError: 接口请求失败，状态码：400
-assert 400 == 200
- +  where 400 = <Response [400]>.status_code
-2025-11-14 15:41:25,642 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
-2025-11-14 15:41:25,705 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
-assert 400 == 200
- +  where 400 = <Response [400]>.status_code
-Traceback (most recent call last):
-  File "D:\pythonProject3\autotest_api\test_case\test_vul_distribution\test_vul_high.py", line 35, in setup_class
-    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
-AssertionError: 接口请求失败，状态码：400
-assert 400 == 200
- +  where 400 = <Response [400]>.status_code
-2025-11-14 15:41:25,720 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
-2025-11-14 15:41:25,761 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
-assert 400 == 200
- +  where 400 = <Response [400]>.status_code
-Traceback (most recent call last):
-  File "D:\pythonProject3\autotest_api\test_case\test_vul_distribution\test_vul_low.py", line 36, in setup_class
-    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
-AssertionError: 接口请求失败，状态码：400
-assert 400 == 200
- +  where 400 = <Response [400]>.status_code
-2025-11-14 15:41:25,773 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
-2025-11-14 15:41:25,810 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
-assert 400 == 200
- +  where 400 = <Response [400]>.status_code
-Traceback (most recent call last):
-  File "D:\pythonProject3\autotest_api\test_case\test_vul_distribution\test_vul_mid.py", line 35, in setup_class
-    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
-AssertionError: 接口请求失败，状态码：400
-assert 400 == 200
- +  where 400 = <Response [400]>.status_code
-2025-11-14 15:44:01,567 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
-2025-11-14 15:44:01,623 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
-2025-11-14 15:44:01,627 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
-2025-11-14 15:44:01,719 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
-2025-11-14 15:44:01,721 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
-2025-11-14 15:44:02,029 - common.log_handler - INFO - ========获取首页数据总量数据，测试结束==========
-2025-11-14 15:44:02,036 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
-2025-11-14 15:44:02,095 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
-2025-11-14 15:44:02,098 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
-2025-11-14 15:44:04,126 - common.log_handler - INFO - 获取到风险列表高危待处置数量：17，已处置数量：3
-2025-11-14 15:44:04,154 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
-2025-11-14 15:44:04,157 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
-2025-11-14 15:44:06,413 - common.log_handler - INFO - 获取到风险列表低危风险待处置数量：39，已处置数量：5
-2025-11-14 15:44:06,443 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
-2025-11-14 15:44:06,448 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
-2025-11-14 15:44:10,068 - common.log_handler - INFO - 获取到风险列表中危待处置数量：29，已处置数量：2
-2025-11-14 15:44:10,102 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
-2025-11-14 15:44:10,106 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试开始==========
-2025-11-14 15:44:12,278 - common.log_handler - INFO - 获取到弱点列表高危待处置数量：4，已处置数量：0
-2025-11-14 15:44:12,304 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试结束==========
-2025-11-14 15:44:12,308 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试开始==========
-2025-11-14 15:44:14,884 - common.log_handler - INFO - 获取到弱点列表低危弱点待处置数量：3，已处置数量：0
-2025-11-14 15:44:14,911 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试结束==========
-2025-11-14 15:44:14,914 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试开始==========
-2025-11-14 15:44:16,777 - common.log_handler - INFO - 获取到弱点列表中危待处置数量：6，已处置数量：0
-2025-11-14 15:44:16,817 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试结束==========
-2025-11-14 15:44:16,823 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
-2025-11-14 15:44:16,975 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
-2025-11-14 15:44:16,980 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
-2025-11-14 15:44:17,077 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
-2025-11-14 15:44:17,080 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
-2025-11-14 15:44:17,191 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试结束==========
-2025-11-14 15:44:17,195 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
-2025-11-14 15:44:17,398 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试结束==========
-2025-11-14 15:44:17,402 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
-2025-11-14 15:44:17,507 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试结束==========
-2025-11-14 15:44:17,511 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
-2025-11-14 15:44:17,625 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试结束==========
-2025-11-14 15:44:17,629 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
-2025-11-14 15:44:17,724 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试结束==========
-2025-11-14 15:44:17,727 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
-2025-11-14 15:44:17,853 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试结束==========
-2025-11-14 15:44:17,857 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
-2025-11-14 15:44:17,949 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
-assert 400 == 200
- +  where 400 = <Response [400]>.status_code
-Traceback (most recent call last):
-  File "D:\pythonProject3\autotest_api\test_case\test_risk_overview\test_vul_total.py", line 36, in setup_class
-    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
-AssertionError: 接口请求失败，状态码：400
-assert 400 == 200
- +  where 400 = <Response [400]>.status_code
-2025-11-14 15:44:18,127 - common.log_handler - INFO - ========获取首页风险api分布饼图高危弱点api总数数据，测试开始==========
-2025-11-14 15:44:18,238 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
-assert 400 == 200
- +  where 400 = <Response [400]>.status_code
-Traceback (most recent call last):
-  File "D:\pythonProject3\autotest_api\test_case\test_vul_distribution\test_vul_high.py", line 35, in setup_class
-    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
-AssertionError: 接口请求失败，状态码：400
-assert 400 == 200
- +  where 400 = <Response [400]>.status_code
-2025-11-14 15:44:18,254 - common.log_handler - INFO - ========获取首页风险api分布饼图低危弱点api总数数据，测试开始==========
-2025-11-14 15:44:18,346 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
-assert 400 == 200
- +  where 400 = <Response [400]>.status_code
-Traceback (most recent call last):
-  File "D:\pythonProject3\autotest_api\test_case\test_vul_distribution\test_vul_low.py", line 36, in setup_class
-    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
-AssertionError: 接口请求失败，状态码：400
-assert 400 == 200
- +  where 400 = <Response [400]>.status_code
-2025-11-14 15:44:18,357 - common.log_handler - INFO - ========获取首页风险api分布饼图中危弱点api总数数据，测试开始==========
-2025-11-14 15:44:18,460 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
-assert 400 == 200
- +  where 400 = <Response [400]>.status_code
-Traceback (most recent call last):
-  File "D:\pythonProject3\autotest_api\test_case\test_vul_distribution\test_vul_mid.py", line 35, in setup_class
-    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
-AssertionError: 接口请求失败，状态码：400
-assert 400 == 200
- +  where 400 = <Response [400]>.status_code
-2025-11-14 15:45:17,760 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
-2025-11-14 15:45:17,868 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
-2025-11-14 15:45:17,872 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
-2025-11-14 15:45:17,984 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
-2025-11-14 15:45:17,986 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
-2025-11-14 15:45:18,317 - common.log_handler - INFO - ========获取首页数据总量数据，测试结束==========
-2025-11-14 15:45:18,321 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
-2025-11-14 15:45:18,408 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
-2025-11-14 15:45:18,411 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
-2025-11-14 15:45:20,994 - common.log_handler - INFO - 获取到风险列表高危待处置数量：17，已处置数量：3
-2025-11-14 15:45:21,028 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
-2025-11-14 15:45:21,032 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
-2025-11-14 15:45:24,019 - common.log_handler - INFO - 获取到风险列表低危风险待处置数量：39，已处置数量：5
-2025-11-14 15:45:24,059 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
-2025-11-14 15:45:24,062 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
-2025-11-14 15:45:28,037 - common.log_handler - INFO - 获取到风险列表中危待处置数量：29，已处置数量：2
-2025-11-14 15:45:28,086 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
-2025-11-14 15:45:28,090 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试开始==========
-2025-11-14 15:45:32,279 - common.log_handler - INFO - 获取到弱点列表高危待处置数量：4，已处置数量：0
-2025-11-14 15:45:32,341 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试结束==========
-2025-11-14 15:45:32,345 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试开始==========
-2025-11-14 15:45:34,708 - common.log_handler - INFO - 获取到弱点列表低危弱点待处置数量：3，已处置数量：0
-2025-11-14 15:45:34,740 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试结束==========
-2025-11-14 15:45:34,743 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试开始==========
-2025-11-14 15:45:37,133 - common.log_handler - INFO - 获取到弱点列表中危待处置数量：6，已处置数量：0
-2025-11-14 15:45:37,205 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试结束==========
-2025-11-14 15:45:37,212 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
-2025-11-14 15:45:37,393 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
-2025-11-14 15:45:37,397 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
-2025-11-14 15:45:37,540 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
-2025-11-14 15:45:37,545 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
-2025-11-14 15:45:37,743 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试结束==========
-2025-11-14 15:45:37,749 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
-2025-11-14 15:45:38,066 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试结束==========
-2025-11-14 15:45:38,069 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
-2025-11-14 15:45:38,184 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试结束==========
-2025-11-14 15:45:38,186 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
-2025-11-14 15:45:38,307 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试结束==========
-2025-11-14 15:45:38,311 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
-2025-11-14 15:45:38,400 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试结束==========
-2025-11-14 15:45:38,403 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
-2025-11-14 15:45:38,480 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试结束==========
-2025-11-14 15:45:38,483 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
-2025-11-14 15:45:38,523 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
-assert 400 == 200
- +  where 400 = <Response [400]>.status_code
-Traceback (most recent call last):
-  File "D:\pythonProject3\autotest_api\test_case\test_risk_overview\test_vul_total.py", line 36, in setup_class
-    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
-AssertionError: 接口请求失败，状态码：400
-assert 400 == 200
- +  where 400 = <Response [400]>.status_code
-2025-11-14 15:46:13,574 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
-2025-11-14 15:46:13,688 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
-2025-11-14 15:46:13,693 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
-2025-11-14 15:46:13,781 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
-2025-11-14 15:46:13,785 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
-2025-11-14 15:46:13,924 - common.log_handler - INFO - ========获取首页数据总量数据，测试结束==========
-2025-11-14 15:46:13,927 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
-2025-11-14 15:46:13,982 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
-2025-11-14 15:46:13,985 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
-2025-11-14 15:46:16,154 - common.log_handler - INFO - 获取到风险列表高危待处置数量：17，已处置数量：3
-2025-11-14 15:46:16,203 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
-2025-11-14 15:46:16,206 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
-2025-11-14 15:46:19,007 - common.log_handler - INFO - 获取到风险列表低危风险待处置数量：39，已处置数量：5
-2025-11-14 15:46:19,053 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
-2025-11-14 15:46:19,059 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
-2025-11-14 15:46:23,771 - common.log_handler - INFO - 获取到风险列表中危待处置数量：29，已处置数量：2
-2025-11-14 15:46:23,825 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
-2025-11-14 15:46:23,830 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试开始==========
-2025-11-14 15:46:26,222 - common.log_handler - INFO - 获取到弱点列表高危待处置数量：4，已处置数量：0
-2025-11-14 15:46:26,278 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试结束==========
-2025-11-14 15:46:26,283 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试开始==========
-2025-11-14 15:46:28,932 - common.log_handler - INFO - 获取到弱点列表低危弱点待处置数量：3，已处置数量：0
-2025-11-14 15:46:28,954 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试结束==========
-2025-11-14 15:46:28,957 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试开始==========
-2025-11-14 15:46:31,248 - common.log_handler - INFO - 获取到弱点列表中危待处置数量：6，已处置数量：0
-2025-11-14 15:46:31,281 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试结束==========
-2025-11-14 15:46:31,284 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
-2025-11-14 15:46:31,377 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
-2025-11-14 15:46:31,381 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
-2025-11-14 15:46:31,450 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
-2025-11-14 15:46:31,453 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
-2025-11-14 15:46:31,518 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试结束==========
-2025-11-14 15:46:31,522 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
-2025-11-14 15:46:32,040 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试结束==========
-2025-11-14 15:46:32,045 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
-2025-11-14 15:46:32,096 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试结束==========
-2025-11-14 15:46:32,099 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
-2025-11-14 15:46:32,173 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试结束==========
-2025-11-14 15:46:32,176 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
-2025-11-14 15:46:32,270 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试结束==========
-2025-11-14 15:46:32,273 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
-2025-11-14 15:46:32,358 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试结束==========
-2025-11-14 15:46:32,360 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
-2025-11-14 15:46:32,398 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
-assert 400 == 200
- +  where 400 = <Response [400]>.status_code
-Traceback (most recent call last):
-  File "D:\pythonProject3\autotest_api\test_case\test_risk_overview\test_vul_total.py", line 36, in setup_class
-    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
-AssertionError: 接口请求失败，状态码：400
-assert 400 == 200
- +  where 400 = <Response [400]>.status_code
-2025-11-14 15:48:54,484 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
-2025-11-14 15:48:54,558 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
-2025-11-14 15:48:54,562 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
-2025-11-14 15:48:54,655 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
-2025-11-14 15:48:54,660 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
-2025-11-14 15:48:54,985 - common.log_handler - INFO - ========获取首页数据总量数据，测试结束==========
-2025-11-14 15:48:54,988 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
-2025-11-14 15:48:55,035 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
-2025-11-14 15:48:55,039 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
-2025-11-14 15:48:57,006 - common.log_handler - INFO - 获取到风险列表高危待处置数量：17，已处置数量：3
-2025-11-14 15:48:57,030 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
-2025-11-14 15:48:57,034 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
-2025-11-14 15:48:59,390 - common.log_handler - INFO - 获取到风险列表低危风险待处置数量：39，已处置数量：5
-2025-11-14 15:48:59,471 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
-2025-11-14 15:48:59,475 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
-2025-11-14 15:49:02,842 - common.log_handler - INFO - 获取到风险列表中危待处置数量：29，已处置数量：2
-2025-11-14 15:49:02,885 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
-2025-11-14 15:49:02,889 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试开始==========
-2025-11-14 15:49:05,228 - common.log_handler - INFO - 获取到弱点列表高危待处置数量：4，已处置数量：0
-2025-11-14 15:49:05,253 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试结束==========
-2025-11-14 15:49:05,256 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试开始==========
-2025-11-14 15:49:06,832 - common.log_handler - INFO - 获取到弱点列表低危弱点待处置数量：3，已处置数量：0
-2025-11-14 15:49:06,864 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试结束==========
-2025-11-14 15:49:06,866 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试开始==========
-2025-11-14 15:49:09,009 - common.log_handler - INFO - 获取到弱点列表中危待处置数量：6，已处置数量：0
-2025-11-14 15:49:09,043 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试结束==========
-2025-11-14 15:49:09,047 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
-2025-11-14 15:49:09,139 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
-2025-11-14 15:49:09,142 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
-2025-11-14 15:49:09,243 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
-2025-11-14 15:49:09,249 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
-2025-11-14 15:49:09,354 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试结束==========
-2025-11-14 15:49:09,358 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
-2025-11-14 15:49:09,522 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试结束==========
-2025-11-14 15:49:09,526 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
-2025-11-14 15:49:09,622 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试结束==========
-2025-11-14 15:49:09,625 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
-2025-11-14 15:49:09,772 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试结束==========
-2025-11-14 15:49:09,774 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
-2025-11-14 15:49:09,860 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试结束==========
-2025-11-14 15:49:09,863 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
-2025-11-14 15:49:09,987 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试结束==========
-2025-11-14 15:49:09,990 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
-2025-11-14 15:49:10,061 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
-assert 400 == 200
- +  where 400 = <Response [400]>.status_code
-Traceback (most recent call last):
-  File "D:\pythonProject3\autotest_api\test_case\test_risk_overview\test_vul_total.py", line 36, in setup_class
-    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
-AssertionError: 接口请求失败，状态码：400
-assert 400 == 200
- +  where 400 = <Response [400]>.status_code
-2025-11-14 15:50:38,647 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
-2025-11-14 15:50:38,702 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
-2025-11-14 15:50:38,706 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
-2025-11-14 15:50:38,782 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
-2025-11-14 15:50:38,786 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
-2025-11-14 15:50:39,106 - common.log_handler - INFO - ========获取首页数据总量数据，测试结束==========
-2025-11-14 15:50:39,111 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
-2025-11-14 15:50:39,168 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
-2025-11-14 15:50:39,171 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
-2025-11-14 15:50:41,269 - common.log_handler - INFO - 获取到风险列表高危待处置数量：17，已处置数量：3
-2025-11-14 15:50:41,296 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
-2025-11-14 15:50:41,299 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
-2025-11-14 15:50:44,825 - common.log_handler - INFO - 获取到风险列表低危风险待处置数量：39，已处置数量：5
-2025-11-14 15:50:44,859 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
-2025-11-14 15:50:44,864 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
-2025-11-14 15:50:48,903 - common.log_handler - INFO - 获取到风险列表中危待处置数量：29，已处置数量：2
-2025-11-14 15:50:48,945 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
-2025-11-14 15:50:48,948 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试开始==========
-2025-11-14 15:50:51,902 - common.log_handler - INFO - 获取到弱点列表高危待处置数量：4，已处置数量：0
-2025-11-14 15:50:51,964 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试结束==========
-2025-11-14 15:50:51,968 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试开始==========
-2025-11-14 15:50:55,141 - common.log_handler - INFO - 获取到弱点列表低危弱点待处置数量：3，已处置数量：0
-2025-11-14 15:50:55,175 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试结束==========
-2025-11-14 15:50:55,178 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试开始==========
-2025-11-14 15:50:57,601 - common.log_handler - INFO - 获取到弱点列表中危待处置数量：6，已处置数量：0
-2025-11-14 15:50:57,643 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试结束==========
-2025-11-14 15:50:57,648 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
-2025-11-14 15:50:57,772 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
-2025-11-14 15:50:57,775 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
-2025-11-14 15:50:57,861 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
-2025-11-14 15:50:57,865 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
-2025-11-14 15:50:57,947 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试结束==========
-2025-11-14 15:50:57,952 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
-2025-11-14 15:50:58,091 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试结束==========
-2025-11-14 15:50:58,095 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
-2025-11-14 15:50:58,163 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试结束==========
-2025-11-14 15:50:58,165 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
-2025-11-14 15:50:58,292 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试结束==========
-2025-11-14 15:50:58,297 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
-2025-11-14 15:50:58,393 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试结束==========
-2025-11-14 15:50:58,398 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
-2025-11-14 15:50:58,501 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试结束==========
-2025-11-14 15:50:58,504 - common.log_handler - INFO - ========获取首页风险概览弱点api总数数据，测试开始==========
-2025-11-14 15:50:58,622 - common.log_handler - ERROR - setup_class 异常: 接口请求失败，状态码：400
-assert 400 == 200
- +  where 400 = <Response [400]>.status_code
-Traceback (most recent call last):
-  File "D:\pythonProject3\autotest_api\test_case\test_risk_overview\test_vul_total.py", line 36, in setup_class
-    assert response.status_code == 200, f'接口请求失败，状态码：{response.status_code}'
-AssertionError: 接口请求失败，状态码：400
-assert 400 == 200
- +  where 400 = <Response [400]>.status_code
-2025-11-14 16:08:35,496 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
-2025-11-14 16:50:05,089 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
-2025-11-14 16:50:05,385 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
-2025-11-14 16:50:05,392 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
-2025-11-14 16:50:05,715 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
-2025-11-14 16:50:05,722 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
-2025-11-14 16:50:06,287 - common.log_handler - INFO - ========获取首页数据总量数据，测试结束==========
-2025-11-14 16:50:06,294 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
-2025-11-14 16:50:06,607 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
-2025-11-14 16:50:06,615 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
-2025-11-14 16:51:24,496 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
-2025-11-14 17:11:48,799 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
-2025-11-14 17:11:48,858 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
-2025-11-14 17:11:48,868 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
-2025-11-14 17:11:48,950 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
-2025-11-14 17:11:48,957 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
-2025-11-14 17:11:49,073 - common.log_handler - INFO - ========获取首页数据总量数据，测试结束==========
-2025-11-14 17:11:49,081 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
-2025-11-14 17:11:49,136 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
-2025-11-14 17:11:49,144 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
-2025-11-14 17:11:51,010 - common.log_handler - INFO - 获取风险列表高危待处置数量：17，已处置数量：3
-2025-11-14 17:11:51,041 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
-2025-11-14 17:11:51,051 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
-2025-11-14 17:11:53,439 - common.log_handler - INFO - 获取风险列表低危风险待处置数量：39，已处置数量：5
-2025-11-14 17:11:53,473 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
-2025-11-14 17:11:53,480 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
-2025-11-14 17:11:55,398 - common.log_handler - INFO - 获取风险列表中危待处置数量：29，已处置数量：2
-2025-11-14 17:11:55,428 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
-2025-11-14 17:11:55,436 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试开始==========
-2025-11-14 17:11:57,236 - common.log_handler - INFO - 获取弱点列表高危待处置数量：4，已处置数量：0
-2025-11-14 17:15:52,542 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
-2025-11-14 17:15:52,616 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
-2025-11-14 17:15:52,624 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
-2025-11-14 17:15:52,707 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
-2025-11-14 17:15:52,714 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
-2025-11-14 17:15:53,042 - common.log_handler - INFO - ========获取首页数据总量数据，测试结束==========
-2025-11-14 17:15:53,054 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
-2025-11-14 17:15:53,112 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
-2025-11-14 17:15:53,121 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
-2025-11-14 17:15:54,960 - common.log_handler - INFO - 获取风险列表高危待处置数量：17，已处置数量：3
-2025-11-14 17:15:54,988 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
-2025-11-14 17:15:54,998 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
-2025-11-14 17:15:56,861 - common.log_handler - INFO - 获取风险列表低危风险待处置数量：39，已处置数量：5
-2025-11-14 17:15:56,893 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
-2025-11-14 17:15:56,901 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
-2025-11-14 17:15:59,092 - common.log_handler - INFO - 获取风险列表中危待处置数量：29，已处置数量：2
-2025-11-14 17:15:59,124 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
-2025-11-14 17:15:59,132 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试开始==========
-2025-11-14 17:16:00,811 - common.log_handler - INFO - 获取弱点列表高危待处置数量：4，已处置数量：0
-2025-11-14 17:16:00,840 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试结束==========
-2025-11-14 17:16:00,851 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试开始==========
-2025-11-14 17:16:02,517 - common.log_handler - INFO - 获取弱点列表低危待处置数量：3，已处置数量：0
-2025-11-14 17:16:02,561 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试结束==========
-2025-11-14 17:16:02,569 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试开始==========
-2025-11-14 17:16:04,507 - common.log_handler - INFO - 获取弱点列表中危待处置数量：6，已处置数量：0
-2025-11-14 17:16:04,547 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试结束==========
-2025-11-14 17:16:04,560 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
-2025-11-14 17:51:07,706 - common.log_handler - INFO - ========获取首页api总数数据，测试开始==========
-2025-11-14 17:51:07,772 - common.log_handler - INFO - ========获取首页api总数数据，测试结束==========
-2025-11-14 17:51:07,775 - common.log_handler - INFO - ========获取首页应用总数数据，测试开始==========
-2025-11-14 17:51:07,844 - common.log_handler - INFO - ========获取首页应用总数数据，测试结束==========
-2025-11-14 17:51:07,847 - common.log_handler - INFO - ========获取首页数据总量数据，测试开始==========
-2025-11-14 17:51:08,102 - common.log_handler - INFO - ========获取首页数据总量数据，测试结束==========
-2025-11-14 17:51:08,108 - common.log_handler - INFO - ========获取首页文件总数数据，测试开始==========
-2025-11-14 17:51:08,158 - common.log_handler - INFO - ========获取首页文件总数数据，测试结束==========
-2025-11-14 17:51:08,161 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试开始==========
-2025-11-14 17:51:09,902 - common.log_handler - INFO - 获取风险列表高危待处置数量：17，已处置数量：3
-2025-11-14 17:51:09,927 - common.log_handler - INFO - ========获取首页待处置事件高危风险待处置/已处置饼图，测试结束==========
-2025-11-14 17:51:09,931 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试开始==========
-2025-11-14 17:51:12,129 - common.log_handler - INFO - 获取风险列表低危风险待处置数量：39，已处置数量：5
-2025-11-14 17:51:12,154 - common.log_handler - INFO - ========获取首页待处置事件低危风险待处置/已处置饼图，测试结束==========
-2025-11-14 17:51:12,157 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试开始==========
-2025-11-14 17:51:13,885 - common.log_handler - INFO - 获取风险列表中危待处置数量：29，已处置数量：2
-2025-11-14 17:51:13,916 - common.log_handler - INFO - ========获取首页待处置事件中危风险待处置/已处置饼图，测试结束==========
-2025-11-14 17:51:13,920 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试开始==========
-2025-11-14 17:51:15,138 - common.log_handler - INFO - 获取弱点列表高危待处置数量：4，已处置数量：0
-2025-11-14 17:51:15,164 - common.log_handler - INFO - ========获取首页待处置事件高危弱点待处置/已处置饼图，测试结束==========
-2025-11-14 17:51:15,168 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试开始==========
-2025-11-14 17:51:16,490 - common.log_handler - INFO - 获取弱点列表低危待处置数量：3，已处置数量：0
-2025-11-14 17:51:16,523 - common.log_handler - INFO - ========获取首页待处置事件低危弱点待处置/已处置饼图，测试结束==========
-2025-11-14 17:51:16,527 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试开始==========
-2025-11-14 17:51:17,825 - common.log_handler - INFO - 获取弱点列表中危待处置数量：6，已处置数量：0
-2025-11-14 17:51:17,852 - common.log_handler - INFO - ========获取首页待处置事件中危弱点待处置/已处置饼图，测试结束==========
-2025-11-14 17:51:17,856 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
-2025-11-14 17:51:17,934 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
-2025-11-14 17:51:17,938 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
-2025-11-14 17:51:18,002 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
-2025-11-14 17:51:18,005 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
-2025-11-14 17:51:18,064 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试结束==========
-2025-11-14 17:51:18,067 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试开始==========
-2025-11-14 17:51:18,194 - common.log_handler - INFO - ========获取首页风险概览涉敏数据量，测试结束==========
-2025-11-14 17:51:18,197 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
-2025-11-14 17:51:18,261 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试结束==========
-2025-11-14 17:51:18,264 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
-2025-11-14 17:51:18,338 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试结束==========
-2025-11-14 17:51:18,341 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
-2025-11-14 17:51:18,395 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试结束==========
-2025-11-14 17:51:18,399 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
-2025-11-14 17:51:18,489 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试结束==========
+2025-11-18 09:04:07,325 - common.log_handler - INFO - ======== 获取首页 API 总数数据，测试开始 ==========
+2025-11-18 09:04:07,385 - common.log_handler - INFO - ======== 获取首页 API 总数数据，测试结束 ==========
+2025-11-18 09:04:07,404 - common.log_handler - INFO - ======== 获取首页应用总数数据，测试开始 ==========
+2025-11-18 09:04:07,479 - common.log_handler - INFO - ======== 获取首页应用总数数据，测试结束 ==========
+2025-11-18 09:04:07,482 - common.log_handler - INFO - ========获取首页流动数据总量数据，测试开始==========
+2025-11-18 09:04:07,766 - common.log_handler - INFO - ========获取首页流动数据总量数据，测试结束==========
+2025-11-18 09:04:07,769 - common.log_handler - INFO - ======== 获取首页文件总数数据，测试开始 ==========
+2025-11-18 09:04:07,823 - common.log_handler - INFO - ======== 获取首页文件总数数据，测试结束 ==========
+2025-11-18 09:04:07,826 - common.log_handler - INFO - ======== 获取首页待处置事件高危风险待处置/已处置饼图，测试开始 ==========
+2025-11-18 09:04:09,650 - common.log_handler - INFO - 获取风险列表高危待处置数量：22，已处置数量：3
+2025-11-18 09:04:09,673 - common.log_handler - INFO - ======== 获取首页待处置事件高危风险待处置/已处置饼图，测试结束 ==========
+2025-11-18 09:04:09,676 - common.log_handler - INFO - ======== 获取首页待处置事件低危风险待处置/已处置饼图，测试开始 ==========
+2025-11-18 09:04:11,496 - common.log_handler - INFO - 获取风险列表低危风险待处置数量：38，已处置数量：7
+2025-11-18 09:04:11,521 - common.log_handler - INFO - ======== 获取首页待处置事件低危风险待处置/已处置饼图，测试结束 ==========
+2025-11-18 09:04:11,524 - common.log_handler - INFO - ======== 获取首页待处置事件中危风险待处置/已处置饼图，测试开始 ==========
+2025-11-18 09:04:13,350 - common.log_handler - INFO - 获取风险列表中危待处置数量：49，已处置数量：3
+2025-11-18 09:04:13,373 - common.log_handler - INFO - ======== 获取首页待处置事件中危风险待处置/已处置饼图，测试结束 ==========
+2025-11-18 09:04:13,378 - common.log_handler - INFO - ======== 获取首页待处置事件高危弱点待处置/已处置饼图，测试开始 ==========
+2025-11-18 09:04:14,785 - common.log_handler - INFO - 获取弱点列表高危待处置数量：4，已处置数量：0
+2025-11-18 09:04:14,815 - common.log_handler - INFO - ======== 获取首页待处置事件高危弱点待处置/已处置饼图，测试结束 ==========
+2025-11-18 09:04:14,818 - common.log_handler - INFO - ======== 获取首页待处置事件低危弱点待处置/已处置饼图，测试开始 ==========
+2025-11-18 09:04:16,018 - common.log_handler - INFO - 获取弱点列表低危待处置数量：3，已处置数量：0
+2025-11-18 09:04:16,044 - common.log_handler - INFO - ======== 获取首页待处置事件低危弱点待处置/已处置饼图，测试结束 ==========
+2025-11-18 09:04:16,046 - common.log_handler - INFO - ======== 获取首页待处置事件中危弱点待处置/已处置饼图，测试开始 ==========
+2025-11-18 09:04:17,550 - common.log_handler - INFO - 获取弱点列表中危待处置数量：6，已处置数量：0
+2025-11-18 09:04:17,581 - common.log_handler - INFO - ======== 获取首页待处置事件中危弱点待处置/已处置饼图，测试结束 ==========
+2025-11-18 09:04:17,586 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-11-18 09:04:17,673 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
+2025-11-18 09:04:17,676 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-11-18 09:04:17,744 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
+2025-11-18 09:04:17,748 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-11-18 09:04:17,826 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试结束==========
+2025-11-18 09:04:17,830 - common.log_handler - INFO - ========获取首页风险概览涉敏流动数据量，测试开始==========
+2025-11-18 09:04:17,971 - common.log_handler - INFO - ========获取首页风险概览涉敏流动数据量，测试结束==========
+2025-11-18 09:04:17,974 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-11-18 09:04:18,049 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试结束==========
+2025-11-18 09:04:18,053 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-11-18 09:04:18,147 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试结束==========
+2025-11-18 09:04:18,151 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-11-18 09:04:18,264 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试结束==========
+2025-11-18 09:04:18,269 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-11-18 09:04:18,369 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试结束==========
+2025-11-18 09:06:44,882 - common.log_handler - INFO - ======== 获取首页 API 总数数据，测试开始 ==========
+2025-11-18 09:06:44,944 - common.log_handler - INFO - ======== 获取首页 API 总数数据，测试结束 ==========
+2025-11-18 09:06:44,948 - common.log_handler - INFO - ======== 获取首页应用总数数据，测试开始 ==========
+2025-11-18 09:06:45,019 - common.log_handler - INFO - ======== 获取首页应用总数数据，测试结束 ==========
+2025-11-18 09:06:45,022 - common.log_handler - INFO - ========获取首页流动数据总量数据，测试开始==========
+2025-11-18 09:06:45,317 - common.log_handler - INFO - ========获取首页流动数据总量数据，测试结束==========
+2025-11-18 09:06:45,321 - common.log_handler - INFO - ======== 获取首页文件总数数据，测试开始 ==========
+2025-11-18 09:06:45,367 - common.log_handler - INFO - ======== 获取首页文件总数数据，测试结束 ==========
+2025-11-18 09:06:45,370 - common.log_handler - INFO - ======== 获取首页待处置事件高危风险待处置/已处置饼图，测试开始 ==========
+2025-11-18 09:06:46,802 - common.log_handler - INFO - 获取风险列表高危待处置数量：22，已处置数量：3
+2025-11-18 09:06:46,828 - common.log_handler - INFO - ======== 获取首页待处置事件高危风险待处置/已处置饼图，测试结束 ==========
+2025-11-18 09:06:46,830 - common.log_handler - INFO - ======== 获取首页待处置事件低危风险待处置/已处置饼图，测试开始 ==========
+2025-11-18 09:06:48,529 - common.log_handler - INFO - 获取风险列表低危风险待处置数量：38，已处置数量：7
+2025-11-18 09:06:48,550 - common.log_handler - INFO - ======== 获取首页待处置事件低危风险待处置/已处置饼图，测试结束 ==========
+2025-11-18 09:06:48,554 - common.log_handler - INFO - ======== 获取首页待处置事件中危风险待处置/已处置饼图，测试开始 ==========
+2025-11-18 09:06:50,436 - common.log_handler - INFO - 获取风险列表中危待处置数量：49，已处置数量：3
+2025-11-18 09:06:50,460 - common.log_handler - INFO - ======== 获取首页待处置事件中危风险待处置/已处置饼图，测试结束 ==========
+2025-11-18 09:06:50,463 - common.log_handler - INFO - ======== 获取首页待处置事件高危弱点待处置/已处置饼图，测试开始 ==========
+2025-11-18 09:06:51,706 - common.log_handler - INFO - 获取弱点列表高危待处置数量：4，已处置数量：0
+2025-11-18 09:06:51,734 - common.log_handler - INFO - ======== 获取首页待处置事件高危弱点待处置/已处置饼图，测试结束 ==========
+2025-11-18 09:06:51,737 - common.log_handler - INFO - ======== 获取首页待处置事件低危弱点待处置/已处置饼图，测试开始 ==========
+2025-11-18 09:06:53,032 - common.log_handler - INFO - 获取弱点列表低危待处置数量：3，已处置数量：0
+2025-11-18 09:06:53,060 - common.log_handler - INFO - ======== 获取首页待处置事件低危弱点待处置/已处置饼图，测试结束 ==========
+2025-11-18 09:06:53,064 - common.log_handler - INFO - ======== 获取首页待处置事件中危弱点待处置/已处置饼图，测试开始 ==========
+2025-11-18 09:06:53,990 - common.log_handler - INFO - 获取弱点列表中危待处置数量：6，已处置数量：0
+2025-11-18 09:06:54,012 - common.log_handler - INFO - ======== 获取首页待处置事件中危弱点待处置/已处置饼图，测试结束 ==========
+2025-11-18 09:06:54,015 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-11-18 09:06:54,079 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
+2025-11-18 09:06:54,082 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-11-18 09:06:54,140 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
+2025-11-18 09:06:54,143 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-11-18 09:06:54,206 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试结束==========
+2025-11-18 09:06:54,210 - common.log_handler - INFO - ========获取首页风险概览涉敏流动数据量，测试开始==========
+2025-11-18 09:06:54,316 - common.log_handler - INFO - ========获取首页风险概览涉敏流动数据量，测试结束==========
+2025-11-18 09:06:54,319 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-11-18 09:06:54,371 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试结束==========
+2025-11-18 09:06:54,374 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-11-18 09:06:54,472 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试结束==========
+2025-11-18 09:06:54,475 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-11-18 09:06:54,532 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试结束==========
+2025-11-18 09:06:54,535 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-11-18 09:06:54,602 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试结束==========
+2025-11-18 09:18:24,999 - common.log_handler - INFO - ======== 获取首页 API 总数数据，测试开始 ==========
+2025-11-18 09:18:25,141 - common.log_handler - INFO - ======== 获取首页 API 总数数据，测试结束 ==========
+2025-11-18 09:18:25,144 - common.log_handler - INFO - ======== 获取首页应用总数数据，测试开始 ==========
+2025-11-18 09:18:25,280 - common.log_handler - INFO - ======== 获取首页应用总数数据，测试结束 ==========
+2025-11-18 09:18:25,283 - common.log_handler - INFO - ========获取首页流动数据总量数据，测试开始==========
+2025-11-18 09:18:25,632 - common.log_handler - INFO - ========获取首页流动数据总量数据，测试结束==========
+2025-11-18 09:18:25,635 - common.log_handler - INFO - ======== 获取首页文件总数数据，测试开始 ==========
+2025-11-18 09:18:25,760 - common.log_handler - INFO - ======== 获取首页文件总数数据，测试结束 ==========
+2025-11-18 09:18:25,764 - common.log_handler - INFO - ======== 获取首页待处置事件高危风险待处置/已处置饼图，测试开始 ==========
+2025-11-18 09:18:27,222 - common.log_handler - INFO - 获取风险列表高危待处置数量：22，已处置数量：3
+2025-11-18 09:18:27,276 - common.log_handler - INFO - ======== 获取首页待处置事件高危风险待处置/已处置饼图，测试结束 ==========
+2025-11-18 09:18:27,278 - common.log_handler - INFO - ======== 获取首页待处置事件低危风险待处置/已处置饼图，测试开始 ==========
+2025-11-18 09:18:29,058 - common.log_handler - INFO - 获取风险列表低危风险待处置数量：38，已处置数量：7
+2025-11-18 09:18:29,118 - common.log_handler - INFO - ======== 获取首页待处置事件低危风险待处置/已处置饼图，测试结束 ==========
+2025-11-18 09:18:29,121 - common.log_handler - INFO - ======== 获取首页待处置事件中危风险待处置/已处置饼图，测试开始 ==========
+2025-11-18 09:18:31,253 - common.log_handler - INFO - 获取风险列表中危待处置数量：49，已处置数量：3
+2025-11-18 09:18:31,310 - common.log_handler - INFO - ======== 获取首页待处置事件中危风险待处置/已处置饼图，测试结束 ==========
+2025-11-18 09:18:31,314 - common.log_handler - INFO - ======== 获取首页待处置事件高危弱点待处置/已处置饼图，测试开始 ==========
+2025-11-18 09:18:32,543 - common.log_handler - INFO - 获取弱点列表高危待处置数量：4，已处置数量：0
+2025-11-18 09:18:32,605 - common.log_handler - INFO - ======== 获取首页待处置事件高危弱点待处置/已处置饼图，测试结束 ==========
+2025-11-18 09:18:32,608 - common.log_handler - INFO - ======== 获取首页待处置事件低危弱点待处置/已处置饼图，测试开始 ==========
+2025-11-18 09:18:34,392 - common.log_handler - INFO - 获取弱点列表低危待处置数量：3，已处置数量：0
+2025-11-18 09:18:34,451 - common.log_handler - INFO - ======== 获取首页待处置事件低危弱点待处置/已处置饼图，测试结束 ==========
+2025-11-18 09:18:34,454 - common.log_handler - INFO - ======== 获取首页待处置事件中危弱点待处置/已处置饼图，测试开始 ==========
+2025-11-18 09:18:35,903 - common.log_handler - INFO - 获取弱点列表中危待处置数量：6，已处置数量：0
+2025-11-18 09:18:36,046 - common.log_handler - INFO - ======== 获取首页待处置事件中危弱点待处置/已处置饼图，测试结束 ==========
+2025-11-18 09:18:36,053 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试开始==========
+2025-11-18 09:18:36,173 - common.log_handler - INFO - ========获取首页风险api分布饼图高风险api总数数据，测试结束==========
+2025-11-18 09:18:36,177 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试开始==========
+2025-11-18 09:18:36,374 - common.log_handler - INFO - ========获取首页风险api分布饼图低风险api总数数据，测试结束==========
+2025-11-18 09:18:36,379 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试开始==========
+2025-11-18 09:18:36,482 - common.log_handler - INFO - ========获取首页风险api分布饼图中风险api总数数据，测试结束==========
+2025-11-18 09:18:36,485 - common.log_handler - INFO - ========获取首页风险概览涉敏流动数据量，测试开始==========
+2025-11-18 09:18:36,699 - common.log_handler - INFO - ========获取首页风险概览涉敏流动数据量，测试结束==========
+2025-11-18 09:18:36,709 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试开始==========
+2025-11-18 09:18:36,803 - common.log_handler - INFO - ========获取首页风险概览敏感文件总数数据，测试结束==========
+2025-11-18 09:18:36,808 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试开始==========
+2025-11-18 09:18:36,904 - common.log_handler - INFO - ========获取首页风险概览风险api总数数据，测试结束==========
+2025-11-18 09:18:36,910 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试开始==========
+2025-11-18 09:18:36,971 - common.log_handler - INFO - ========获取首页风险概览风险账号总数数据，测试结束==========
+2025-11-18 09:18:36,975 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试开始==========
+2025-11-18 09:18:37,055 - common.log_handler - INFO - ========获取首页风险概览风险用户总数数据，测试结束==========
