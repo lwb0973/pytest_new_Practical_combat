@@ -15,7 +15,8 @@ project_name = config.get('allure', 'Project')
 # 企微机器人地址key
 WECHAT_KEY = config.get('WECHAT_WEBHOOK', 'webchat_key')
 # 启用http服务端口
-HTTP_PORT = config.get('server_port','HTTP_PORT')
+# HTTP_PORT = config.get('server_port','HTTP_PORT')
+HTTP_PORT=8888
 # 获取alluer本地路径
 ALLURE_COMMAND = settings.ALLURE_COMMAND
 
