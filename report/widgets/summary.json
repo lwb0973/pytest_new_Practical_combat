@@ -1,1 +1,1 @@
-{"reportName":"首页准确性自动化测试","testRuns":[],"statistic":{"failed":0,"broken":0,"skipped":0,"passed":18,"unknown":0,"total":18},"time":{"start":1763720374973,"stop":1763720382658,"duration":7685,"minDuration":75,"maxDuration":2216,"sumDuration":7616}}
+{"reportName":"首页准确性自动化测试","testRuns":[],"statistic":{"failed":0,"broken":0,"skipped":0,"passed":24,"unknown":0,"total":24},"time":{"start":1763721635718,"stop":1763721808789,"duration":173071,"minDuration":87,"maxDuration":809,"sumDuration":6376}}

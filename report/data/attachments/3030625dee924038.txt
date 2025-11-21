@@ -1,0 +1,2 @@
+INFO     common.log_handler:test_users_count.py:24 ========获取首页用户分析用户总数，测试开始==========
+INFO     common.log_handler:test_users_count.py:28 ========获取首页用户分析用户总数，测试结束==========
